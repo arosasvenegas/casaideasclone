@@ -1,4 +1,11 @@
 .paginationDotsContainer--home__slider{
     transform: translateY(30px);
-    
+}
+.paginationDot--home__slider{
+    background: white;
+    border: 1px solid #696158;
+    margin: 5px 7px;
+}
+.paginationDot--home__slider--isActive{
+    background: #696158; 
 }
