@@ -1,15 +1,16 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "flex-layout.row#home__section--one"
     ]
   },
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "CasaIdeas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
   }
+  
 }
