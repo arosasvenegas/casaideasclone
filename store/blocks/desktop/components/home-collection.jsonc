@@ -1,0 +1,158 @@
+{
+    "flex-layout.row#home__collection--desktop": {
+        "children": [
+            "flex-layout.col#text__home--collection"
+        ],
+        "props": {
+            "blockClass": "homeCollection"
+        }
+    },
+    "flex-layout.col#text__home--collection": {
+        "children": [
+            "flex-layout.row#title__home--collection",
+            "flex-layout.row#description__home--collection",
+            "flex-layout.row#images__home--collection",
+            "flex-layout.row#images__home--collection--second",
+            "flex-layout.row#text__home--collection"
+        ],
+        "props": {
+            "blockClass": "homeCollection"
+        }
+    },
+    "flex-layout.row#title__home--collection": {
+        "children": [
+            "rich-text#title__home--collection"
+        ]
+    },
+    "flex-layout.row#description__home--collection": {
+        "children": [
+            "rich-text#description__home--collection"
+        ]
+    },
+    "rich-text#title__home--collection": {
+        "props": {
+            "text": "NUEVAS COLECCIONES",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "titleCollection"
+        }
+    },
+    "rich-text#description__home--collection": {
+        "props": {
+            "text": "Para que la belleza y funcionalidad sea parte de tu hogar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "paragraphCollection"
+        }
+    },
+    "flex-layout.row#images__home--collection": {
+        "children": [
+            "flex-layout.col#image__collection--one",
+            "flex-layout.col#image__collection--two",
+            "flex-layout.col#image__collection--three"
+        ], 
+        "props": {
+            "blockClass": "first__section--collection"
+        }
+    },"flex-layout.col#image__collection--one":{
+        "children": [
+            "image#home__collection--one"
+        ]
+    },
+    "image#home__collection--one": {
+        "props": {
+            "src": "assets/img/newCollection/collection-home.jpg"
+        }
+    },
+    "flex-layout.col#image__collection--two": {
+        "children": [
+            "image#home__collection--two"
+        ]
+    },
+    "image#home__collection--two": {
+        "props": {
+            "src": "assets/img/newCollection/collection-toy.jpg"
+        }
+    },
+    "flex-layout.col#image__collection--three": {
+        "children": [
+            "image#home__collection--three"
+        ]
+    },
+    "image#home__collection--three": {
+        "props": {
+            "src": "assets/img/newCollection/collection-sofa.jpg"
+        }
+    },
+    "flex-layout.row#images__home--collection--second": {
+        "children": [
+            "flex-layout.col#image__collection--four",
+            "flex-layout.col#image__collection--five"
+        ],
+        "props": {
+            "blockClass": "second__section--collection"
+        }
+    },
+    "flex-layout.col#image__collection--four": {
+        "children": [
+            "image#home__collection--four"
+        ]
+    },
+    "image#home__collection--four": {
+        "props": {
+            "src": "assets/img/newCollection/pillow.jpg"
+        }
+    },
+    "flex-layout.col#image__collection--five": {
+        "children": [
+            "image#home__collection--five"
+        ]
+    }, 
+    "image#home__collection--five": {
+        "props": {
+            "src": "assets/img/newCollection/room.jpg"
+        }
+    },
+    "flex-layout.row#text__home--collection": {
+        "children": [
+            "flex-layout.col#text__buy--collection"
+        ],
+        "props": {
+            "blockClass": "text__buy--collection"
+        }
+    },
+    "flex-layout.col#text__buy--collection": {
+        "children": [
+            "flex-layout.row#buy__online--title",
+            "flex-layout.row#buy__online--description"
+        ]
+    },
+    "flex-layout.row#buy__online--title": {
+        "children": [
+            "rich-text#buy__online--title"
+        ]
+    },
+    "rich-text#buy__online--title": {
+        "props": {
+            "text": "Artículos de hogar ¡Compra Online! | Casaideas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "titleBuyOnline"
+        }
+    },
+    "flex-layout.row#buy__online--description": {
+        "children": [
+            "rich-text#buy__online--description"
+        ]
+    },
+    "rich-text#buy__online--description": {
+        "props": {
+            "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "descriptionBuyOnline"
+        }
+    }
+
+
+}

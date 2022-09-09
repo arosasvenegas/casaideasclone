@@ -1,0 +1,7 @@
+{
+    "store.home": {
+        "children": [
+            "responsive-layout.desktop#home__desktop"
+        ]
+    }
+}
