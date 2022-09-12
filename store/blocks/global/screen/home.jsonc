@@ -1,6 +1,6 @@
 {
     "store.home": {
-        "children": [
+        "blocks": [
             "responsive-layout.desktop#home__desktop"
         ]
     }

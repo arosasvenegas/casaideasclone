@@ -57,31 +57,42 @@
     },"flex-layout.col#image__collection--one":{
         "children": [
             "image#home__collection--one"
-        ]
+        ],
+        "props": {
+            "blockClass": "img_Box"
+        }
     },
     "image#home__collection--one": {
         "props": {
-            "src": "assets/img/newCollection/collection-home.jpg"
+            "src": "assets/img/newCollection/home__collection-1.jpg"
         }
     },
     "flex-layout.col#image__collection--two": {
         "children": [
             "image#home__collection--two"
-        ]
+        ],
+        "props": {
+            "blockClass": "img_Box"
+        }
     },
     "image#home__collection--two": {
         "props": {
-            "src": "assets/img/newCollection/collection-toy.jpg"
+            "blockClass": "img_Box",
+            "src": "assets/img/newCollection/home__collection-2.jpg"
         }
     },
     "flex-layout.col#image__collection--three": {
         "children": [
             "image#home__collection--three"
-        ]
+        ],
+        "props": {
+            "blockClass": "img_Box"
+        }
     },
     "image#home__collection--three": {
         "props": {
-            "src": "assets/img/newCollection/collection-sofa.jpg"
+            "blockClass": "img_Box",
+            "src": "assets/img/newCollection/home__collection-3.jpg"
         }
     },
     "flex-layout.row#images__home--collection--second": {
@@ -90,7 +101,10 @@
             "flex-layout.col#image__collection--five"
         ],
         "props": {
-            "blockClass": "second__section--collection"
+            "blockClass": "second__section--collection",
+            "colGap": 6,
+            "colSizing": "auto"
+
         }
     },
     "flex-layout.col#image__collection--four": {
@@ -100,7 +114,7 @@
     },
     "image#home__collection--four": {
         "props": {
-            "src": "assets/img/newCollection/pillow.jpg"
+            "src": "assets/img/newCollection/home__collection-4.jpg"
         }
     },
     "flex-layout.col#image__collection--five": {
@@ -110,7 +124,7 @@
     }, 
     "image#home__collection--five": {
         "props": {
-            "src": "assets/img/newCollection/room.jpg"
+            "src": "assets/img/newCollection/home__collection-5.jpg"
         }
     },
     "flex-layout.row#text__home--collection": {
