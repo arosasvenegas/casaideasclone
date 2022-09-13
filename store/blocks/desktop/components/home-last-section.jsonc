@@ -5,7 +5,9 @@
     "flex-layout.col#last__section-desktop": {
         "children": [
             "flex-layout.row#download__free-calendar",
-            "flex-layout.row#user__help"
+            "flex-layout.row#user__help",
+            "flex-layout.row#user__subscribe-email"
+
     ],
         "props": {
             "blockClass":"calendar__desktop"
@@ -23,16 +25,14 @@
         "children": [
             "flex-layout.col#user__questions-desktop",
             "flex-layout.col#user__delivery-desktop",
-            "flex-layout.col#last__section-desktop",
-            
-            "image#delivery__image-desktop",
-            "rich-text#search__user-buy",
-            "image#question__image-desktop",
-            "rich-text#user__need-help"
+            "flex-layout.col#user__help-desktop"
         ]
     },
     "flex-layout.col#user__questions-desktop": {
         "children": ["flex-layout.row#questions"]
+    },
+    "flex-layout.row#questions": {
+        "children": [ "rich-text#user__questions"]
     },
     "rich-text#user__questions":{
         "props": {
@@ -42,9 +42,19 @@
             "blockClass": "user_questions"
         }
     },
+    "flex-layout.col#user__delivery-desktop": {
+        "children": ["flex-layout.row#delivery"]
+    },
+    "flex-layout.row#delivery": {
+        "children": [
+            "image#delivery__image-desktop",
+            "rich-text#search__user-buy"
+        ]
+    },
     "image#delivery__image-desktop": {
         "props":{
-            "src": "assets/img/section_calendar/home__delivery.jpg"
+            "src": "assets/img/section_calendar/home__delivery.jpg",
+            "blockClass": "image__delivery"
         }
     },
     "rich-text#search__user-buy":{
@@ -55,9 +65,19 @@
             "blockClass": "search_buy"
         }
     },
-    "image#question__image-desktop": {
+    "flex-layout.col#user__help-desktop": {
+        "children": ["flex-layout.row#help"]
+    },
+    "flex-layout.row#help": {
+        "children": [
+            "image#help__image-desktop",
+            "rich-text#user__need-help"
+        ]
+    },
+    "image#help__image-desktop": {
         "props":{
-            "src": "assets/img/section_calendar/home__help.jpg"
+            "src": "assets/img/section_calendar/home__help.jpg",
+            "blockClass": "image__help"
         }
     },
     "rich-text#user__need-help": {
@@ -67,5 +87,45 @@
             "textPosition": "RIGHT",
             "blockClass": "need_help"
         }
+    },
+    "flex-layout.row#user__subscribe-email": {
+        "children": ["flex-layout.col#email"]
+    },
+    "flex-layout.col#email": {
+        "children":[
+            "flex-layout.row#text__user-subscribe",
+            "flex-layout.row#data__user-subscribe"
+        ]
+    },
+    "flex-layout.row#text__user-subscribe": {
+        "children": [
+            "image#image__gift",
+            "rich-text#text__newsletter"
+        ]
+    },
+    "image#image__gift": {
+        "props":{
+            "src": "assets/img/section_calendar/home__gift.jpg",
+            "blockClass": "image__gift"
+        }
+    },
+    "rich-text#text__newsletter": {
+        "props": {
+            "text": "¡Suscríbete a nuestro newsletter y recibe un 15% de descuento, en el mes de tu cumpleaños!",
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "blockClass": "Bday__discount"
+        }
+    },
+    "flex-layout.row#data__user-subscribe": {
+        "children": ["newsletter-form"]
+    },
+    "newsletter-form": {
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-input-phone",
+            "newsletter-submit"
+        ]
     }
 }

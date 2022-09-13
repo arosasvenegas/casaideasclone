@@ -13,7 +13,8 @@
             "flex-layout.row#description__home--collection",
             "flex-layout.row#images__home--collection",
             "flex-layout.row#images__home--collection--second",
-            "flex-layout.row#text__home--collection"
+            "flex-layout.row#text__home--collection",
+            "flex-layout.row#title__shelf--desktop"
         ],
         "props": {
             "blockClass": "homeCollection"
@@ -165,6 +166,17 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "descriptionBuyOnline"
+        }
+    },
+    "flex-layout.row#title__shelf--desktop": {
+        "children": ["rich-text#title__shelf--desktop"]
+    },
+    "rich-text#title__shelf--desktop": {
+        "props": {
+            "text": "¡NO TE LOS PUEDES PERDER!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "title__shelf"
         }
     }
 

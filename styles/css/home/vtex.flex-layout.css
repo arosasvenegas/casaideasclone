@@ -17,4 +17,17 @@
     margin: 45px;
     width: 90%;
 }
+.flexRow--home__shelf--container{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    text-decoration: inherit;
+    min-width: 500px;
+}
 

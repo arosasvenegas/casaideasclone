@@ -1,29 +1,9 @@
 {
-    "flex-layout.row#home__shelf--desktop":{
-        "children": ["flex-layout.col#text__shelf--desktop"],
+    "flex-layout.row#home__shelf": {
+        "children": ["list-context.product-list#home__shelf--desktop"],
         "props": {
             "blockClass": "home__shelf--container"
         }
-    },
-    "flex-layout.col#text__shelf--desktop": {
-        "children": ["flex-layout.row#title__shelf--desktop"],
-        "props": {
-            "blockClass": "title__shelf--desktop"
-        }
-    },
-    "flex-layout.row#title__shelf--desktop": {
-        "children": ["rich-text#title__shelf--desktop"]
-    },
-    "rich-text#title__shelf--desktop": {
-        "props": {
-            "text": "¡NO TE LOS PUEDES PERDER!",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "title__shelf"
-        }
-    },
-    "flex-layout.row#home__shelf": {
-        "children": ["list-context.product-list#home__shelf--desktop"]
     },
     "list-context.product-list#home__shelf--desktop": {
         "blocks": ["product-summary.shelf#home__shelf--products-desktop"],
@@ -37,7 +17,10 @@
             "product-summary-price",
             "product-summary-sku-selector",
             "product-summary-buy-button"
-        ]
+        ],
+        "props": {
+            "blockClass": "product__card"
+        }
     },
     "slider-layout#home__slider--products-desktop": {
         "props": {
@@ -47,22 +30,7 @@
                 "phone": 2
             },
             "infinite": true,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "home__shelf--carousel"
+            "showNavigationArrows": "desktopOnly" 
         }
-    },
-    "info-card": {
-        "props": {
-          "id": "info-card-example",
-          "isFullModeStyle": false,
-          "textPosition": "left",
-          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-          "headline": "Clearance Sale",
-          "callToActionText": "DISCOVER",
-          "callToActionUrl": "/sale/d",
-          "blockClass": "info-card-example",
-          "textAlignment": "center"
-        }
-      }
-
+    }
     }
