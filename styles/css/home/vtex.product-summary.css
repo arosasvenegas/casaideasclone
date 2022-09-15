@@ -1,0 +1,18 @@
+.clearLink--product__card{
+    width: 240px;
+    height: 480px;
+    display: block;
+    position: relative;
+}
+.imageWrapper{
+    height: 370px;
+}
+.nameContainer{
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #696158;
+    margin: 5px 0px;
+}

@@ -1,0 +1,34 @@
+.newsletterForm--newsletter__inputs--div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.nameInputContainer--input__name{
+    width: 172px;
+    height: 36px;
+    font-size: 11px;
+    margin-right: 7px;
+    
+    
+}
+.emailInputContainer--input__email{
+    width: 245px;
+    height: 36px;
+    font-size: 11px;
+    margin-right: 7px;
+    
+}
+.phoneInputContainer--input__number{
+    width: 181px;
+    height: 36px;
+    font-size: 11px;
+    margin-right: 7px;
+    
+}
+.formSubmitContainer--button__submit{
+    width: 140px;
+    height: 36px;
+    
+}

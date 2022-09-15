@@ -11,9 +11,8 @@
     },
     "product-summary.shelf#home__shelf--products-desktop": {
         "children": [
-            "product-summary-name",
-            "product-summary-description",
             "product-summary-image",
+            "product-summary-name",
             "product-summary-price",
             "product-summary-sku-selector",
             "product-summary-buy-button"
@@ -22,8 +21,14 @@
             "blockClass": "product__card"
         }
     },
+    "product-summary-image": {
+        "props": {
+            "blockClass": "product-summary-image"
+        }
+    },
     "slider-layout#home__slider--products-desktop": {
         "props": {
+            "blockClass": "home__slider--products-desktop",
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 4,
