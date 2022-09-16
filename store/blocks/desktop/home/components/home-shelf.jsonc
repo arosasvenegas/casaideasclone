@@ -34,8 +34,7 @@
                 "tablet": 4,
                 "phone": 2
             },
-            "infinite": true,
-            "showNavigationArrows": "desktopOnly" 
+            "showNavigationArrows": "always"
         }
     }
     }

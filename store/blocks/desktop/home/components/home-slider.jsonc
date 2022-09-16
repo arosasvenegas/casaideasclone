@@ -16,11 +16,7 @@
             "tablet": 1,
             "mobile": 1
           },
-          "showNavigationArrows": {
-            "desktop": "never", 
-            "tablet": "never",
-            "mobile": "never"
-          },
+          "showNavigationArrows": "never",
           "infinite": true,
           "blockClass": "home__slider",
           "autoplay": {

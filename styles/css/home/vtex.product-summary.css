@@ -5,6 +5,7 @@
     position: relative;
 }
 .imageWrapper{
+    width: 370;
     height: 370px;
 }
 .nameContainer{

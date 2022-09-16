@@ -68,6 +68,25 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
+.flexRow--user__subscribe--container :global(.vtex-button) {
+    background: #D50032;
+    border-color: #D50032;
+    border-radius: 0px;
+    width: 140px;
+    height: 36px;
+    font: 14px;
+}
+.flexRow--user__subscribe--container :global(.vtex-input-prefix__group){
+    border: 1px solid #696158;
+    color: #696158;
+    border-radius: 0px;
 
-
-
+}
+.flexRowContent--home__container :global(.vtex-button){
+    background: #D50032;
+    border-color: #D50032;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    width: 95%;
+}

@@ -15,6 +15,8 @@
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.store-newsletter": "1.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal-layout": "0.x",
     "vtex.product-summary": "2.x",
     "vtex.product-list": "0.x",
     "vtex.store-footer": "2.x",

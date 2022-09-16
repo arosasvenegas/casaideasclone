@@ -1,79 +1,98 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
     ]
   },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
+   "header-layout.desktop": {
+    "title": "Header Desktop",
+      "children": [
+        "header-row#header__top",
+        "header-row#header__content"
+      ]
   },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
+   "header-layout.mobile": {
+    "title": "Header Mobile",
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "header-row#header__top",
+      "header-row#header__content",
+      "header-row#header__middle"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
-    }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
+  "header-row#header__top": {
     "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
+      "rich-text#header__top--text"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "rich-text#header__top--text": {
+    "props": {
+      "blockClass": "header__top--text",
+      "text": "¡Este fin de semana largo aprovecha el despacho gratis por compras $50.000!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "header-row#header__content": {
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
       "login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "blockClass": "header__content"
     }
   },
-  "drawer": {
-    "children": []
+  "logo#header__top--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/logo/header__logo.png",
+      "width": 120,
+      "href": "/"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Access Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltio": true,
+      "showIconProfile": true
+    }
+  },
+  "header-row#header__middle": {
+    "children": [
+      "header-force-center#header__middle"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "header-force-center#header__middle": {
+    "children": [
+      "drawer#header__mobile--menu"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "drawer#header__mobile--menu": {
+    "children": [
+
+    ]
   }
+
 }
