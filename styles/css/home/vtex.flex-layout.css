@@ -1,0 +1,92 @@
+.flexRow--home__container{
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.flexRow--homeCollection {
+    margin-top: 30px;
+}
+.flexCol--img_Box{
+    margin: 12px;
+
+}
+.flexRow--second__section--collection{
+    margin: 45px;
+    width: 90%;
+}
+.flexRow--home__shelf--container{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: normal;
+    text-decoration: inherit;
+    min-width: 500px;
+}
+.flexRowContent--text__lastSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 880px;
+}
+.flexRow--text__lastSection{
+    background: #F6F4F2;
+    margin-top: 15px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+.flexRow--user__subscribe--container{
+    background: #F6F4F2;
+    margin-top: 35px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+.flexRow--text__subscribe--div{
+    width: 724px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.flexRow--home__shelf--container{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.flexRow--user__subscribe--container :global(.vtex-button) {
+    background: #D50032;
+    border-color: #D50032;
+    border-radius: 0px;
+    width: 140px;
+    height: 36px;
+    font: 14px;
+}
+.flexRow--user__subscribe--container :global(.vtex-input-prefix__group){
+    border: 1px solid #696158;
+    color: #696158;
+    border-radius: 0px;
+
+}
+.flexRowContent--home__container :global(.vtex-button){
+    background: #D50032;
+    border-color: #D50032;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    width: 95%;
+}

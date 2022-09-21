@@ -1,0 +1,177 @@
+{
+    "flex-layout.row#home__lastSection--desktop": {
+        "children": ["flex-layout.col#last__section-desktop"],
+        "props": {
+            "blockClass": "home__lastSection--container"
+        }
+    },
+    "flex-layout.col#last__section-desktop": {
+        "children": [
+            "flex-layout.row#download__free-calendar",
+            "flex-layout.row#user__help",
+            "flex-layout.row#user__subscribe-email"
+
+          ],
+        "props": {
+            "blockClass":"home__lastSection--div"
+        }
+    },
+    "flex-layout.row#download__free-calendar": {
+        "children": ["image#download__calendar-desktop"],
+        "props": {
+            "blockClass": "image__calendar--div"
+        }
+    },
+    "image#download__calendar-desktop":{
+        "props":{
+            "src": "assets/img/section_calendar/home__calendar.jpg",
+            "blockClass": "image__calendar"
+        }
+    },
+    "flex-layout.row#user__help": {
+        "children": [
+            "flex-layout.col#user__questions-desktop",
+            "flex-layout.col#user__delivery-desktop",
+            "flex-layout.col#user__help-desktop"
+        ],
+        "props": {
+            "blockClass": "text__lastSection"
+        }
+    },
+    "flex-layout.col#user__questions-desktop": {
+        "children": ["flex-layout.row#questions"]
+    },
+    "flex-layout.row#questions": {
+        "children": [ "rich-text#user__questions"],
+        "props": {
+            "blockClass": "text__user--question"
+        }
+    },
+    "rich-text#user__questions":{
+        "props": {
+            "text": "¿DUDAS SOBRE TU COMPRA?",
+            "blockClass": "user_questions"
+        }
+    },
+    "flex-layout.col#user__delivery-desktop": {
+        "children": ["flex-layout.row#delivery"]
+    },
+    "flex-layout.row#delivery": {
+        "children": [
+            "image#delivery__image-desktop",
+            "rich-text#search__user-buy"
+        ],
+        "props": {
+            "blockClass": "text__user--delivery"
+        }
+    },
+    "image#delivery__image-desktop": {
+        "props":{
+            "src": "assets/img/section_calendar/home__delivery.jpg",
+            "blockClass": "image__delivery"
+        }
+    },
+    "rich-text#search__user-buy":{
+        "props": {
+            "text": "Rastrea tu pedido",
+            "blockClass": "search_buy"
+        }
+    },
+    "flex-layout.col#user__help-desktop": {
+        "children": ["flex-layout.row#help"]
+    },
+    "flex-layout.row#help": {
+        "children": [
+            "image#help__image-desktop",
+            "rich-text#user__need-help"
+        ],
+        "props": {
+            "blockClass": "text__user--help"
+        }
+    },
+    "image#help__image-desktop": {
+        "props":{
+            "src": "assets/img/section_calendar/home__help.jpg",
+            "blockClass": "image__help"
+        }
+    },
+    "rich-text#user__need-help": {
+        "props": {
+            "text": "¿NECESITAS AYUDA?",
+            "blockClass": "need_help"
+        }
+    },
+    "flex-layout.row#user__subscribe-email": {
+        "children": ["flex-layout.col#email"],
+        "props": {
+            "blockClass": "user__subscribe--container"
+        }
+    },
+    "flex-layout.col#email": {
+        "children":[
+            "flex-layout.row#text__user-subscribe",
+            "flex-layout.row#data__user-subscribe"
+        ]
+    },
+    "flex-layout.row#text__user-subscribe": {
+        "children": [
+            "image#image__gift",
+            "rich-text#text__newsletter"
+        ],
+        "props": {
+            "blockClass": "text__subscribe--div"
+        }
+    },
+    "image#image__gift": {
+        "props":{
+            "src": "assets/img/section_calendar/home__gift.jpg",
+            "blockClass": "image__gift"
+        }
+    },
+    "rich-text#text__newsletter": {
+        "props": {
+            "text": "¡Suscríbete a nuestro newsletter y recibe un 15% de descuento, en el mes de tu cumpleaños!",
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "blockClass": "birthday__discount"
+        }
+    },
+    "flex-layout.row#data__user-subscribe": {
+        "children": ["newsletter-form"]
+    },
+    "newsletter-form": {
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-input-phone",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "newsletter__inputs--div"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "placeholderText": "Andres Gonzalez",
+            "blockClass": "input__name"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "andres.gonzalez@gmail.com",
+            "blockClass": "input__email"
+        }
+    },
+    "newsletter-input-phone": {
+        "props": {
+            "placeholderText": "día/mes",
+            "blockClass": "input__number"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Suscribirme",
+            "blockClass": "button__submit"
+        }
+    }
+}
