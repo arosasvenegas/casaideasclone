@@ -30,11 +30,12 @@
         "props": {
             "blockClass": "home__slider--products-desktop",
             "itemsPerPage": {
-                "desktop": 5,
+                "desktop": 3,
                 "tablet": 4,
                 "phone": 2
             },
-            "showNavigationArrows": "always"
+            "showNavigationArrows": "always",
+            "infinite": true
         }
     }
     }
