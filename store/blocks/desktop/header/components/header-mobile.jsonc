@@ -27,6 +27,10 @@
         "children": [
           "logo#header__top--logo",
           "header-spacer",
+          "search-bar#header__search",
+          "locale-switcher",
+          "icon#home__delivery--icon",
+          "icon#home__stores--icon",
           "login",
           "minicart.v2"
         ],
@@ -42,10 +46,22 @@
           "href": "/"
         }
       },
+      "icon#home__delivery--icon": {
+        "props": {
+          "id": "mpa-truck",
+          "size": 16
+        }
+      },
+      "icon#home__stores--icon": {
+        "props": {
+          "id": "mpa-store",
+          "size": 16
+        }
+      },
       "login": {
         "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Access Code LOG-IN",
+          "emailAndPasswordTitle": "INGRESA A TU CUENTA¡Nos alegra tenerte de vuelta!",
+          "accessCodePlaceholder": "Access Code LOG-IN",
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltio": true,
@@ -55,8 +71,8 @@
       "header-row#header__middle": {
         "title": "Header Medio",
         "children": [
-            "drawer#header__mobile--menu",
-            "search-bar#header__search"
+            "drawer#header__mobile--menu"
+            
         ],
         "props": {
           "blockClass": "header__middle"
@@ -71,6 +87,7 @@
             "openAutocompleteOnFocus": true
         }
       }
+     
      
       
       
