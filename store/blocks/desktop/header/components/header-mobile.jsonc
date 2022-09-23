@@ -18,9 +18,10 @@
       "rich-text#header__top--text": {
         "props": {
           "blockClass": "header__top--text",
-          "text": "¡Este fin de semana largo aprovecha el despacho gratis por compras $50.000!",
+          "text": "**¡Aprovecha la liquidación!** descuentos de hasta 50% en productos seleccionados. Compra AQUÍ",
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
+          
         }
       },
       "header-row#header__content": {
@@ -28,9 +29,7 @@
           "logo#header__top--logo",
           "header-spacer",
           "search-bar#header__search",
-          "locale-switcher",
-          "icon#home__delivery--icon",
-          "icon#home__stores--icon",
+          "header-row#header__icons",
           "login",
           "minicart.v2"
         ],
@@ -46,14 +45,33 @@
           "href": "/"
         }
       },
-      "icon#home__delivery--icon": {
+      "header-row#header__icons": {
+        "children": [
+        "icon#header__country--icon",
+        "icon#header__delivery--icon",
+        "icon#header__stores--icon"],
         "props": {
-          "id": "mpa-truck",
+          "blockClass": "header__icons"
+        }
+      },
+      "icon#header__country--icon": {
+        "props": {
+          "blockClass": "header__country--icon",
+          "id": "mask0_107_394",
+          "size": 16
+          
+        }
+      },
+      "icon#header__delivery--icon": {
+        "props": {
+          "blockClass": "header__delivery--icon",
+          "id": "mpa-delivery",
           "size": 16
         }
       },
-      "icon#home__stores--icon": {
+      "icon#header__stores--icon": {
         "props": {
+          "blockClass": "header__stores--icon",
           "id": "mpa-store",
           "size": 16
         }
@@ -65,7 +83,8 @@
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltio": true,
-          "showIconProfile": true
+          "showIconProfile": true,
+          "hideIconLabel": true
         }
       },
       "header-row#header__middle": {
@@ -84,7 +103,9 @@
       "search-bar#header__search": {
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
-            "openAutocompleteOnFocus": true
+          "blockClass": "header__search--bar",
+          "openAutocompleteOnFocus": true,
+          "placeholder": "Escribe tu búsqueda"
         }
       }
      

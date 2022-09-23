@@ -1,5 +1,11 @@
 .headerRowBackground--header__top{
     background: #F6F4F2;
-    font: 14px;
-    
+}
+.headerRow--header__content{
+   padding: 18px 20px 0;
+}
+.headerRowContainer--header__icons{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
 }
