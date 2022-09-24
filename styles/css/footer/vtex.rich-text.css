@@ -1,0 +1,32 @@
+.paragraph--footer__paragraph{
+    font-size: 11px;
+    color: #686068;
+    margin: -25px 0px 10px;
+    text-align: left;
+    width: 483px;
+}
+.container--title__customer--service{
+    width: 130px;
+    font-size: 12px;
+    color: #686068;
+}
+.container--title__customer--session{
+    width: 150px;
+    font-size: 12px;
+    color: #686068;
+}
+.container--title__work-with--us{
+    width: 140px;
+    font-size: 12px;
+    color: #686068;
+}
+.container--title__social-networks{
+    width: 140px;
+    font-size: 12px;
+    color: #686068;
+}
+.container--title__switch-country{
+    width: 140px;
+    font-size: 12px;
+    color: #686068;
+}

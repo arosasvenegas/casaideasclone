@@ -1,0 +1,482 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer__container"
+    ],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container": {
+    "children": [
+      "flex-layout.col#footer__container--section-one",
+      "flex-layout.col#footer__container--section-two"
+  ],
+  "props": {
+    "blockClass": "container__section"
+  }
+  },
+  "flex-layout.col#footer__container--section-one": {
+    "children": [
+      "flex-layout.row#footer__logo",
+      "flex-layout.row#footer__paragraph"
+    ],
+    "props": {
+      "blockClass": "container__col--one"
+    }
+  },
+  "flex-layout.row#footer__logo": {
+    "children": ["logo#footer__logo"]
+  },
+  "logo#footer__logo":{
+    "title": "Logo Footer",
+        "props": {
+          "blockClass": "footer__logo",
+          "url": "assets/img/logo/header__logo.png",
+          "width": 127,
+          "height": 21
+        }
+  },
+  "flex-layout.row#footer__paragraph": {
+    "children": ["rich-text#footer__paragraph"],
+    "props": {
+      "blockClass": "footer__paragraph--container"
+    }
+  },
+  "rich-text#footer__paragraph":{
+    "props": {
+      "blockClass": "footer__paragraph",
+      "text": "Un hogar es un lugar para vivir, donde nos sentimos seguros, queridos y donde también compartimos con otros. En Casaideas encontrarás artículos de diseño, para vivir día a día en un espacio que te haga feliz"
+    }
+  },
+  "flex-layout.col#footer__container--section-two": {
+    "children": [
+      "flex-layout.row#footer__container--row"
+      
+    ], 
+    "props": {
+      "blockClass": "container__col--two"
+    }
+  },
+  "flex-layout.row#footer__container--row": {
+    "children": [
+      "flex-layout.col#footer__container--one",
+      "flex-layout.col#footer__container--two",
+      "flex-layout.col#footer__container--three",
+      "flex-layout.col#footer__container--four",
+      "flex-layout.col#footer__container--five"
+    ]
+  },
+  "flex-layout.col#footer__container--one": {
+    "children": [
+      "rich-text#customer-service",
+      "menu#customer-service"
+    ]
+  },
+  "rich-text#customer-service": {
+    "props": {
+      "blockClass": "title__customer--service",
+      "text": "SERVICIO AL CLIENTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "menu#customer-service": {
+    "children": [
+      "menu-item#customer-help",
+      "menu-item#customer-delivery",
+      "menu-item#how-to-buy",
+      "menu-item#terms-and-conds-desktop"
+    ],
+    "props": {
+      "blockClass": "customer__service--options",
+      "orientation": "vertical"
+
+    }
+  },
+  "menu-item#customer-help": {
+    "props": {
+      "blockClass": "customer_help",
+      "id": "menu-customer-help",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Centro de ayuda",
+        "text": "Centro de ayuda"
+      }
+    }
+  },
+  "menu-item#customer-delivery": {
+    "props": {
+      "blockClass": "cutomer_delivery",
+      "id": "menu-customer-delivery",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Rastrea tu pedido",
+        "text": "Rastrea tu pedido"
+      }
+    }
+  },
+  "menu-item#how-to-buy": {
+    "props": {
+      "blockClass": "how-to-buy",
+      "id": "menu-how-to-buy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Cómo comprar",
+        "text": "Cómo comprar"
+      }
+    }
+  },
+  "menu-item#terms-and-conds-desktop": {
+    "props": {
+      "blockClass": "terms-and-conds-desktop",
+      "id": "menu-terms-and-conds-desktop",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "flex-layout.col#footer__container--two": {
+    "children": [
+      "rich-text#customer-session",
+      "menu#customer-session"
+    ]
+  },
+  "rich-text#customer-session": {
+    "props": {
+      "blockClass": "title__customer--session",
+      "text": "MI CUENTA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "menu#customer-session": {
+    "children": [
+      "menu-item#customer-buys",
+      "menu-item#customer-info"
+    ],
+    "props": {
+      "blockClass": "customer__session--options",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#customer-buys": {
+    "props": {
+      "blockClass": "customer-buys",
+      "id": "menu-how-to-buy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Mis compras",
+        "text": "Mis compras"
+      }
+    }
+  },
+  "menu-item#customer-info": {
+    "props": {
+      "blockClass": "customer-info",
+      "id": "menu-how-to-buy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Mis datos personales",
+        "text": "Mis datos personales"
+      }
+    }
+  },
+  "flex-layout.col#footer__container--three": {
+    "children": [
+      "rich-text#work-with-us",
+      "menu-item#work-with-us"
+    ]
+  },
+  "rich-text#work-with-us": {
+    "props": {
+      "blockClass": "title__work-with--us",
+      "text": "RECURSOS HUMANOS",
+      "textAlignment": "CENTER",
+       "textPosition": "CENTER"
+    }
+  },
+  "menu-item#work-with-us": {
+    "props": {
+      "blockClass": "work-with-us",
+      "id": "menu-work-with-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabaja con nosotros"
+      }
+    }
+  },
+  "flex-layout.col#footer__container--four": {
+    "children": [
+      "rich-text#social-networks",
+      "social-networks"
+    ]
+  },
+  "rich-text#social-networks": {
+    "props": {
+      "blockClass": "title__social-networks",
+      "text": "SÍGUENOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+      }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "social__networks--icons",
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/CasaideasChile",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/casaideaschile/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://www.pinterest.cl/Casaideas_/",
+          "name": "Pinterest"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#footer__container--five": {
+    "children": [
+      "rich-text#switch-country",
+      "disclosure-layout#switch-country"
+    ]
+  },
+  "rich-text#switch-country": {
+    "props": {
+      "blockClass": "title__switch-country",
+      "text": "País",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "disclosure-layout#switch-country": {
+    "children": [
+      "disclosure-trigger#switch-country",
+       "disclosure-content#switch-country"
+      ],
+      "props": {
+        "blockClass": "disclosure__switch--country"
+      }
+  },
+  "disclosure-trigger#switch-country": {
+    "children": ["rich-text#country"],
+    "props": {
+      "blockClass": "switch-country"
+    }
+  },
+  "rich-text#country": {
+    "props": {
+      "text": "Chile",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "disclosure-content#switch-country": {
+    "children": ["menu#country"]
+  },
+  "menu#country": {
+    "children": [
+      "menu-item#country_one",
+      "menu-item#country_two",
+      "menu-item#country_three",
+      "menu-item#country_four"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+
+  },
+  "menu-item#country_one": {
+    "props": {
+      "blockClass": "country_one",
+      "id": "menu-country_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Chile",
+        "text": "Chile"
+      }
+    }
+  },
+  "menu-item#country_two": {
+    "props": {
+      "blockClass": "country_two",
+      "id": "menu-country_two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Perú",
+        "text": "Perú"
+      }
+    }
+  },
+  "menu-item#country_three": {
+    "props": {
+      "blockClass": "country_three",
+      "id": "menu-country_three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Colombia",
+        "text": "Colombia"
+      }
+    }
+  },
+  "menu-item#country_four": {
+    "props": {
+      "blockClass": "country_four",
+      "id": "menu-country_four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Bolivia",
+        "text": "Bolivia"
+      }
+    }
+    
+  },
+
+  //FOOTER MOBILE
+  "footer-layout.mobile": { 
+    "children": [
+      "disclosure-layout-group#footer__menu--group"
+      //"flex-layout.row#footer"
+    ]
+  },
+  "disclosure-layout-group#footer__menu--group": {
+    "children": [
+      "disclosure-layout#policies",
+      "disclosure-layout#about-us"
+      /*"disclosure-layout#departments"*/
+    ]
+  },
+  "disclosure-layout#policies": {
+    "children": [
+      "disclosure-trigger#policies",
+       "disclosure-content#policies"
+      ]
+  },
+  "disclosure-trigger#policies": {
+    "children": ["rich-text#policies"]
+  },
+  "rich-text#policies": {
+    "props": {
+      "text": "Políticas de la tienda"
+    }
+  },
+  "disclosure-content#policies": {
+    "children": ["menu#policies"]
+  },
+  "menu#policies": {
+    "children": [
+      "menu-item#terms-and-conds",
+      "menu-item#privacy-policies"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#terms-and-conds": {
+    "props": {
+      "id": "menu-terms-and-conds",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#privacy-policies": {
+    "props": {
+      "id": "menu-privacy-policies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Políticas de Privacidad",
+        "text": "Políticas de Privacidad"
+      }
+    }
+  },
+  "disclosure-layout#about-us": {
+    "children": [
+      "disclosure-trigger#about-us",
+       "disclosure-content#about-us"
+      ]
+  },
+  "disclosure-trigger#about-us": {
+    "children": ["rich-text#about-us"]
+  },
+  "rich-text#about-us": {
+    "props": {
+      "text": "Acerca de Nosotros"
+    }
+  },
+  "disclosure-content#about-us": {
+    "children": ["menu#about-us"]
+  },
+  "menu#about-us": {
+    "children": [
+      "menu-item#about-us",
+      "menu-item#our-shops"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Acerca de nosotros",
+        "text": "Acerca de nosotros"
+      }
+    }
+  },
+  "menu-item#our-shops": {
+    "props": {
+      "id": "menu-our-shops",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Nuestras tiendas",
+        "text": "Nuestras tiendas"
+      }
+    }
+  }
+}

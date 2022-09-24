@@ -1,0 +1,34 @@
+{
+    "minicart.v2": {
+        "props": {
+          "MinicartIcon": "icon-cart",
+          "variation": "popup",
+          "itemCountMode": "total",
+          "quantityDisplay": "always"
+        },
+        "children": ["minicart-base-content"]
+      },
+      "minicart-base-content": {
+        "blocks": ["minicart-empty-state"],
+        "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
+      },
+      "minicart-empty-state": {
+        "children": ["flex-layout.row#minicart__empty"]
+      },
+      "flex-layout.row#minicart__empty":{
+        "children": ["flex-layout.col#minicart__empty"]
+      },
+      "flex-layout.col#minicart__empty": {
+        "children": ["rich-text#minicart__empty--text"]
+      },
+      "flex-layout.row#minicart__footer": {
+        "children": ["minicart-summary", "minicart-checkout-button"]
+      },
+      "rich-text#minicart__empty--text": {
+        "props": {
+            "text": "¡Llena tu carrito con las mejores ideas para tu casa! No tienes ningún producto agregado",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER"
+        }
+      }
+} 
