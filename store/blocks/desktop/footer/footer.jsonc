@@ -284,18 +284,41 @@
       }
   },
   "disclosure-trigger#switch-country": {
-    "children": ["rich-text#country"],
+    "children": [
+      /*"icon#footer__country--icon",*/
+      "rich-text#country"
+      /*"icon#footer__select--icon"*/
+    ],
     "props": {
       "blockClass": "switch-country"
     }
   },
+  /*"icon#footer__country--icon": {
+    "props": {
+      "blockClass": "footer__country--icon",
+      "id": "mask0_107_394",
+      "size": 16
+      
+    }
+  },*/
   "rich-text#country": {
     "props": {
+      "blockClass": "chile",
       "text": "Chile",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
+
   },
+  /*"icon#footer__select--icon": {
+    "props": {
+      "blockClass": "footer__select--icon",
+      "id": "nav-caret--down",
+      "size": 16
+      
+    }
+  },
+  */
   "disclosure-content#switch-country": {
     "children": ["menu#country"]
   },
@@ -307,7 +330,8 @@
       "menu-item#country_four"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "country_options"
     }
 
   },

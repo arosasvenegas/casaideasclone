@@ -4,4 +4,11 @@
     margin-right: auto;
     border-top: 1px solid #686058;
     padding: 20px;
+    margin-bottom: 50px ;
+}
+.socialNetworkWrapper--social__networks--icons{
+    position: relative;
+    left: 46px;
+    bottom: 25px;
+    
 }

@@ -29,7 +29,9 @@
           "logo#header__top--logo",
           "header-spacer",
           "search-bar#header__search",
-          "header-row#header__icons",
+          "icon#header__country--icon",
+          "icon#header__delivery--icon",
+          "icon#header__stores--icon",
           "login",
           "minicart.v2"
         ],
@@ -45,15 +47,6 @@
           "href": "/"
         }
       },
-      "header-row#header__icons": {
-        "children": [
-        "icon#header__country--icon",
-        "icon#header__delivery--icon",
-        "icon#header__stores--icon"],
-        "props": {
-          "blockClass": "header__icons"
-        }
-      },
       "icon#header__country--icon": {
         "props": {
           "blockClass": "header__country--icon",
@@ -65,8 +58,8 @@
       "icon#header__delivery--icon": {
         "props": {
           "blockClass": "header__delivery--icon",
-          "id": "mpa-delivery",
-          "size": 16
+          "id": "delivery",
+          "size": 10
         }
       },
       "icon#header__stores--icon": {

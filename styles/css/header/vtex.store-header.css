@@ -3,9 +3,6 @@
 }
 .headerRow--header__content{
    padding: 18px 20px 0;
+   
 }
-.headerRowContainer--header__icons{
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-}
+

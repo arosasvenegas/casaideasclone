@@ -7,6 +7,8 @@
 }
 .container--title__customer--service{
     width: 130px;
+    position: relative;
+    right: 35px;
     font-size: 12px;
     color: #686068;
 }
@@ -14,6 +16,8 @@
     width: 150px;
     font-size: 12px;
     color: #686068;
+    position: relative;
+    right: 45px;
 }
 .container--title__work-with--us{
     width: 140px;
@@ -21,7 +25,8 @@
     color: #686068;
 }
 .container--title__social-networks{
-    width: 140px;
+    position: relative;
+    left: 15px;
     font-size: 12px;
     color: #686068;
 }
@@ -29,4 +34,10 @@
     width: 140px;
     font-size: 12px;
     color: #686068;
+}
+.paragraph--chile{
+    font-size: 12px;
+    color: #696158;
+    padding: 9px 11px;
+    margin: 0;
 }
