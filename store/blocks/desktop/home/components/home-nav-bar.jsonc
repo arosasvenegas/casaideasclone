@@ -1,0 +1,291 @@
+{
+  "flex-layout.row#home__navBar--desktop": {
+    "children": [
+      "flex-layout.col#home__container--navBar"
+    ],
+    "props": {
+      "blockClass": "container__section"
+    }
+  },
+  "flex-layout.col#home__container--navBar": {
+    "children": [
+      "flex-layout.row#home__navBar--menus"
+    ]
+  },
+  "flex-layout.row#home__navBar--menus": {
+    "children": [
+      "flex-layout.col#home__navBar--menus--one",
+      "flex-layout.col#home__navBar--menus--two",
+      "flex-layout.col#home__navBar--menus--three",
+      "flex-layout.col#home__navBar--menus--four",
+      "flex-layout.col#home__navBar--menus--five",
+      "flex-layout.col#home__navBar--menus--six",
+      "flex-layout.col#home__navBar--menus--seven",
+      "flex-layout.col#home__navBar--menus--eight"
+    ]
+  },
+  "flex-layout.col#home__navBar--menus--one": {
+    "children": [
+      "menu#new__products--opntion"
+    ]
+  },
+  "menu#new__products--opntion": {
+    "children": [
+      "menu-item#new__product"
+    ],
+    "props": {
+      "blockClass": "new--options",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#new__product": {
+    "props": {
+      "blockClass": "new__product",
+      "id": "menu-new__product",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "NUEVOS",
+        "text": "NUEVOS"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--two": {
+    "children": [
+      
+      "menu#home__products"
+    ]
+  },
+  "menu#home__products": {
+    "children": [
+      "menu-item#home__products"
+    ],
+    "props": {
+      "blockClass": "home__products",
+      "orientation": "vertical"
+    }
+
+  },
+  "menu-item#home__products": {
+    "props": {
+      "blockClass": "home__products",
+      "id": "menu-home__products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "ESPACIO DE LA CASA",
+        "text": "ESPACIO DE LA CASA"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--three": {
+    "children": [
+      "menu#products__items"
+    ]
+  },
+  "menu#products__items":{
+    "children": [
+      "menu-item#products__items"
+    ],
+    "props": {
+      "blockClass": "products__items",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#products__items": {
+    "props": {
+      "blockClass": "products__items",
+      "id": "menu-products__items",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "PRODUCTOS",
+        "text": "PRODUCTOS"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--four": {
+    "children": [
+      "menu#kids__babies"
+    ]
+  },
+  "menu#kids__babies": {
+    "children": [
+      "menu-item#kids__babies"
+    ],
+    "props": {
+      "blockClass": "kids__babies",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#kids__babies": {
+    "props": {
+      "blockClass": "kids__babies",
+      "id": "menu-kids__babies",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "NIÑOS Y BEBÉ",
+        "text": "NIÑOS Y BEBÉ"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--five": {
+    "children": [
+      "menu#summer"
+    ]
+  },
+  "menu#summer":{
+    "children": [
+      "menu-item#summer"
+    ],
+    "props": {
+      "blockClass": "summer",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#summer": {
+    "props": {
+      "blockClass": "summer",
+      "id": "menu-summer",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "SALIÓ EL SOL",
+        "text": "SALIÓ EL SOL"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--six": {
+    "children": [
+      "menu#season__products"
+    ]
+  },
+  "menu#season__products": {
+    "children": [
+      "menu-item#season__products"
+    ],
+    "props": {
+      "blockClass": "season__products",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#season__products": {
+    "props": {
+      "blockClass": "season__products",
+      "id": "menu-season__products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "ACCESORIOS DE TEMPORADA",
+        "text": "ACCESORIOS DE TEMPORADA"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--seven": {
+    "children": [
+      "rich-text#discount",
+      "menu#discount"
+    ]
+  },
+  "rich-text#discount": {
+    "props": {
+      "blockClass": "title__discount",
+      "text": "DESCUENTOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "menu#discount": {
+    "children": [
+      "menu-item#offers",
+      "menu-item#combinable__products"
+    ],
+    "props": {
+      "blockClass": "discount",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#offers":{
+    "props": {
+      "blockClass": "offers",
+      "id": "menu-offers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#combinable__products": {
+    "props": {
+      "blockClass": "combinable__products",
+      "id": "menu-combinable__products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "PRODUCTOS COMBINABLES",
+        "text": "PRODUCTOS COMBINABLES"
+      }
+    }
+  },
+  "flex-layout.col#home__navBar--menus--eight": {
+    "children": [
+      "rich-text#casaideas",
+      "menu#casaideas"
+    ]
+  },
+  "rich-text#casaideas": {
+    "props": {
+      "blockClass": "casaideas",
+      "text": "NOSOTROS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "menu#casaideas": {
+    "children": [
+      "menu-item#casa_ideas",
+      "menu-item#sustainability"
+    ],
+    "props": {
+      "blockClass": "casa_ideas",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#casa_ideas": {
+    "props": {
+      "blockClass": "casa_ideas",
+      "id": "menu-casa_ideas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "QUIÉNES SOMOS",
+        "text": "QUIÉNES SOMOS"
+      }
+    }
+  },
+  "menu-item#sustainability": {
+    "props": {
+      "blockClass": "sustainability",
+      "id": "menu-sustainability",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "SOSTENIBILIDAD",
+        "text": "SOSTENIBILIDAD"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "responsive-layout.mobile#home__mobile": {
+    "children": [
+      "flex-layout.row#home__container--mobile"
+    ],
+    "props": {
+      "blockClass": "home__container--mobile"
+    }
+  },
+  "flex-layout.row#home__container--mobile":{
+    "children":[
+      "flex-layout.col#home__container"
+    ],
+    "props": {
+      "blockClass": "home__container"
+    }
+  }
+}

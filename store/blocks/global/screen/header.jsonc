@@ -4,6 +4,7 @@
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
+      /*"header-layout.tablet"*/
     ]
   },
   "header.full": {
@@ -11,15 +12,7 @@
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
+      /*"header-layout.tablet"*/
     ]
-  },
-   "header-layout.desktop": {
-    "title": "Header Desktop",
-      "children": [
-        "header-row#header__top",
-        "header-row#header__content"
-      ]
   }
-   
-
 }

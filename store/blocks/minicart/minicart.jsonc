@@ -11,7 +11,6 @@
       "minicart-base-content": {
         "blocks": ["minicart-empty-state"],
         "children": [
-          
           "minicart-product-list",
            "flex-layout.row#minicart__footer"
           ]
