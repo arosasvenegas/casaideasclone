@@ -13,3 +13,6 @@
 .flexColChild--container__col--one{
     width: 23%;
 }
+.flexRow--container__section--footer{
+    border-top: 1px solid #686058;
+}

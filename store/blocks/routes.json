@@ -1,6 +1,9 @@
 {
-  "store.custom#casaideas": {
-    "path": "/sobre-nosotros"
-    
+  "store.custom#wishlist": {
+    "props": {
+      "title": "Wishlist page",
+      "path": "/wishlist"
+    }
   }
+ 
 }

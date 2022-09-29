@@ -1,22 +1,5 @@
 {
- 
-  "footer-layout.desktop": {
-    "children": [
-      "flex-layout.row#footer__container"
-    ],
-    "props": {
-      "blockClass": "footer__container"
-    }
-  },
-  "flex-layout.row#footer__container": {
-    "children": [
-      "flex-layout.col#footer__container--section-one",
-      "flex-layout.col#footer__container--section-two"
-    ],
-    "props": {
-      "blockClass": "container__section"
-    }
-  },
+
   "flex-layout.col#footer__container--section-one": {
     "children": [
       "flex-layout.row#footer__logo",

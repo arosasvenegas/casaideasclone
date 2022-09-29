@@ -15,10 +15,12 @@
   "flex-layout.col#product__info--data": {
     "title": "Data de producto",
     "children": [
-      "product-summary-name",
-      "product-list-price", 
-      "product-selling-price",
+      "vtex.store-components:product-name",
+      "product-price",
       "product-quantity",
+      "add-to-cart-button",
+      "product-description",
+      "share",
       "rich-text#product__promo-info"
     ]
   },

@@ -1,7 +1,7 @@
 {
   "header-row#header__top": {
     "children": [
-      "rich-text#header__top--text"
+      "rich-text#header__top--text" 
     ],
     "props": {
       "blockClass": "header__top"
