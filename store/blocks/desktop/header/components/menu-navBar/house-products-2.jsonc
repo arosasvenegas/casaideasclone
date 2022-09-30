@@ -33,7 +33,7 @@
       "menu-item#category__yard--area",
       "menu-item#category__pets",
       "menu-item#category__laundry--area",
-      "menu-item#category__personal--accessories"
+      "menu-item#category__personal--area"
     ],
     "props": {
       "orientation": "vertical"
@@ -183,9 +183,9 @@
       }
     }
   },
-  "menu-item#category__personal--accessories": {
+  "menu-item#category__personal--area": {
     "props": {
-      "id": "category__personal--accessories",
+      "id": "category__personal--area",
       "type": "custom",
       "itemProps": {
         "type": "external",

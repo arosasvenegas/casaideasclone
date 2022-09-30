@@ -25,4 +25,10 @@
     margin-right: 170px;
 
 }
-
+.infoCardContainer--info-card-image-one, .infoCardContainer--info-card-image-two, .infoCardContainer--info-card-image-three{
+    height: 403px;
+}
+.infoCardContainer--info-card-image-four, .infoCardContainer--info-card-image-five{
+    height: 554px;
+    width: 548px;
+}

@@ -33,7 +33,8 @@
       "id": "category__about-us",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "custom",
+        "href": "/casaideas",
         "noFollow": true,
         "tagTitle": "Quiénes somos",
         "text": "Quiénes somos"

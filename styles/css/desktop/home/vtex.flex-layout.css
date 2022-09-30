@@ -11,6 +11,7 @@
 }
 .flexCol--img_Box{
     margin: 12px;
+   
 
 }
 .flexRow--second__section--collection{
@@ -89,4 +90,8 @@
     font-size: 13px;
     margin-bottom: 5px;
     width: 95%;
+}
+.flexRowContent--first__section--collection, .flexRowContent--second__section--collection{
+    width: 100%;
+    
 }

@@ -1,9 +1,0 @@
-{
-  "store.custom#wishlist": {
-    "props": {
-      "title": "Wishlist page",
-      "path": "/wishlist"
-    }
-  }
- 
-}

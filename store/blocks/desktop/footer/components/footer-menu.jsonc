@@ -1,5 +1,4 @@
 {
-
   "flex-layout.col#footer__container--section-one": {
     "children": [
       "flex-layout.row#footer__logo",
@@ -267,22 +266,21 @@
   },
   "disclosure-trigger#switch-country": {
     "children": [
-      /*"icon#footer__country--icon",*/
-      "rich-text#country"
-      /*"icon#footer__select--icon"*/
+      "icon#footer__country--icon",
+      "rich-text#country",
+      "icon#footer__select--icon"
     ],
     "props": {
       "blockClass": "switch-country"
     }
   },
-  /*"icon#footer__country--icon": {
+  "icon#footer__country--icon": {
     "props": {
       "blockClass": "footer__country--icon",
       "id": "mask0_107_394",
       "size": 16
-      
     }
-  },*/
+  },
   "rich-text#country": {
     "props": {
       "blockClass": "chile",
@@ -291,15 +289,13 @@
       "textPosition": "CENTER"
     }
   },
-  /*"icon#footer__select--icon": {
+  "icon#footer__select--icon": {
     "props": {
       "blockClass": "footer__select--icon",
       "id": "nav-caret--down",
       "size": 16
-      
     }
   },
-  */
   "disclosure-content#switch-country": {
     "children": [
       "menu#country"

@@ -38,6 +38,7 @@
 .paragraph--chile{
     font-size: 12px;
     color: #696158;
-    padding: 9px 11px;
-    margin: 0;
+    padding: 9px 15px;
+    position: relative;
+    bottom: 20px;
 }
