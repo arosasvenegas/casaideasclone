@@ -16,7 +16,8 @@
     }
   },
   "flex-layout.col#home__container": {
-    "children": [
+    "children": [ 
+    
       "flex-layout.row#home__slider--desktop",
       "flex-layout.row#home__collection--desktop",
       "flex-layout.row#home__shelf",

@@ -1,0 +1,14 @@
+{
+  "menu-item#department__new-products": {
+    "props": {
+      "id": "department__new-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "NUEVOS",
+        "text": "NUEVOS"
+      }
+    }
+  }
+}

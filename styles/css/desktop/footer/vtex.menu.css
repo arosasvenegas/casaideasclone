@@ -1,0 +1,27 @@
+.styledLinkContent {  
+    font-size: 12px;
+    color: #686068;
+}
+.menuContainerNav--customer__service--options{
+    width: 160px;
+    position: relative;
+    right: 55px;
+    
+}
+.styledLinkContent--work-with-us{
+    width: 120px;
+    position: relative;
+    right: 16px;
+    bottom: 18px;
+}
+.menuContainerNav--customer__session--options{
+    width: 150px;
+    position: relative;
+    right: 28px;
+    bottom: 22px;
+}
+.menuContainerNav--country_options{
+    position: relative;
+    bottom: 17px;
+    left: 78px;
+}
