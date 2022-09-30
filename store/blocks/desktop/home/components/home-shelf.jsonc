@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#home__shelf": {
+        "children": ["list-context.product-list#home__shelf--desktop"],
+        "props": {
+            "blockClass": "home__shelf--container"
+        }
+    },
+    "list-context.product-list#home__shelf--desktop": {
+        "blocks": ["product-summary.shelf#home__shelf--products-desktop"],
+        "children": ["slider-layout#home__slider--products-desktop"]
+    }
+    
+    }

@@ -1,0 +1,198 @@
+{
+  "menu-item#department__house-products": {
+    "props": {
+      "id": "department__house-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "ESPACIO DE LA CASA",
+        "text": "ESPACIO DE LA CASA"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__house-products"
+    ]
+  },
+  "submenu.accordion#department__house-products": {
+    "children": [
+      "menu#department__house-products"
+    ]
+  },
+  "menu#department__house-products": {
+    "children": [
+      "menu-item#category__kitchen--area",
+      "menu-item#category__living--area",
+      "menu-item#category__bedroom--area",
+      "menu-item#category__dinning--area",
+      "menu-item#category__kids-and-babies",
+      "menu-item#category__bathroom--area",
+      "menu-item#category__storage--area",
+      "menu-item#category__garden--area",
+      "menu-item#category__desktop-paperware",
+      "menu-item#category__yard--area",
+      "menu-item#category__pets",
+      "menu-item#category__laundry--area",
+      "menu-item#category__personal--area"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__kitchen--area": {
+    "props": {
+      "id": "category__kitchen--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "cocina"
+      }
+    }
+  },
+  "menu-item#category__living--area": {
+    "props": {
+      "id": "category__living--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Living y sala de estar",
+        "text": "Living y sala de estar"
+      }
+    }
+  },
+  "menu-item#category__bedroom--area": {
+    "props": {
+      "id": "category__bedroom--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Dormitorio",
+        "text": "Dormitorio"
+      }
+    }
+  },
+  "menu-item#category__dinning--area": {
+    "props": {
+      "id": "category__dinning--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Comedor",
+        "text": "Comedor"
+      }
+    }
+  },
+  "menu-item#category__kids-and-babies": {
+    "props": {
+      "id": "category__kids-and-babies",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Niños y bebé",
+        "text": "Niños y bebé"
+      }
+    }
+  },
+  "menu-item#category__bathroom--area": {
+    "props": {
+      "id": "category__bathroom--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Baño",
+        "text": "Baño"
+      }
+    }
+  },
+  "menu-item#category__storage--area": {
+    "props": {
+      "id": "category__storage--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Bodega y clóset",
+        "text": "Bodega y clóset"
+      }
+    }
+  },
+  "menu-item#category__garden--area": {
+    "props": {
+      "id": "category__garden--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Jardín",
+        "text": "Jardín"
+      }
+    }
+  },
+  "menu-item#category__desktop-paperware": {
+    "props": {
+      "id": "category__desktop-paperware",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Escritorio y papelería",
+        "text": "Escritorio y papelería"
+      }
+    }
+  },
+  "menu-item#category__yard--area": {
+    "props": {
+      "id": "category__yard--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Terraza",
+        "text": "Terraza"
+      }
+    }
+  },
+  "menu-item#category__pets": {
+    "props": {
+      "id": "category__pets",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Mascotas",
+        "text": "Mascotas"
+      }
+    }
+  },
+  "menu-item#category__laundry--area": {
+    "props": {
+      "id": "category__laundry--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Lavandería",
+        "text": "Lavandería"
+      }
+    }
+  },
+  "menu-item#category__personal--area": {
+    "props": {
+      "id": "category__personal--area",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Accesorios personales",
+        "text": "Accesorios personales"
+      }
+    }
+  }
+}

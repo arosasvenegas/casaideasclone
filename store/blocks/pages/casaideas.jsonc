@@ -1,0 +1,31 @@
+{
+  "store.custom#casaideas": {
+    "blocks": [
+      "flex-layout.row#casaideas__container"
+    ],
+    "props": {
+      "blockClass": "casaideas__container"
+    }
+  },
+  "flex-layout.row#casaideas__container": {
+    "children": [
+      "flex-layout.col#casaideas__container"
+    ]
+  },
+  "flex-layout.col#casaideas__container": {
+    "children": [
+      "flex-layout.row#image__welcome"
+    ]
+  },
+  "flex-layout.row#image__welcome": {
+    "children": [
+      "image#casaideas__welcome"
+    ]
+  },
+  "image#casaideas__welcome": {
+    "props": {
+      "src": "assets/img/nosotros/quienessomoscasa.webp",
+      "blockClass": "image__welcome"
+    }
+  }
+}
