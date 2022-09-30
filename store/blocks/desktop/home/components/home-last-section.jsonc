@@ -19,7 +19,7 @@
   "flex-layout.row#download__free-calendar": {
     "children": [
       "image#download__calendar-desktop"
-    ],
+    ], 
     "props": {
       "blockClass": "image__calendar--div"
     }

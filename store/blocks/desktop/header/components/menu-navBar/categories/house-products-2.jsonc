@@ -2,6 +2,7 @@
   "menu-item#department__house-products": {
     "props": {
       "id": "department__house-products",
+      "blockClass": "department__house-products",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -11,13 +12,16 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__house-products"
+      "submenu#department__house-products"
     ]
   },
-  "submenu.accordion#department__house-products": {
+  "submenu#department__house-products": {
     "children": [
       "menu#department__house-products"
-    ]
+    ],
+    "props": {
+      "blockClass": "department__house-products"
+    }
   },
   "menu#department__house-products": {
     "children": [
@@ -42,14 +46,18 @@
   "menu-item#category__kitchen--area": {
     "props": {
       "id": "category__kitchen--area",
+      "blockClass": "category__kitchen--area",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "noFollow": true,
         "tagTitle": "Cocina",
-        "text": "cocina"
+        "text": "Cocina"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__kitchen--submenu"
+    ]
   },
   "menu-item#category__living--area": {
     "props": {
@@ -78,6 +86,7 @@
   "menu-item#category__dinning--area": {
     "props": {
       "id": "category__dinning--area",
+      "blockClass": "category__dinning--area",
       "type": "custom",
       "itemProps": {
         "type": "external",
