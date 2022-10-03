@@ -2,7 +2,10 @@
   "submenu#department__kitchen--submenu": {
     "children": [
       "menu#department__kitchen--submenu"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__kitchen--submenu"
+    }
   },
   "menu#department__kitchen--submenu": {
     "children": [
@@ -19,7 +22,8 @@
       "menu-item#category__kitchen--10"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "submenu_kitchen"
     }
   },
   "menu-item#category__kitchen--title": {
@@ -30,8 +34,8 @@
       "itemProps": {
         "type": "external",
         "noFollow": true,
-        "tagTitle": "Hola, soy una subcategoria",
-        "text": "Hola, soy una subcategoria"
+        "tagTitle": "Ver todo cocina",
+        "text": "Ver todo cocina"
       }
     }
   },
@@ -134,8 +138,8 @@
       "itemProps": {
         "type": "external",
         "noFollow": true,
-        "tagTitle": "Decoracón",
-        "text": "Decoracón"
+        "tagTitle": "Decoración",
+        "text": "Decoración"
       }
     }
   },

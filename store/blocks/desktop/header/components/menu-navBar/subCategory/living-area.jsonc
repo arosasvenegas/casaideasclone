@@ -1,0 +1,172 @@
+{
+  "submenu#department__living--submenu": {
+    "children": [
+      "menu#department__living--submenu"
+    ],
+    "props": {
+      "blockClass": "container__living--submenu"
+    }
+  },
+  "menu#department__living--submenu": {
+    "children": [
+      "menu-item#category__living--title",
+      "menu-item#category__living--1",
+      "menu-item#category__living--2",
+      "menu-item#category__living--3",
+      "menu-item#category__living--4",
+      "menu-item#category__living--5",
+      "menu-item#category__living--6",
+      "menu-item#category__living--7",
+      "menu-item#category__living--8",
+      "menu-item#category__living--9",
+      "menu-item#category__living--10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu_living"
+    }
+  },
+  "menu-item#category__living--title": {
+    "props": {
+      "id": "category__living--title",
+      "blockClass": "category__living--title",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Ver todo Living y sala de estar",
+        "text": "Ver todo Living y sala de estar"
+      }
+    }
+  },
+  "menu-item#category__living--1": {
+    "props": {
+      "id": "category__living--1",
+      "blockClass": "category__living--1",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Cojines y fundas",
+        "text": "Cojines y fundas"
+      }
+    }
+  },
+  "menu-item#category__living--2": {
+    "props": {
+      "id": "category__living--2",
+      "blockClass": "category__living--2",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Cortinas, stores y rollers",
+        "text": "Cortinas, stores y rollers"
+      }
+    }
+  },
+  "menu-item#category__living--3": {
+    "props": {
+      "id": "category__living--3",
+      "blockClass": "category__living--3",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Alfombras",
+        "text": "Alfombras"
+      }
+    }
+  },
+  "menu-item#category__living--4": {
+    "props": {
+      "id": "category__living--4",
+      "blockClass": "category__living--4",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Decoración",
+        "text": "Decoración"
+      }
+    }
+  },
+  "menu-item#category__living--5": {
+    "props": {
+      "id": "category__living--5",
+      "blockClass": "category__living--5",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Velas y portavelas",
+        "text": "Velas y portavelas"
+      }
+    }
+  },
+  "menu-item#category__living--6": {
+    "props": {
+      "id": "category__living--6",
+      "blockClass": "category__living--6",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Aromatizadores de ambiente",
+        "text": "Aromatizadores de ambiente"
+      }
+    }
+  },
+  "menu-item#category__living--7": {
+    "props": {
+      "id": "category__living--7",
+      "blockClass": "category__living--7",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Iluminación",
+        "text": "Iluminación"
+      }
+    }
+  },
+  "menu-item#category__living--8": {
+    "props": {
+      "id": "category__living--8",
+      "blockClass": "category__living--8",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Limpiapiés y topes de puerta",
+        "text": "Limpiapiés y topes de puerta"
+      }
+    }
+  },
+  "menu-item#category__living--9": {
+    "props": {
+      "id": "category__living--9",
+      "blockClass": "category__living--9",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Perchas y repisas",
+        "text": "Perchas y repisas"
+      }
+    }
+  },
+  "menu-item#category__living--10": {
+    "props": {
+      "id": "category__living--10",
+      "blockClass": "category__living--10",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Muebles para living y sala de estar",
+        "text": "Muebles para living y sala de estar"
+      }
+    }
+  }
+}

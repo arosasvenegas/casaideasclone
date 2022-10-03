@@ -41,4 +41,24 @@
     color: #696158;
     font-weight: 400;
 }
-
+.submenuContainer--container__kitchen--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+}
+.submenuContainer--container__living--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 45px;
+}
+.submenuContainer--container__bedroom--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 70px; 
+    
+}
+.submenuContainer--container__dinning--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 90px;
+}
