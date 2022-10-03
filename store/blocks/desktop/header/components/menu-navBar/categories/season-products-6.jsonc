@@ -2,6 +2,7 @@
   "menu-item#department__season-products": {
     "props": {
       "id": "department__season-products",
+      "blockClass": "department__season-products",
       "type": "custom",
       "itemProps": {
         "type": "external",

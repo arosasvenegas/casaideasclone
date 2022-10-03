@@ -2,6 +2,7 @@
   "menu-item#department__summer-products": {
     "props": {
       "id": "department__summer-products",
+      "blockClass": "department__summer-products",
       "type": "custom",
       "itemProps": {
         "type": "external",

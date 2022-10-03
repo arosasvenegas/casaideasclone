@@ -2,6 +2,7 @@
   "menu-item#department__house-products": {
     "props": {
       "id": "department__house-products",
+      "blockClass": "department__house-products",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -11,13 +12,16 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__house-products"
+      "submenu#department__house-products"
     ]
   },
-  "submenu.accordion#department__house-products": {
+  "submenu#department__house-products": {
     "children": [
       "menu#department__house-products"
-    ]
+    ],
+    "props": {
+      "blockClass": "department__house-products"
+    }
   },
   "menu#department__house-products": {
     "children": [
@@ -42,14 +46,18 @@
   "menu-item#category__kitchen--area": {
     "props": {
       "id": "category__kitchen--area",
+      "blockClass": "category__kitchen--area",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "noFollow": true,
         "tagTitle": "Cocina",
-        "text": "cocina"
+        "text": "Cocina"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__kitchen--submenu"
+    ]
   },
   "menu-item#category__living--area": {
     "props": {
@@ -61,7 +69,10 @@
         "tagTitle": "Living y sala de estar",
         "text": "Living y sala de estar"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__living--submenu"
+    ]
   },
   "menu-item#category__bedroom--area": {
     "props": {
@@ -73,11 +84,15 @@
         "tagTitle": "Dormitorio",
         "text": "Dormitorio"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__bedroom--submenu"
+    ]
   },
   "menu-item#category__dinning--area": {
     "props": {
       "id": "category__dinning--area",
+      "blockClass": "category__dinning--area",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -85,7 +100,10 @@
         "tagTitle": "Comedor",
         "text": "Comedor"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__kids-and-babies": {
     "props": {
@@ -97,7 +115,10 @@
         "tagTitle": "Niños y bebé",
         "text": "Niños y bebé"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__bathroom--area": {
     "props": {
@@ -109,7 +130,10 @@
         "tagTitle": "Baño",
         "text": "Baño"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__storage--area": {
     "props": {
@@ -121,7 +145,10 @@
         "tagTitle": "Bodega y clóset",
         "text": "Bodega y clóset"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__garden--area": {
     "props": {
@@ -133,7 +160,10 @@
         "tagTitle": "Jardín",
         "text": "Jardín"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__desktop-paperware": {
     "props": {
@@ -145,7 +175,10 @@
         "tagTitle": "Escritorio y papelería",
         "text": "Escritorio y papelería"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__yard--area": {
     "props": {
@@ -157,7 +190,10 @@
         "tagTitle": "Terraza",
         "text": "Terraza"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__pets": {
     "props": {
@@ -169,7 +205,10 @@
         "tagTitle": "Mascotas",
         "text": "Mascotas"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__laundry--area": {
     "props": {
@@ -181,7 +220,10 @@
         "tagTitle": "Lavandería",
         "text": "Lavandería"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__personal--area": {
     "props": {
@@ -193,6 +235,9 @@
         "tagTitle": "Accesorios personales",
         "text": "Accesorios personales"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   }
 }

@@ -1,0 +1,64 @@
+.menuContainerNav--menu__departments{
+    position: relative;
+    left: 80px;
+}
+.styledLinkContent--department__summer-products{
+    color: #D50032;
+}
+.styledLinkContent--department__new-products:hover,
+.styledLinkContent--department__house-products:hover,
+.styledLinkContent--department__all-products:hover,
+.styledLinkContent--department__kids-products:hover,
+.styledLinkContent--department__summer-products:hover,
+.styledLinkContent--department__season-products:hover,
+.styledLinkContent--department__discount:hover,
+.styledLinkContent--department__about-casaideas:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.submenu--submenu__all-products{
+    position: relative;
+    right: 180px;
+    bottom: 3px;
+    padding: 10px 10px  20px 10px;
+    background-color: white;
+}
+.styledLinkContent--category__season--accessories:hover{
+    font-weight: 700;
+    color: #696158;
+}
+.menuContainerNav--categories__all-products{
+    column-count: 3;
+}
+.submenuWrapper--submenu__all-products{
+    background-color: transparent;
+    border: transparent;
+}
+.submenuWrapper--department__house-products{
+    background: white;
+    opacity: .8;
+    color: #696158;
+    font-weight: 400;
+}
+.submenuContainer--container__kitchen--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+}
+.submenuContainer--container__living--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 45px;
+}
+.submenuContainer--container__bedroom--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 70px; 
+    
+}
+.submenuContainer--container__dinning--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 90px;
+}

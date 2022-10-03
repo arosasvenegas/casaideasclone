@@ -2,6 +2,7 @@
   "menu-item#department__kids-products": {
     "props": {
       "id": "department__kids-products",
+      "blockClass": "department__kids-products",
       "type": "custom",
       "itemProps": {
         "type": "external",
