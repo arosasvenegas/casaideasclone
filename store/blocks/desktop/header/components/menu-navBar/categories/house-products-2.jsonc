@@ -69,7 +69,10 @@
         "tagTitle": "Living y sala de estar",
         "text": "Living y sala de estar"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__living--submenu"
+    ]
   },
   "menu-item#category__bedroom--area": {
     "props": {
@@ -81,7 +84,10 @@
         "tagTitle": "Dormitorio",
         "text": "Dormitorio"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__bedroom--submenu"
+    ]
   },
   "menu-item#category__dinning--area": {
     "props": {
@@ -94,7 +100,10 @@
         "tagTitle": "Comedor",
         "text": "Comedor"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__kids-and-babies": {
     "props": {
@@ -106,7 +115,10 @@
         "tagTitle": "Niños y bebé",
         "text": "Niños y bebé"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__bathroom--area": {
     "props": {
@@ -118,7 +130,10 @@
         "tagTitle": "Baño",
         "text": "Baño"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__storage--area": {
     "props": {
@@ -130,7 +145,10 @@
         "tagTitle": "Bodega y clóset",
         "text": "Bodega y clóset"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__garden--area": {
     "props": {
@@ -142,7 +160,10 @@
         "tagTitle": "Jardín",
         "text": "Jardín"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__desktop-paperware": {
     "props": {
@@ -154,7 +175,10 @@
         "tagTitle": "Escritorio y papelería",
         "text": "Escritorio y papelería"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__yard--area": {
     "props": {
@@ -166,7 +190,10 @@
         "tagTitle": "Terraza",
         "text": "Terraza"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__pets": {
     "props": {
@@ -178,7 +205,10 @@
         "tagTitle": "Mascotas",
         "text": "Mascotas"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__laundry--area": {
     "props": {
@@ -190,7 +220,10 @@
         "tagTitle": "Lavandería",
         "text": "Lavandería"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   },
   "menu-item#category__personal--area": {
     "props": {
@@ -202,6 +235,9 @@
         "tagTitle": "Accesorios personales",
         "text": "Accesorios personales"
       }
-    }
+    },
+    "blocks": [
+      "submenu#department__dinning--submenu"
+    ]
   }
 }
