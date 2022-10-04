@@ -2,7 +2,10 @@
   "header-row#header__menu": {
     "children": [
       "menu#header__menu--navBar"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__menu--container"
+    }
   },
   "menu#header__menu--navBar": {
     "children": [
@@ -16,7 +19,8 @@
       "menu-item#department__about-casaideas"
     ],
     "props": {
-      "orientation": "horizontal"
+      "orientation": "horizontal",
+      "blockClass": "menu__departments"
     }
   }
   

@@ -2,6 +2,7 @@
   "menu-item#department__new-products": {
     "props": {
       "id": "department__new-products",
+      "blockClass": "department__new-products",
       "type": "custom",
       "itemProps": {
         "type": "external",

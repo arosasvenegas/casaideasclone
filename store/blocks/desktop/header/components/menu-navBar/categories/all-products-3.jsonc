@@ -3,6 +3,7 @@
     "props": {
       "id": "department__all-products",
       "type": "custom",
+      "blockClass": "department__all-products",
       "itemProps": {
         "type": "external",
         "noFollow": true,
@@ -11,13 +12,16 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__all-products"
+      "submenu#department__all-products"
     ]
   },
-  "submenu.accordion#department__all-products": {
+  "submenu#department__all-products": {
     "children": [
       "menu#department__all-products"
-    ]
+    ],
+    "props": {
+      "blockClass": "submenu__all-products"
+    }
   },
   "menu#department__all-products": {
     "children": [
@@ -53,6 +57,7 @@
       "menu-item#category__candles--products"
     ],
     "props": {
+      "blockClass": "categories__all-products",
       "orientation": "vertical"
     }
   },
@@ -60,6 +65,7 @@
     "props": {
       "id": "category__season--accessories",
       "type": "custom",
+      "blockClass": "category__season--accessories",
       "itemProps": {
         "type": "external",
         "noFollow": true,

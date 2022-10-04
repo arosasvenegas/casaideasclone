@@ -1,0 +1,159 @@
+{
+    "submenu#department__dinning--submenu": {
+      "children": [
+        "menu#department__dinning--submenu"
+      ],
+      "props": {
+        "blockClass": "container__dinning--submenu"
+      }
+    },
+    "menu#department__dinning--submenu": {
+      "children": [
+        "menu-item#category__dinning--title",
+        "menu-item#category__dinning--1",
+        "menu-item#category__dinning--2",
+        "menu-item#category__dinning--3",
+        "menu-item#category__dinning--4",
+        "menu-item#category__dinning--5",
+        "menu-item#category__dinning--6",
+        "menu-item#category__dinning--7",
+        "menu-item#category__dinning--8",
+        "menu-item#category__dinning--9"
+        
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_dinning"
+      }
+    },
+    "menu-item#category__dinning--title": {
+      "props": {
+        "id": "category__dinning--title",
+        "blockClass": "category__dinning--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Comedor",
+          "text": "Ver todo Comedor"
+        }
+      }
+    },
+    "menu-item#category__dinning--1": {
+      "props": {
+        "id": "category__dinning--1",
+        "blockClass": "category__dinning--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Loza y vajilla",
+          "text": "Loza y vajilla"
+        }
+      }
+    },
+    "menu-item#category__dinning--2": {
+      "props": {
+        "id": "category__dinning--2",
+        "blockClass": "category__dinning--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cubiertos",
+          "text": "Cubiertos"
+        }
+      }
+    },
+    "menu-item#category__dinning--3": {
+      "props": {
+        "id": "category__dinning--3",
+        "blockClass": "category__dinning--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Textiles de mesa",
+          "text": "Textiles de mesa"
+        }
+      }
+    },
+    "menu-item#category__dinning--4": {
+      "props": {
+        "id": "category__dinning--4",
+        "blockClass": "category__dinning--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Vasos, copas, jarros y botellas",
+          "text": "Vasos, copas, jarros y botellas"
+        }
+      }
+    },
+    "menu-item#category__dinning--5": {
+      "props": {
+        "id": "category__dinning--5",
+        "blockClass": "category__dinning--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios de mesa",
+          "text": "Accesorios de mesa"
+        }
+      }
+    },
+    "menu-item#category__dinning--6": {
+      "props": {
+        "id": "category__dinning--6",
+        "blockClass": "category__dinning--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Té y café",
+          "text": "Té y café"
+        }
+      }
+    },
+    "menu-item#category__dinning--7": {
+      "props": {
+        "id": "category__dinning--7",
+        "blockClass": "category__dinning--7",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Aperitivo y especialidades",
+          "text": "Aperitivo y especialidades"
+        }
+      }
+    },
+    "menu-item#category__dinning--8": {
+      "props": {
+        "id": "category__dinning--8",
+        "blockClass": "category__dinning--8",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Mesas y sillas",
+          "text": "Mesas y sillas"
+        }
+      }
+    },
+    "menu-item#category__dinning--9": {
+      "props": {
+        "id": "category__dinning--9",
+        "blockClass": "category__dinning--9",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Colecciones",
+          "text": "Colecciones"
+        }
+      }
+    }
+  }

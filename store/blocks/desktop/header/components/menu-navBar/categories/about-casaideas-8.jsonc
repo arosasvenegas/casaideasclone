@@ -2,6 +2,7 @@
   "menu-item#department__about-casaideas": {
     "props": {
       "id": "department__about-casaideas",
+      "blockClass": "department__about-casaideas",
       "type": "custom",
       "itemProps": {
         "type": "external",
@@ -11,13 +12,16 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__about-casaideas"
+      "submenu#department__about-casaideas"
     ]
   },
-  "submenu.accordion#department__about-casaideas": {
+  "submenu#department__about-casaideas": {
     "children": [
       "menu#department__about-casaideas"
-    ]
+    ],
+    "props": {
+      "blockClass": "department__about-casaideas"
+    }
   },
   "menu#department__about-casaideas": {
     "children": [
@@ -25,7 +29,8 @@
       "menu-item#category__sustainability"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "department__about-casaideas"
     }
   },
   "menu-item#category__about-us": {
