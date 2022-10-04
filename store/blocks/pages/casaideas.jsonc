@@ -14,7 +14,8 @@
   },
   "flex-layout.col#casaideas__container": {
     "children": [
-      "flex-layout.row#image__welcome"
+      "flex-layout.row#image__welcome",
+      "flex-layout.row#paragraph__welcome"
     ]
   },
   "flex-layout.row#image__welcome": {
@@ -27,5 +28,44 @@
       "src": "assets/img/nosotros/quienessomoscasa.webp",
       "blockClass": "image__welcome"
     }
+  },
+  "flex-layout.row#paragraph__welcome": {
+    "children": [
+      "flex-layout.col#paragraph__welcome"
+    ]
+  },
+  "flex-layout.col#paragraph__welcome": {
+    "children":[
+      "flex-layout.row#paragraph__first",
+      "flex-layout.row#paragraph__second"
+    ]
+  },
+  "flex-layout.row#paragraph__first": {
+    "children": [
+      "rich-text#paragraph__first"
+    ]
+  },
+  "rich-text#paragraph__first": {
+    "props": {
+      "blockClass": "paragraph__first",
+      "text": "Somos un gran equipo, \n especialistas en el hogar,",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#paragraph__second": {
+    "children": [
+      "rich-text#paragraph__second"
+    ]
+  },
+  "rich-text#paragraph__second": {
+    "props": {
+      "blockClass": "paragraph__first",
+      "text": "y trabajamos para facilitar y alegrar la vida de las personas. \n Somos innovadores en lo que hacemos y creemos que el diseño \n y la belleza son para todos.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   }
+
+
 }
