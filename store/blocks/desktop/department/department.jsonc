@@ -29,7 +29,8 @@
   "flex-layout.row#department__results": {
     "title": "Department Results",
     "children": [
-      "gallery-layout-switcher"
+      "gallery-layout-switcher",
+      "product-summary.shelf#department__results"
       /*"search-content#desktop"*/
     ]
   },
@@ -50,5 +51,16 @@
       "name": "grid-one-column",
       "blockClass": "grid__selector--one-column"
     }
+  },
+    "product-summary.shelf#department__results": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
   }
 }
