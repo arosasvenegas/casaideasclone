@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "General information of PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ]
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Product image",
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Product data",
+    "children": [
+      "vtex.store-components:product-name",
+      "product-price",
+      "product-quantity",
+      "add-to-cart-button",
+      "product-description",
+      "share",
+      "rich-text#product__promo-info",
+      "modal-trigger#add-to-cart-info"
+      
+    ]
+  },
+  "rich-text#product__promo-info": {
+    "title": "Texto adicional de producto",
+    "props": {
+      
+    }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info":{
+    "children": [
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+     }
+    
+  }
+}
