@@ -1,5 +1,8 @@
 {
   "store.custom#casaideas": {
     "path": "/casaideas"
+  },
+  "store.custom#pdf-reader": {
+    "path": "/pdf"
   }
 }
