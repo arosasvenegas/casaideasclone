@@ -24,6 +24,7 @@
       "image#download__delivery--icon",
       "icon#header__stores--icon",
       "login",
+      "department-search",
       "minicart.v2"
     ],
     "props": {
