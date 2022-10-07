@@ -5,8 +5,21 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "default"
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItmesPerPage": 10
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "content": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItmesPerPage": 10
       }
     }
   },
@@ -16,8 +29,9 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItmesPerPage": 10
       }
     }
   },
@@ -27,8 +41,9 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItmesPerPage": 10
       }
     }
   },
@@ -38,8 +53,9 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItmesPerPage": 10
       }
     }
   },

@@ -1,18 +1,10 @@
 {
-    "store.search#department": {
-        "blocks": ["search-result-layout#department"],
-        "props": {
-            "content": {
-                "skusFilter": "FIRST_AVAILABLE",
-                "simulationBehavior": "default"
-            }
-        }
-    },
-    "search-result-layout#department": {
+    
+    /*"search-result-layout#department": {
         "blocks": [
             "search-result-layout.desktop#desktop__department",
             "search-result-layout.mobile#mobile__department",
-            /*"search-result-layout.tablet#tablet__department",*/
+            "search-result-layout.tablet#tablet__department",
             "search-not-found-layout"
         ]
     },
@@ -20,5 +12,5 @@
         "props": {
             "text": "# Estamos en un depto"
         }
-    }
+    }*/
 }
