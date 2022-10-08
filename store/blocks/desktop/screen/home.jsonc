@@ -18,6 +18,7 @@
       "flex-layout.row#bullet-group",
       "flex-layout.row#home__collection--desktop",
       "flex-layout.row#home__shelf",
+      "quick-order",
       "flex-layout.row#home__lastSection--desktop"
     ]
   },
