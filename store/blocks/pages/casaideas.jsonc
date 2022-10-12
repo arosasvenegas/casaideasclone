@@ -1,7 +1,7 @@
 {
   "store.custom#casaideas": {
     "blocks": [
-      "flex-layout.row#casaideas__container"
+      "flex-layout.row#casaideas__container--row"
     ],
     "props": {
       "blockClass": "casaideas__container"
@@ -9,63 +9,42 @@
   },
   "flex-layout.row#casaideas__container": {
     "children": [
-      "flex-layout.col#casaideas__container"
+       "flex-layout.col#casaideas__container--col"
     ]
   },
-  "flex-layout.col#casaideas__container": {
+  "flex-layout.col#casaideas__container--col": {
     "children": [
-      "flex-layout.row#image__welcome",
-      "flex-layout.row#paragraph__welcome"
+      "flex-layout.row#casaideas__image--welcome",
+      "flex-layout.row#casaideas__text--welcome"
+      /*"flex-layout.row#casaideas__menu--options",
+      "flex-layout.row#casaideas__selction--one",
+      "flex-layout.row#casaideas__section--two",
+      "flex-layout.row#casaideas__section--three",
+      "flex-layout.row#casaideas__section--four",
+      "flex-layout.row#casaideas__section--five"*/
     ]
   },
-  "flex-layout.row#image__welcome": {
+  "flex-layout.row#casaideas__image--welcome": {
     "children": [
-      "image#casaideas__welcome"
+      "image#image__welcome"
     ]
   },
-  "image#casaideas__welcome": {
+  "image#image__welcome": {
     "props": {
-      "src": "assets/img/nosotros/quienessomoscasa.webp",
-      "blockClass": "image__welcome"
+        "src": "assets/img/nosotros/quienessomoscasa.webp",
+        "blockClass": "image__welcome"
     }
   },
-  "flex-layout.row#paragraph__welcome": {
+  "flex-layout.row#casaideas__text--welcome": {
     "children": [
-      "flex-layout.col#paragraph__welcome"
+      "flex-layout.col#casaideas__text--welcome"
     ]
   },
-  "flex-layout.col#paragraph__welcome": {
-    "children":[
-      "flex-layout.row#paragraph__first",
-      "flex-layout.row#paragraph__second"
-    ]
-  },
-  "flex-layout.row#paragraph__first": {
+  "flex-layout.col#casaideas__text--welcome": {
     "children": [
-      "rich-text#paragraph__first"
+     /* "flex-layout.row#casaideas__first--text",
+      "flex-layout.row#casaideas__second--text"*/
     ]
-  },
-  "rich-text#paragraph__first": {
-    "props": {
-      "blockClass": "paragraph__first",
-      "text": "Somos un gran equipo, \n especialistas en el hogar,",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-  "flex-layout.row#paragraph__second": {
-    "children": [
-      "rich-text#paragraph__second"
-    ]
-  },
-  "rich-text#paragraph__second": {
-    "props": {
-      "blockClass": "paragraph__first",
-      "text": "y trabajamos para facilitar y alegrar la vida de las personas. \n Somos innovadores en lo que hacemos y creemos que el diseño \n y la belleza son para todos.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
   }
-
 
 }

@@ -24,7 +24,6 @@
       "image#download__delivery--icon",
       "icon#header__stores--icon",
       "login",
-      "department-search",
       "minicart.v2"
     ],
     "props": {
@@ -38,6 +37,15 @@
       "width": 189,
       "href": "/"
     }
+  },
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "header__search--bar",
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Escribe tu búsqueda"
+    }
+    
   },
   "icon#header__country--icon": {
     "props": {

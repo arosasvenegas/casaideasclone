@@ -1,112 +1,31 @@
 {
   "responsive-layout.desktop#home__desktop": {
-    "children": ["flex-layout.row#home__container--desktop"],
+    "children": [
+      "flex-layout.row#home__container--desktop"
+    ],
     "props": {
       "blockClass": "home__container--desktop"
     }
   },
   "flex-layout.row#home__container--desktop": {
-    "children": ["flex-layout.col#home__container"],
+    "children": [
+      "flex-layout.col#home__container"
+    ],
     "props": {
       "blockClass": "home__container"
     }
   },
   "flex-layout.col#home__container": {
     "children": [
+      "custom-grid",
       "whatsapp-button",
       "flex-layout.row#home__slider--desktop",
-      "flex-layout.row#bullet-group",
       "flex-layout.row#home__collection--desktop",
       "flex-layout.row#home__shelf",
+      "flex-layout.row#bullet-group",
+      "quick-order",
+      "department-search",
       "flex-layout.row#home__lastSection--desktop"
     ]
-  },
-  "whatsapp-button": {
-    "props": {
-      "logo": "assets/img/logo/whatsapp.png",
-      "phone": "+5691234567",
-      "message": "Bienvenido a Casaideas, en breve lo atenderá uno de nuestros ejecutivos.",
-      "width": 60,
-      "height": 60
-    }
-  },
-  "flex-layout.row#bullet-group": {
-    "children": [
-      "list-context.bullet-group"
-    ]
-  },
-  "list-context.bullet-group": {
-    "title": "context bullet list",
-    "children": ["slider-layout#bullet-group"],
-    "props": {
-      "bullets": [
-        {
-          "image": "assets/img/bullet/mueble.webp",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/jardinera.webp",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/mueble.webp",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/jardinera.webp",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/mueble.webp",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/jardinera.webp",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/mueble.webp",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet/jardinera.webp",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        }
-      ]
-    }
-  },
-  "slider-layout#bullet-group": {
-    "props": {
-      "itemPerPage": {
-        "desktop": 5,
-        "tablet": 4,
-        "mobile": 2
-      }, 
-      "infinite": true
-    }
   }
 }
