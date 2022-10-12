@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#bullet-group": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "context bullet list",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet/mueble.webp",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/jardinera.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/mueble.webp",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/jardinera.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/mueble.webp",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/jardinera.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/mueble.webp",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/jardinera.webp",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "mobile": 2
+      },
+      "infinite": true
+    }
+  }
+}
