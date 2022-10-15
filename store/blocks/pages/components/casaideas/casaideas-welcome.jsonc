@@ -1,0 +1,40 @@
+{
+  //welcome
+  "flex-layout.row#casaideas__image--welcome": {
+    "children": [
+      "image#image__welcome"
+    ]
+  },
+  "image#image__welcome": {
+    "props": {
+      "src": "assets/img/nosotros/quienessomoscasa.webp",
+      "blockClass": "image__welcome"
+    }
+  },
+  "flex-layout.row#casaideas__text--welcome": {
+    "children": [
+      "flex-layout.col#casaideas__text--welcome"
+    ]
+  },
+  "flex-layout.col#casaideas__text--welcome": {
+    "children": [
+      "flex-layout.row#casaideas__first--text",
+      "flex-layout.row#casaideas__second--text"
+    ]
+  },
+  "flex-layout.row#casaideas__first--text": {
+    "children": [
+      "rich-text#casaideas__first--text"
+    ]
+  },
+  "rich-text#casaideas__first--text": {
+    "props": {
+      "text": "Somos un gran equipo,\nespecialistas en el hogar,"
+    }
+  },
+  "flex-layout.row#casaideas__second--text": {
+    "props": {
+      "text": "y trabajamos para facilitar y alegrar la vida de las personas.\nSomos innovadores en lo que hacemos y creemos que el diseño\ny la belleza son para todos."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#casaideas__container--row": {
+    "children": [
+      "flex-layout.col#casaideas__container--col"
+    ]
+  },
+  //containers
+  "flex-layout.col#casaideas__container--col": {
+    "children": [
+      "flex-layout.row#casaideas__image--welcome", //LISTO
+      "flex-layout.row#casaideas__text--welcome", //LISTO
+      "flex-layout.row#casaideas__menu--options", //LISTO
+      "flex-layout.row#casaideas__selction--adn", //listo
+      "flex-layout.row#casaideas__section--team", //listo
+      "flex-layout.row#casaideas__section--whatWeDo", //listo
+      "flex-layout.row#casaideas__section--howWeDo", //listo
+      "flex-layout.row#casaideas__section--commitment" //listo
+    ]
+  }
+}

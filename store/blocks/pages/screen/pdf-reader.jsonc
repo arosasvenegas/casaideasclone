@@ -1,0 +1,11 @@
+{
+  "store.custom#pdf-reader": {
+    "blocks": [
+      "pdf-reader",
+      "custom-grid"
+    ],
+    "props": {
+      "blockClass": "pdfReader__container"
+    }
+  }
+}
