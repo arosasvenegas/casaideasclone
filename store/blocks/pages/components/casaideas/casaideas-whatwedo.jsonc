@@ -1,0 +1,62 @@
+{
+  // seccion tres - WHAT WE DO
+  "flex-layout.row#casaideas__section--whatWeDo": {
+    "children": [
+      "flex-layout.col#casaideas__section--whatWeDo"
+    ]
+  },
+  "flex-layout.col#casaideas__section--whatWeDo": {
+    "children": [
+      "rich-text#casaideas__howWeDo--text",
+      "flex-layout.row#selction__whatWeDo--title",
+      "flex-layout.row#selction__whatWeDo--content"
+    ]
+  },
+  "flex-layout.row#selction__whatWeDo--title": {
+    "children": [
+      "rich-text#selction__whatWeDo--title"
+    ]
+  },
+  "rich-text#selction__whatWeDo--title": {
+    "props": {
+      "text": "CREATIVIDAD\nCON SENTIDO"
+    }
+  },
+  "flex-layout.row#selction__whatWeDo--content": {
+    "children": [
+      "flex-layout.col#whatWeDo__image--one",
+      "flex-layout.col#whatWeDo__text",
+      "flex-layout.col#whatWeDo__image--two"
+    ]
+  },
+  "flex-layout.col#whatWeDo__image--one": {
+    "children": [
+      "image#whatWeDo__image--one"
+    ]
+  },
+  "image#whatWeDo__image--one": {
+    "props": {
+      "src": "assets/img/nosotros/quienessomos04leftmobile.webp"
+    }
+  },
+  "flex-layout.col#whatWeDo__text": {
+    "children": [
+      "rich-text#whatWeDo__text"
+    ]
+  },
+  "rich-text#whatWeDo__text": {
+    "props": {
+      "text": "SOMOS UN EQUIPO MULTIDISCIPLINARIO QUE TRABAJA PARA ENTREGARTE PRODUCTOS ÚNICOS, QUE TIENEN UN DISEÑO QUE EMBELLECEN TUS ESPACIOS Y FACILITAN TUS TAREAS COTIDIANAS.\nDiseñamos en Chile, producimos en Asia y comercializamos nuestros productos en 4 países de Sudamérica, en un proceso que incluye muchas etapas y donde participan profesionales de diversas áreas. Siempre con el cliente al centro, tratando de anticiparnos a sus necesidades, pensando en cómo facilitar y alegrar sus vidas.\nEquipos de diseño, calidad, áreas comerciales, logística, visual y marketing, cuidan de miles de detalles, desde la creación de productos hasta el lugar que deben ocupar en nuestras tiendas físicas y online, haciendo posible que nuestros clientes disfruten de la mejor experiencia.\nEs parte de nuestra tarea preocuparnos de ser sustentables, y también, tener estrechas relaciones con nuestros proveedores, de manera de controlar y desarrollar planes de trabajo, que se traduce en tener mejores precios, así entregar a nuestros clientes, un producto que satisfaga y dé respuesta a todas sus necesidades."
+    }
+  },
+  "flex-layout.col#whatWeDo__image--two": {
+    "children": [
+      "image#whatWeDo__image--two"
+    ]
+  },
+  "image#whatWeDo__image--two": {
+    "props": {
+      "src": "assets/img/nosotros/america_mobile.webp"
+    }
+  }
+}

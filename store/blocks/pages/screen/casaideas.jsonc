@@ -1,0 +1,11 @@
+{
+  "store.custom#casaideas": {
+    "blocks": [
+      "flex-layout.row#casaideas__container--row"
+    ],
+    "props": {
+      "blockClass": "casaideas__container"
+    }
+  }
+
+}

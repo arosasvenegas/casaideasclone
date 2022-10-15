@@ -1,0 +1,51 @@
+{
+  //Contenido seccion uno - ADN
+  "flex-layout.row#casaideas__selction--adn": {
+    "children": [
+      "flex-layout.col#casaideas__selction--adn"
+    ]
+  },
+  "flex-layout.col#casaideas__selction--adn": {
+    "children": [
+      "rich-text#casaideas__adn--text",
+      "flex-layout.row#selction__adn--title",
+      "flex-layout.row#selction__adn--content"
+    ]
+  },
+  "flex-layout.row#selction__adn--title": {
+    "children": [
+      "rich-text#selction__adn--title"
+    ]
+  },
+  "rich-text#selction__adn--title": {
+    "props": {
+      "text": "LO QUE NOS HACE\nDIFERENTES"
+    }
+  },
+  "flex-layout.row#selction__adn--content": {
+    "children": [
+      "flex-layout.col#adn__image",
+      "flex-layout.col#adn__text"
+    ]
+  },
+  "flex-layout.col#adn__image": {
+    "children": [
+      "image#adn__image"
+    ]
+  },
+  "image#adn__image": {
+    "props": {
+      "src": "assets/img/nosotros/quienessomos02mobile.webp"
+    }
+  },
+  "flex-layout.col#adn__text": {
+    "children": [
+      "rich-text#adn__text--content"
+    ]
+  },
+  "rich-text#adn__text--content": {
+    "props": {
+      "text": "QUEREMOS APORTAR A HACER UNA VIDA MÁS SIMPLE Y PRÁCTICA, Y QUE TU CASA SEA MÁS LINDA Y FUNCIONAL A TRAVÉS DEL DISEÑO. \nInvitamos a vivir con más alegría, a disfrutar nuestro hogar todos los días, con propuestas para cada rincón de la casa, a través de un diseño inteligente que aporta valor desde la funcionalidad y la estética.\nNos gusta hacer las cosas bien, trabajamos arduamente en todo lo que hacemos y nos preocupamos siempre por mejorar el impacto que tienen nuestras operaciones en el medio ambiente.\nQueremos acompañar e inspirar con creatividad y diseño en el día a día, co-creando un círculo de positivismo y alegría."
+    }
+  }
+}
