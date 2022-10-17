@@ -6,19 +6,19 @@ Repertorio base que contiene el clone de la tienda CasaIdeas Chile.
 
 ## configuración 
 
-### Step 1 -  Configuración Básica 
+### Paso 1 -  Configuración Básica 
 
 Acceder a la [Guía básica de configuración](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1)de VTEX IO y seguir todos los pasos. 
 
 Al final de la configuración, debe tener instalada la interfaz de línea de comandos VTEX (Toolbelt).
 
-### Step 2 - Clonación del repositorio
+### Paso 2 - Clonación del repositorio
 
 [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) este repositorio a sus archivos locales para poder empezar a trabajar efectivamente en él.
 
 Luego, acceda al directorio del repositorio usando su terminal.
 
-### Step 3 - Editar el manifest.json
+### Paso 3 - Editar el manifest.json
 
 Una vez en el directorio del repositorio, es hora de editar el `manifest.json` del Minimum Boilerplate. 
 
@@ -31,7 +31,7 @@ Una vez en el archivo, debes remplazar los valores de `vendor` y `account`. `ven
 }
 ```
 
-### Step 4 -  Instalar apps necesarias
+### Paso 4 -  Instalar apps necesarias
 
 Con el fin de utilizar Store Framework y trabajar en el tema de su tienda, es necesario tener instalados `vtex.store-sitemap` y `vtex.store` .
 
@@ -39,7 +39,7 @@ Ejecutar  `vtex list`, para comprobar si esas aplicaciones ya están instaladas.
 
 Si no lo están, ejecute el siguiente comando para instalarlos: `vtex install vtex.store-sitemap vtex.store -f`
 
-### Step 5 -  Desinstalar el store'themepredeterminado
+### Paso 5 -  Desinstalar el store'themepredeterminado
 
 Ejecutando `vtex list`, puede verificar si cualquier tema está instalado.
 
@@ -51,9 +51,11 @@ Por lo tando, si lo encuentras en la lista de la aplicación, copie el nombre y 
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6- Ejecute um preview de la tienda
+### Paso 6- Ejecute un preview de la tienda
 
+Siempre asegurarse de donde estammos trabajando, ya que, debemos evitar trabajar en master. para esto, utilice el comando `vtex whoami`
 Entonces ha llegado el momento de subir todos los cambios que hizo en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`. 
+
 
 Si el proceso se ejecuta sin errores, el siguiente mensaje aparecerá: `App linked successfully`. Entonces, ejecute el comando `vtex browse` para abrir una ventana del navegador que tiene su tienda vinculada en ella.
 
