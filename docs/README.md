@@ -2,10 +2,10 @@
 
 Repertorio base que contiene el clon de la tienda CasaIdeas Chile.
 
-##Header
+## Header
 ![headerhome](https://user-images.githubusercontent.com/73150391/196824375-e8cdf992-1734-411b-a840-b01df71f05bd.PNG)
 
-##Footer
+## Footer
 
 ![footerhome](https://user-images.githubusercontent.com/73150391/196824472-31f37a40-8599-41af-80dd-9186e1d3d8d7.PNG)
 
