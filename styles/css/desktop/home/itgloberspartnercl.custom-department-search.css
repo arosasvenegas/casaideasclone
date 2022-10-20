@@ -1,0 +1,13 @@
+.departmentGroup__item{
+    border: 2px solid #686868;
+    position: relative;
+    left: 600px;
+    bottom: 85px;
+    color: #696158;
+}
+.searchBarInnerContainer{
+    position: relative;
+    left: 700px;
+    bottom: 87px;
+    width: 350px;
+}

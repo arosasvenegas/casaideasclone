@@ -68,6 +68,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    margin: 20px;
 }
 .flexRow--user__subscribe--container :global(.vtex-button) {
     background: #D50032;
@@ -83,15 +84,6 @@
     border-radius: 0px;
 
 }
-.flexRowContent--home__container :global(.vtex-button){
-    background: #D50032;
-    border-color: #D50032;
-    border-radius: 0px;
-    font-size: 13px;
-    margin-bottom: 5px;
-    width: 95%;
-}
 .flexRowContent--first__section--collection, .flexRowContent--second__section--collection{
     width: 100%;
-    
 }

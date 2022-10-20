@@ -5,7 +5,8 @@
       "blockClass": "department__summer-products",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "SALIÓ EL SOL",
         "text": "SALIÓ EL SOL"

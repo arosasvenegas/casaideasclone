@@ -18,9 +18,7 @@
   "header-row#header__content": {
     "children": [
       "logo#header__top--logo",
-      "quick-order",
-      "department-search",
-      /*"header-spacer",*/
+      "header-spacer",
       "search-bar#header__search",
       "icon#header__country--icon",
       "image#download__delivery--icon",

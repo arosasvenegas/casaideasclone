@@ -1,0 +1,88 @@
+{
+    "submenu#department__personal--submenu": {
+      "children": [
+        "menu#department__personal--submenu"
+      ],
+      "props": {
+        "blockClass": "container__personal--submenu"
+      }
+    },
+    "menu#department__personal--submenu": {
+      "children": [
+        "menu-item#category__personal--title",
+        "menu-item#category__personal--1",
+        "menu-item#category__personal--2",
+        "menu-item#category__personal--3",
+        "menu-item#category__personal--4"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_yard"
+      }
+    },
+    "menu-item#category__personal--title": {
+      "props": {
+        "id": "category__personal--title",
+        "blockClass": "category__personal--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Accesorios personales",
+          "text": "Ver todo Accesorios personales"
+        }
+      }
+    },
+    "menu-item#category__personal--1": {
+      "props": {
+        "id": "category__personal--1",
+        "blockClass": "category__personal--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios de viaje",
+          "text": "Accesorios de viaje"
+        }
+      }
+    },
+    "menu-item#category__personal--2": {
+      "props": {
+        "id": "category__personal--2",
+        "blockClass": "category__personal--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios deportivos",
+          "text": "Accesorios deportivos"
+        }
+      }
+    },
+    "menu-item#category__personal--3": {
+      "props": {
+        "id": "category__personal--3",
+        "blockClass": "category__personal--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Batas, calcetines y pantuflas",
+          "text": "Batas, calcetines y pantuflas"
+        }
+      }
+    },
+    "menu-item#category__personal--4": {
+      "props": {
+        "id": "category__personal--4",
+        "blockClass": "category__personal--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Bolsos y mochilas plegables",
+          "text": "Bolsos y mochilas plegables"
+        }
+      }
+    }
+  }

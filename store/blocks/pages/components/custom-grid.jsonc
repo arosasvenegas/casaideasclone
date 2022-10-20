@@ -11,27 +11,27 @@
   },
   "image#custom-grid-1": {
     "props": {
-      "src": "assets/img/newCollection/home__collection-1.jpg"
+      "src": "assets/img/newCollection/home__collection-1.webp"
     }
   },
   "image#custom-grid-2": {
     "props": {
-      "src": "assets/img/newCollection/home__collection-2.jpg"
+      "src": "assets/img/newCollection/home__collection-2.webp"
     }
   },
   "image#custom-grid-3": {
     "props": { 
-      "src": "assets/img/newCollection/home__collection-3.jpg"
+      "src": "assets/img/newCollection/home__collection-3.webp"
     }
   },
   "image#custom-grid-4": {
     "props": {
-      "src": "assets/img/newCollection/home__collection-4.jpg"
+      "src": "assets/img/newCollection/home__collection-4.webp"
     }
   },
   "image#custom-grid-5": {
     "props": {
-      "src": "assets/img/newCollection/home__collection-5.jpg"
+      "src": "assets/img/newCollection/home__collection-5.webp"
     }
   }
 }

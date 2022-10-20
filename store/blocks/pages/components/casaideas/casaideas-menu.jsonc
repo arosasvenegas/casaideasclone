@@ -7,7 +7,10 @@
       "flex-layout.col#casaideas__options--whatWeDo",
       "flex-layout.col#casaideas__options--howWeDo",
       "flex-layout.col#casaideas__options--commitment"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__container"
+    }
   },
   //texto opcion menu 1
   "flex-layout.col#casaideas__options--adn": {
@@ -28,6 +31,7 @@
   },
   "rich-text#casaideas__team--text": {
     "props": {
+      "blockClass": "menu__nuestro-equipo",
       "text": "NUESTRO EQUIPO"
     }
   },
@@ -39,6 +43,7 @@
   },
   "rich-text#casaideas__whatWeDo--text": {
     "props": {
+      "blockClass": "menu__que-hacemos",
       "text": "¿QUÉ HACEMOS?"
     }
   },
@@ -50,6 +55,7 @@
   },
   "rich-text#casaideas__howWeDo--text": {
     "props": {
+      "blockClass": "menu__como-hacemos",
       "text": "¿CÓMO LO HACEMOS?"
     }
   },
@@ -61,6 +67,7 @@
   },
   "rich-text#casaideas__commitment--text": {
     "props": {
+      "blockClass": "menu__comprometidos",
       "text": "COMPROMETIDOS"
     }
   }

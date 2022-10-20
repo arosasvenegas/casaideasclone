@@ -32,3 +32,88 @@
     height: 554px;
     width: 548px;
 }
+.infoCardTextContainer--info-card-image-one, .infoCardTextContainer--info-card-image-two, .infoCardTextContainer--info-card-image-three{
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    width: 351px;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+    top: 155px ;
+}
+.infoCardSubhead--info-card-image-one, .infoCardSubhead--info-card-image-two{
+    font-size: 21px;
+    font-weight: 400;
+    color: #686159;
+    position: relative;
+    left: 45px;
+}
+.infoCardSubhead--info-card-image-three{
+    font-size: 21px;
+    font-weight: 400;
+    color: #686159;
+    position: relative;
+    left:25px;
+}
+.infoCardCallActionContainer--info-card-image-one :global(.vtex-button), 
+.infoCardCallActionContainer--info-card-image-two :global(.vtex-button){
+    background-color: #E42437;
+    border-radius: 0px;
+    border-color: #E42437;
+    opacity: 1;
+    height: 52px;
+    width: 23px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+    left: 100px;
+   
+}
+.infoCardCallActionContainer--info-card-image-three :global(.vtex-button){
+    background-color: #E42437;
+    opacity: 1;
+    border-radius: 0px;
+    border-color: #E42437;
+    height: 52px;
+    width: 23px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+}
+.infoCardTextContainer--info-card-image-four, .infoCardTextContainer--info-card-image-five{
+    background-color: white;
+    opacity: 0.8;
+    width: 478px;
+    height: 114px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px ;
+}
+.infoCardSubhead--info-card-image-four, .infoCardSubhead--info-card-image-five{
+    font-size: 28px;
+    color: #686158;
+    font-weight: 300;
+    position: relative;
+    right: 100px;
+    bottom: 15px; 
+}
+.infoCardCallActionContainer--info-card-image-four :global(.vtex-button),
+.infoCardCallActionContainer--info-card-image-five :global(.vtex-button){
+    background-color: #696057;
+    opacity: 1;
+    border-radius: 0;
+    border-color: #696057;
+    position: relative;
+    bottom: 18px;
+    right: 144px;
+}
+.infoCardCallActionContainer--info-card-image-four :global(.vtex-button):hover,
+.infoCardCallActionContainer--info-card-image-five :global(.vtex-button):hover{
+    text-decoration: underline;
+}
+.skuSelectorcontainer{
+    visibility: hidden;
+}

@@ -1,0 +1,179 @@
+.paragraph--first--text{
+    text-align: center;
+    font-size: 49px;
+    color: #fd0035;
+    line-height: 55px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 390px;
+}
+.paragraph--second--text{
+    margin-top: 30px;
+    text-align: center;
+    max-width: 946px;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 38px;
+    padding: 0;
+    color: #545c5c;
+    position: relative;
+    left: 200px;
+}
+.paragraph--adn--title{
+    position: relative;
+    text-align: center;
+    left: 600px;
+    font-size: 25px;
+    width: 162px;
+    border-bottom: 2px solid #ff8e92;
+}
+.paragraph--adn--subtitle,
+.paragraph--team--subtitle,
+.paragraph--whatWeDo--subtitle
+{
+    position: relative;
+    text-align: center;
+    left: 395px;
+    font-size: 48px;
+    width: 550px;
+    bottom: 70px;
+}
+.paragraph--howWeDo__subtitle{
+    position: relative;
+    text-align: center;
+    left: 370px;
+    font-size: 48px;
+    width: 550px;
+    bottom: 70px;
+}
+.paragraph--text--content-1{
+    color: #fd0035;
+    font-size: 24px;
+    width: 550px;
+    position: relative;
+    left: 80px;
+}
+.paragraph--text--content-2{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 550px;
+    position: relative;
+    left: 80px;
+   
+}
+.paragraph--team--title{
+    position: relative;
+    text-align: center;
+    left: 550px;
+    font-size: 25px;
+    width: 250px;
+    border-bottom: 2px solid #ff8e92;
+}
+.paragraph--whatWeDo--title{
+    position: relative;
+    text-align: center;
+    left: 550px;
+    font-size: 25px;
+    width: 250px;
+    border-bottom: 2px solid #ff8e92;
+}
+.paragraph--whatWeDo__text-1{
+    color: #fd0035;
+    font-size: 24px;
+    width: 550px;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+}
+.paragraph--whatWeDo__text-2{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 550px;
+    position: relative;
+    left: 30px;
+    bottom: 55px;
+}
+.paragraph--howWeDo__title{
+    position: relative;
+    text-align: center;
+    left: 500px;
+    font-size: 25px;
+    width: 280px;
+    border-bottom: 2px solid #ff8e92;
+}
+.paragraph--howWeDo__text-1{
+    color: #fd0035;
+    font-size: 20px;
+    width: 450px;
+    position: relative;
+    right: 250px;
+    bottom: 25px;
+}
+.paragraph--howWeDo__text-2{
+    color: #545c5c;
+    font-size: 20px;
+    padding: 15px;
+    width: 550px;
+    position: relative;
+    right: 410px;
+    bottom: 315px;
+}
+.paragraph--commitment--title{
+    position: relative;
+    text-align: center;
+    left: 500px;
+    font-size: 25px;
+    width: 260px;
+    border-bottom: 2px solid #ff8e92;
+}
+.paragraph--commitment--subtitle{
+    position: relative;
+    text-align: center;
+    left: 350px;
+    font-size: 48px;
+    width: 550px;
+    bottom: 70px;
+    
+}
+.paragraph--commitment__text--one-1{
+    color: #fd0035;
+    font-size: 24px;
+    width: 600px;
+    position: relative;
+    left: 50px;
+
+    
+}
+.paragraph--commitment__text--one-2{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 600px;
+    position: relative;
+    right: 160px;
+    top: 150px;
+    
+    
+}
+.paragraph--commitment__text--two{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 600px;
+    position: relative;
+    right: 420px;
+    
+    
+}
+.paragraph--commitment__text--three{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 600px;
+    position: relative;
+    right: 145px;
+    top: 1120px;
+}

@@ -1,0 +1,133 @@
+{
+    "submenu#department__bathroom--submenu": {
+      "children": [
+        "menu#department__bathroom--submenu"
+      ],
+      "props": {
+        "blockClass": "container__bathroom--submenu"
+      }
+    },
+    "menu#department__bathroom--submenu": {
+      "children": [
+        "menu-item#category__bathroom--title",
+        "menu-item#category__bathroom--1",
+        "menu-item#category__bathroom--2",
+        "menu-item#category__bathroom--3",
+        "menu-item#category__bathroom--4",
+        "menu-item#category__bathroom--5",
+        "menu-item#category__bathroom--6",
+        "menu-item#category__bathroom--7"
+        
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_bathroom"
+      }
+    },
+    "menu-item#category__bathroom--title": {
+      "props": {
+        "id": "category__bathroom--title",
+        "blockClass": "category__bathroom--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Baño",
+          "text": "Ver todo Baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--1": {
+      "props": {
+        "id": "category__bathroom--1",
+        "blockClass": "category__bathroom--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Toallas y pisos de baño",
+          "text": "Toallas y pisos de baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--2": {
+      "props": {
+        "id": "category__bathroom--2",
+        "blockClass": "category__bathroom--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cortinas de baño",
+          "text": "Cortinas de baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--3": {
+      "props": {
+        "id": "category__bathroom--3",
+        "blockClass": "category__bathroom--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios para baño",
+          "text": "Accesorios para baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--4": {
+      "props": {
+        "id": "category__bathroom--4",
+        "blockClass": "category__bathroom--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Organizadores para baño",
+          "text": "Organizadores para baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--5": {
+      "props": {
+        "id": "category__bathroom--5",
+        "blockClass": "category__bathroom--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cuidado personal y SPA",
+          "text": "Cuidado personal y SPA"
+        }
+      }
+    },
+    "menu-item#category__bathroom--6": {
+      "props": {
+        "id": "category__bathroom--6",
+        "blockClass": "category__bathroom--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Muebles de baño",
+          "text": "Muebles de baño"
+        }
+      }
+    },
+    "menu-item#category__bathroom--7": {
+      "props": {
+        "id": "category__bathroom--7",
+        "blockClass": "category__bathroom--7",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Colecciones",
+          "text": "Colecciones"
+        }
+      }
+    }
+
+    
+  }

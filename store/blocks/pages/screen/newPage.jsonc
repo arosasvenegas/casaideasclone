@@ -1,0 +1,10 @@
+{
+ "store.custom#newPage": {
+  "blocks": [
+   "flex-layout.row#newPage__container"
+  ],
+  "props": {
+   "blockClass": "newPage__container"
+  }
+ }
+}

@@ -1,0 +1,30 @@
+.imageElement--image__welcome{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.imageElement--adn__image, .imageElement--whatwedo--image--one{
+    margin: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+}
+.imageElement--whatwedo--image--two{
+    margin: 20px;
+   
+}
+.imageElement--howWeDo__image{
+    margin: 20px;
+    position: relative;
+    left: 270px;
+    bottom: 70px;
+    
+}
+.imageElement--commitment__image--one{
+    position: relative;
+    left: 780px;
+    bottom: 940px;
+}
+.imageElement--commitment__image--two{
+    position: relative;
+    top: 1110px;
+}

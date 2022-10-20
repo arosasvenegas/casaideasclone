@@ -38,7 +38,8 @@
       "id": "category__offers",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "OFERTAS",
         "text": "OFERTAS"
@@ -50,7 +51,8 @@
       "id": "category__combinable_products",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "PRODUCTOS COMBINABLES",
         "text": "PRODUCTOS COMBINABLES"

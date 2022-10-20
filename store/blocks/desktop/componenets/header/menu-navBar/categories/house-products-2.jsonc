@@ -117,7 +117,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__kids--submenu"
     ]
   },
   "menu-item#category__bathroom--area": {
@@ -132,7 +132,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__bathroom--submenu"
     ]
   },
   "menu-item#category__storage--area": {
@@ -147,7 +147,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__storage--submenu"
     ]
   },
   "menu-item#category__garden--area": {
@@ -162,7 +162,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__garden--submenu"
     ]
   },
   "menu-item#category__desktop-paperware": {
@@ -177,7 +177,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__desktop--submenu"
     ]
   },
   "menu-item#category__yard--area": {
@@ -192,7 +192,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__yard--submenu"
     ]
   },
   "menu-item#category__pets": {
@@ -207,7 +207,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__pets--submenu"
     ]
   },
   "menu-item#category__laundry--area": {
@@ -222,7 +222,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__laundry--submenu"
     ]
   },
   "menu-item#category__personal--area": {
@@ -237,7 +237,7 @@
       }
     },
     "blocks": [
-      "submenu#department__dinning--submenu"
+      "submenu#department__personal--submenu"
     ]
   }
 }
