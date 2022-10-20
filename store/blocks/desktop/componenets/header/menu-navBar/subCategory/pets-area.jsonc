@@ -1,0 +1,60 @@
+{
+    "submenu#department__pets--submenu": {
+      "children": [
+        "menu#department__pets--submenu"
+      ],
+      "props": {
+        "blockClass": "container__pets--submenu"
+      }
+    },
+    "menu#department__pets--submenu": {
+      "children": [
+        "menu-item#category__pets--title",
+        "menu-item#category__pets--1",
+        "menu-item#category__pets--2"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_pets"
+      }
+    },
+    "menu-item#category__pets--title": {
+      "props": {
+        "id": "category__pets--title",
+        "blockClass": "category__pets--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Mascotas",
+          "text": "Ver todo Mascotas"
+        }
+      }
+    },
+    "menu-item#category__pets--1": {
+      "props": {
+        "id": "category__pets--1",
+        "blockClass": "category__pets--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Gatos",
+          "text": "Gatos"
+        }
+      }
+    },
+    "menu-item#category__pets--2": {
+      "props": {
+        "id": "category__pets--2",
+        "blockClass": "category__pets--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Perros",
+          "text": "Perros"
+        }
+      }
+    }
+  }

@@ -39,6 +39,7 @@
             "phone": 2
           },
           "showNavigationArrows": "always",
+          "showPaginationDots": "never",
           "infinite": true
         }
       },

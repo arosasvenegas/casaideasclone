@@ -5,7 +5,8 @@
       "blockClass": "department__kids-products",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "NIÑOS Y BEBÉ",
         "text": "NIÑOS Y BEBÉ"

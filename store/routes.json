@@ -4,5 +4,11 @@
   },
   "store.custom#pdf-reader": {
     "path": "/Terminos-y-Condiciones"
+  },
+  "store.custom#home-clone": {
+    "path": "/home"
+  },
+  "store.custom#newPage": {
+    "path": "/newPage"
   }
 }

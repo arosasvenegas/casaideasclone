@@ -1,12 +1,12 @@
 .clearLink--product__card{
-    width: 240px;
-    height: 480px;
+    width: 230px;
+    height: 450px;
     display: block;
-    position: relative;
-}
+    
+}   
 .imageWrapper{
-    width: 370;
-    height: 370px;
+    width: 100px;
+    height: 100px;
 }
 .nameContainer{
     width: 200px;
@@ -16,4 +16,13 @@
     font-size: 14px;
     color: #696158;
     margin: 5px 0px;
+}
+.element--product__card{
+    align-items: center;
+    height: 480px;
+    
+}
+.SKUSelectorContainer{
+    visibility: hidden;
+    height: 0px;
 }

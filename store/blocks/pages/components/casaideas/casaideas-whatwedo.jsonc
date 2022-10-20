@@ -7,18 +7,30 @@
   },
   "flex-layout.col#casaideas__section--whatWeDo": {
     "children": [
-      "rich-text#casaideas__howWeDo--text",
       "flex-layout.row#selction__whatWeDo--title",
+      "flex-layout.row#selction__whatWeDo--subtitle",
       "flex-layout.row#selction__whatWeDo--content"
     ]
   },
   "flex-layout.row#selction__whatWeDo--title": {
     "children": [
-      "rich-text#selction__whatWeDo--title"
+      "rich-text#casaideas__whatwedo--title"
     ]
   },
-  "rich-text#selction__whatWeDo--title": {
+  "rich-text#casaideas__whatwedo--title": {
     "props": {
+      "blockClass": "whatWeDo--title",
+      "text": "¿QUÉ HACEMOS?:"
+    }
+  },
+  "flex-layout.row#selction__whatWeDo--subtitle": {
+    "children": [
+      "rich-text#selction__whatWeDo--subtitle"
+    ]
+  },
+  "rich-text#selction__whatWeDo--subtitle": {
+    "props": {
+      "blockClass": "whatWeDo--subtitle",
       "text": "CREATIVIDAD\nCON SENTIDO"
     }
   },
@@ -36,17 +48,26 @@
   },
   "image#whatWeDo__image--one": {
     "props": {
+      "blockClass": "whatwedo--image--one",
       "src": "assets/img/nosotros/quienessomos04leftmobile.webp"
     }
   },
   "flex-layout.col#whatWeDo__text": {
     "children": [
-      "rich-text#whatWeDo__text"
+      "rich-text#whatWeDo__text-1",
+      "rich-text#whatWeDo__text-2"
     ]
   },
-  "rich-text#whatWeDo__text": {
+  "rich-text#whatWeDo__text-1": {
     "props": {
-      "text": "SOMOS UN EQUIPO MULTIDISCIPLINARIO QUE TRABAJA PARA ENTREGARTE PRODUCTOS ÚNICOS, QUE TIENEN UN DISEÑO QUE EMBELLECEN TUS ESPACIOS Y FACILITAN TUS TAREAS COTIDIANAS.\nDiseñamos en Chile, producimos en Asia y comercializamos nuestros productos en 4 países de Sudamérica, en un proceso que incluye muchas etapas y donde participan profesionales de diversas áreas. Siempre con el cliente al centro, tratando de anticiparnos a sus necesidades, pensando en cómo facilitar y alegrar sus vidas.\nEquipos de diseño, calidad, áreas comerciales, logística, visual y marketing, cuidan de miles de detalles, desde la creación de productos hasta el lugar que deben ocupar en nuestras tiendas físicas y online, haciendo posible que nuestros clientes disfruten de la mejor experiencia.\nEs parte de nuestra tarea preocuparnos de ser sustentables, y también, tener estrechas relaciones con nuestros proveedores, de manera de controlar y desarrollar planes de trabajo, que se traduce en tener mejores precios, así entregar a nuestros clientes, un producto que satisfaga y dé respuesta a todas sus necesidades."
+      "blockClass": "whatWeDo__text-1",
+      "text": "SOMOS UN EQUIPO MULTIDISCIPLINARIO QUE TRABAJA PARA ENTREGARTE PRODUCTOS ÚNICOS, QUE TIENEN UN DISEÑO QUE EMBELLECEN TUS ESPACIOS Y FACILITAN TUS TAREAS COTIDIANAS."
+    }
+  },
+  "rich-text#whatWeDo__text-2": {
+    "props": {
+      "blockClass": "whatWeDo__text-2",
+      "text": "Diseñamos en Chile, producimos en Asia y comercializamos nuestros productos en 4 países de Sudamérica, en un proceso que incluye muchas etapas y donde participan profesionales de diversas áreas. Siempre con el cliente al centro, tratando de anticiparnos a sus necesidades, pensando en cómo facilitar y alegrar sus vidas.\nEquipos de diseño, calidad, áreas comerciales, logística, visual y marketing, cuidan de miles de detalles, desde la creación de productos hasta el lugar que deben ocupar en nuestras tiendas físicas y online, haciendo posible que nuestros clientes disfruten de la mejor experiencia.\nEs parte de nuestra tarea preocuparnos de ser sustentables, y también, tener estrechas relaciones con nuestros proveedores, de manera de controlar y desarrollar planes de trabajo, que se traduce en tener mejores precios, así entregar a nuestros clientes, un producto que satisfaga y dé respuesta a todas sus necesidades."
     }
   },
   "flex-layout.col#whatWeDo__image--two": {
@@ -56,6 +77,7 @@
   },
   "image#whatWeDo__image--two": {
     "props": {
+      "blockClass": "whatwedo--image--two",
       "src": "assets/img/nosotros/america_mobile.webp"
     }
   }

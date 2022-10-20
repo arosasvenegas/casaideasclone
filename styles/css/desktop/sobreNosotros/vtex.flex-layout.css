@@ -1,0 +1,12 @@
+.flexRow--menu__container{
+   align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #333;
+    cursor: pointer;
+    width: 1000px ;
+    position: relative;
+    left: 180px;
+    font-weight: thin;
+    
+}

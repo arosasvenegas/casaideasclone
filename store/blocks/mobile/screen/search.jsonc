@@ -73,36 +73,9 @@
     "children": ["total-products.v2"]
   },
   "flex-layout.row#mobile__results-department--searchContent": {
-    "children": ["search-content"]
-  },
-  "search-content": {
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
-  },
-  "gallery": {
+    "children": ["list-context.product-list#plp__result-mobile"],
     "props": {
-      "blockClass": "gallery__products",
-      "layouts": [
-        {
-          "name": "grid",
-          "components": "GridSummary",
-          "itemsPerRow": {
-            "desktop": 4,
-            "tablet":3,
-            "phone": 2
-          }
-          
-        },
-        {
-          "name": "list",
-        "component": "ListSummary",
-        "itemsPerRow": 1
-        }
-      ],
-      "ListSummary": "product-summary.shelf#listLayout",
-      "GeneralGrid":  "product-summary.shelf"
+      "blockClass": "plp__result--mobile"
     }
   }
 }
