@@ -1,0 +1,124 @@
+.infoCardContainer--info-card-image-one--mobile,
+.infoCardContainer--info-card-image-two--mobile,
+.infoCardContainer--info-card-image-three--mobile {
+    height: 180px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoCardTextContainer--info-card-image-one--mobile,
+.infoCardTextContainer--info-card-image-two--mobile,
+.infoCardTextContainer--info-card-image-three--mobile {
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    height: 53px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 57px;
+}
+
+.infoCardSubhead--info-card-image-one--mobile,
+.infoCardSubhead--info-card-image-two--mobile,
+.infoCardSubhead--info-card-image-three--mobile {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #686159;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.infoCardCallActionContainer--info-card-image-one--mobile :global(.vtex-button){
+    border-radius: 0px;
+    position: relative;
+    left: 143px;
+    bottom: 20px;
+    height: 45px;
+    width: 25px;
+}
+.infoCardCallActionContainer--info-card-image-two--mobile :global(.vtex-button) {
+    border-radius: 0px;
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+    height: 45px;
+    width: 25px;
+}
+.infoCardCallActionContainer--info-card-image-three--mobile :global(.vtex-button){
+    border-radius: 0px;
+    position: relative;
+    left: 105px;
+    bottom: 20px;
+    height: 45px;
+    width: 25px;
+}
+.infoCardCallActionContainer--info-card-image-one--mobile :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-image-two--mobile :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-image-three--mobile :global(.vtex-button__label) {
+    font-size: 30px;
+    position: relative;
+    right: 12px;
+    bottom: 2px;
+}
+.infoCardContainer--info-card-image-four--mobile,
+.infoCardContainer--info-card-image-five--mobile{
+    height: 238px;
+    width: 162px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.infoCardContainer--info-card-image-five--mobile{
+    position: relative;
+    left: 195px;
+    bottom: 259px;
+}
+.infoCardTextContainer--info-card-image-four--mobile,
+.infoCardTextContainer--info-card-image-five--mobile{
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    width: 142px;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    top: 55px;
+    
+}
+.infoCardSubhead--info-card-image-four--mobile,
+.infoCardSubhead--info-card-image-five--mobile  {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 12px;
+    margin-top: 12px;
+    text-align: left;
+    color: #686159;
+    
+    
+}
+.infoCardCallActionContainer--info-card-image-four--mobile :global(.vtex-button),
+.infoCardCallActionContainer--info-card-image-five--mobile :global(.vtex-button){
+    border-radius: 0px;
+    height: 36px;
+    width: 102px;
+    background-color: #696057;
+    border-color: #696057;
+    position: relative;
+    bottom: 13px;
+    right: 10px;
+    opacity: 1 #696057;
+
+}
+.infoCardCallActionContainer--info-card-image-four--mobile :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-image-five--mobile :global(.vtex-button__label){
+    height: 30px;
+    width: 90px;
+    padding: 0px;
+    font-size: 14px;
+}

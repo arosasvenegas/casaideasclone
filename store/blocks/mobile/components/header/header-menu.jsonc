@@ -2,7 +2,10 @@
   "drawer#header__mobile--menu": {
     "children": [
       "menu#header__menu"
-    ]
+    ],
+    "props": {
+      "blockClass": "drawer__menu"
+    }
   },
   "menu#header__menu": {
     "children": [

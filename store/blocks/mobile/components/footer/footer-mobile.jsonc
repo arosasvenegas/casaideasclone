@@ -1,15 +1,15 @@
 {
-    "footer-layout.mobile": { 
+  /* "footer-layout.mobile": { 
     "children": [
-      "disclosure-layout-group#footer__menu--group"
-      /*"flex-layout.row#footer"*/
+      "disclosure-layout-group#footer__menu--group",
+      "flex-layout.row#footer"
     ]
   },
   "disclosure-layout-group#footer__menu--group": {
     "children": [
       "disclosure-layout#policies",
-      "disclosure-layout#about-us"
-      /*"disclosure-layout#departments"*/
+      "disclosure-layout#about-us",
+      "disclosure-layout#departments"
     ]
   },
   "disclosure-layout#policies": {
@@ -111,5 +111,5 @@
         "text": "Nuestras tiendas"
       }
     }
-  }
+  }*/
 }
