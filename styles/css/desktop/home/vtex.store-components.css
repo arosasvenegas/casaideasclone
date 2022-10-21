@@ -71,6 +71,13 @@
     left: 100px;
    
 }
+.infoCardCallActionContainer--info-card-image-one :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-image-two :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-image-three :global(.vtex-button__label){
+    position: relative;
+    right: 15px;
+    font-size: 30px;
+}
 .infoCardCallActionContainer--info-card-image-three :global(.vtex-button){
     background-color: #E42437;
     opacity: 1;

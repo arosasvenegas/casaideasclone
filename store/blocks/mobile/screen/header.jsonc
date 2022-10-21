@@ -7,16 +7,6 @@
       "header-row#header__middle--mobile"
     ]
   },
-  "header-row#header__content--mobile": {
-    "title": "Header Medio",
-    "children": [
-      "drawer#header__mobile--menu"
-      
-    ],
-    "props": {
-      "blockClass": "header__middle"
-    }
-  },
   "product-summary.shelf#result-list": {
     "children": [
       "product-summary-add-to-list-button",

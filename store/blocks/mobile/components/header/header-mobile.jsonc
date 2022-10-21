@@ -2,7 +2,10 @@
   "header-row#header__top--mobile": {
     "children": [
       "rich-text#header__top--text--mobile"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__top--mobile"
+    }
   },
   "rich-text#header__top--text--mobile": {
     "props": {
@@ -13,26 +16,32 @@
     }
   },
   "header-row#header__content--mobile": {
-    "children":[
+    "children": [
       "drawer#header__mobile--menu",
-      "logo#header__top--logo-mobile",
+      "logo#header__top--logo--mobile",
       "icon#header__country--icon",
       "minicart.v2",
       "login"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
   },
-  "logo#header__top--logo-mobile":{
+  "logo#header__top--logo--mobile": {
     "title": "Logo",
     "props": {
+      "blockClass": "logo__mobile",
       "url": "assets/img/logo/header__logo.png",
       "width": 170,
       "href": "/"
     }
   },
-
   "header-row#header__middle--mobile": {
     "children": [
       "search-bar#header__search"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__search--mobile"
+    }
   }
-}  
+}
