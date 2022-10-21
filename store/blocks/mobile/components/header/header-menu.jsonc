@@ -1,0 +1,25 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": [
+      "menu#header__menu"
+    ],
+    "props": {
+      "blockClass": "drawer__menu"
+    }
+  },
+  "menu#header__menu": {
+    "children": [
+      "menu-item#department__new-products",
+      "menu-item#department__house-products",
+      "menu-item#department__all-products",
+      "menu-item#department__kids-products",
+      "menu-item#department__summer-products",
+      "menu-item#department__season-products",
+      "menu-item#department__discount",
+      "menu-item#department__about-casaideas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

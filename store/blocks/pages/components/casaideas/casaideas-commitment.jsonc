@@ -1,0 +1,123 @@
+{
+  //seccion compromiso
+  "flex-layout.row#casaideas__section--commitment": {
+    "children": [
+      "flex-layout.col#casaideas__section--commitment"
+    ]
+  },
+  "flex-layout.col#casaideas__section--commitment": {
+    "children": [
+      "flex-layout.row#selction__commitment--title",
+      "flex-layout.row#selction__commitment--subtitle",
+      "flex-layout.row#selction__commitment--content"
+    ]
+  },
+  "flex-layout.row#selction__commitment--title": {
+    "children": [
+      "rich-text#casaideas__commitment--title"
+    ]
+  },
+  "rich-text#casaideas__commitment--title": {
+    "props": {
+      "blockClass": "commitment--title",
+      "text": "COMPROMETIDOS:"
+    }
+  },
+  "flex-layout.row#selction__commitment--subtitle": {
+    "children": [
+      "rich-text#commitment__subtitle"
+    ]
+  },
+  "rich-text#commitment__subtitle": {
+    "props": {
+      "blockClass": "commitment--subtitle",
+      "text": "COMPROMISOS"
+    }
+  },
+  "flex-layout.row#selction__commitment--content": {
+    "children": [
+      "flex-layout.col#commitment__part--one",
+      "flex-layout.col#commitment__part--two",
+      "flex-layout.col#commitment__part--three"
+    ]
+  },
+  "flex-layout.col#commitment__part--one": {
+    "children": [
+      "flex-layout.row#commitment__text--one",
+      "flex-layout.row#commitment__image--one"
+    ]
+  },
+  "flex-layout.row#commitment__image--one": {
+    "children": [
+      "image#commitment__image--one"
+    ]
+  },
+  "image#commitment__image--one": {
+    "props": {
+      "blockClass": "commitment__image--one",
+      "src": "assets/img/nosotros/quienessomos06mobile.webp"
+    }
+  },
+  "flex-layout.row#commitment__text--one": {
+    "children": [
+      "rich-text#commitment__text--one-1",
+      "rich-text#commitment__text--one-2"
+    ]
+  },
+  "rich-text#commitment__text--one-1": {
+    "props": {
+      "blockClass": "commitment__text--one-1",
+      "text": "SOMOS UN GRUPO HUMANO QUE SE COMPROMETE CON EL ENTORNO Y LA COMUNIDAD, Y CREEMOS QUE SER SUSTENTABLES ES HACER BIEN LAS COSAS, ASEGURANDO UN EQUILIBRIO SOCIAL Y AMBIENTAL."
+    }
+  },
+  "rich-text#commitment__text--one-2": {
+    "props": {
+      "blockClass": "commitment__text--one-2",
+      "text": "Nuestros productos se fabrican en Asia, con proveedores que están constantemente siendo evaluados. Mantenemos un programa de auditorías anuales a las distintas fábricas donde los proveedores son revisados según estándares internacionales.\nAl día de hoy, tenemos auditados al 90% de proveedores más relevantes para la compañía. Todo esto nos valida un trabajo que cumple con el cuidado del medioambiente y las personas. Esta estrecha relación de trabajo nos ayuda a controlar de mejor forma que el producto final que compras, tenga un buen precio y sea de excelente calidad.\nEn Casaideas tenemos productos con la certificación FSC® de bosques responsables; Oekotex, que asegura que los textiles no tengan sustancias nocivas en su fabricación; RDS que promueve el bienestar de los animales en la cadena de suministro, entre otros. Estos productos representan al día de hoy el 50% de lo que ofrecemos a nuestros clientes.\nQueremos ser reconocidos por nuestros clientes como agentes del cambio e impulsores del comercio justo, y por eso estamos trabajando en 6 focos prioritarios en materia de Sustentabilidad con una meta al 2024."
+    }
+  },
+  "flex-layout.col#commitment__part--two": {
+    "children":[
+      "flex-layout.row#commitment__image--two",
+      "flex-layout.row#commitment__text--two"
+    ]
+  },
+  "flex-layout.row#commitment__image--two": {
+    "children": [
+      "image#commitment__image--two"
+    ]
+  },
+  "image#commitment__image--two": {
+    "props": {
+      "blockClass": "commitment__image--two",
+      "src": "assets/img/nosotros/foco.webp"
+    }
+  },
+  "flex-layout.row#commitment__text--two": {
+    "children": [
+      "rich-text#commitment__text--two"
+    ]
+  },
+  "rich-text#commitment__text--two": {
+    "props": {
+      "blockClass": "commitment__text--two",
+      "text": "Nuestros focos son:\n Colaboradores:\nNuestro objetivo es fortalecer una cultura empresarial sustentable, que sea un valor transversal y esté incorporada en nuestro que hacer de forma orgánica, motivando a nuestros colaboradores con mayores beneficios para que tengan una mejor calidad de vida personal y laboral.\n Integridad y ética:\nCreemos como empresa que el crecimiento responsable va de la mano con la transparencia e integridad, es por ello que somos y seremos enfáticos en el rechazo de todo acto que involucre la corrupción y/o cualquier delito que de esto se despliegue.\n Compromiso Medioambiental:\nNuestro compromiso ambiental busca gestionar y reducir los impactos que nuestra operación origina, es por ello que nuestras iniciativas apuntan a la medición y reducción de nuestra huella de carbono.\n Compra Sustentable:\nMantenemos una relación estrecha con los proveedores, fomentando y reconociendo las mejores prácticas y la transparencia comercial, con programas de evaluación, selección y calificación de Proveedores según los estándares internacionales de Calidad, Salud ocupacional, Sistema Social y Gestión Ambiental como ISOs, Sedex, - SA800 y BSCI."
+    }
+  },
+  "flex-layout.col#commitment__part--three": {
+    "children": [
+      "flex-layout.row#commitment__text--three"
+    ]
+  },
+  "flex-layout.row#commitment__text--three": {
+    "children": [
+      "rich-text#commitment__text--three"
+    ]
+  },
+  "rich-text#commitment__text--three": {
+    "props": {
+      "blockClass": "commitment__text--three",
+      "text": " Clientes:\nNuestros clientes son muy importantes y queremos satisfacer sus requerimientos de manera clara y efectiva, por eso se trabaja en un programa que apunta a mejorar nuestra capacidad de servicio y hacer de la experiencia de compra algo distinto, partiendo desde la empatía y compromiso.\nComunidad:\nSiempre hemos mantenido una coherencia entre lo que hacemos y lo que comunicamos a nuestra comunidad. Por eso es que seguiremos promoviendo y creando iniciativas como planes de voluntariado y donaciones.\nComo compañía tenemos metas importantes al año 2024, y estamos avanzando de manera muy responsable. Esperamos que con estas iniciativas estemos impulsando un cambio positivo en la industria en general."
+    }
+  }
+}

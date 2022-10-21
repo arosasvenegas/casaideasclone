@@ -51,7 +51,8 @@
       "id": "category__sustainability",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "Sostenibilidad",
         "text": "Sostenibilidad"

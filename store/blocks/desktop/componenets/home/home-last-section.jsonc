@@ -26,7 +26,7 @@
   },
   "image#download__calendar-desktop": {
     "props": {
-      "src": "assets/img/section_calendar/home__calendar.jpg",
+      "src": "assets/img/section_calendar/home__calendar-new.webp",
       "blockClass": "image__calendar"
     }
   },

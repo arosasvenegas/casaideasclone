@@ -40,6 +40,7 @@
     opacity: .8;
     color: #696158;
     font-weight: 400;
+    
 }
 .submenuContainer--container__kitchen--submenu{
     position: relative;
@@ -62,3 +63,80 @@
     left: 170px;
     bottom: 90px;
 }
+.submenuContainer--container__kids--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 115px;
+}
+.submenuContainer--container__storage--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 155px;
+}
+.submenuContainer--container__bathroom--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 135px;
+}
+.submenuContainer--container__garden--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 180px;
+}
+.submenuContainer--container__desktop--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+}
+.submenuContainer--container__yard--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 220px;
+}
+.submenuContainer--container__pets--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 242px;
+}
+.submenuContainer--container__laundry--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 265px;
+}
+.submenuContainer--container__personal--submenu{
+    position: relative;
+    left: 170px;
+    bottom: 285px;
+}
+.submenuWrapper--container__kitchen--submenu--isOpen{
+    height: 305px;
+    width: 235px;
+}
+.submenuWrapper--container__living--submenu--isOpen,
+.submenuWrapper--container__yard--submenu--isOpen,
+.submenuWrapper--container__pets--submenu--isOpen,
+.submenuWrapper--container__personal--submenu--isOpen{
+    height: 299px;
+    width: 235px;
+}
+.submenuWrapper--container__bedroom--submenu--isOpen{
+    height: 302px;
+    width: 235px;
+}
+.submenuWrapper--container__dinning--submenu--isOpen,
+.submenuWrapper--container__storage--submenu--isOpen{
+    height: 300px;
+    width: 235px;
+}
+.submenuWrapper--container__kids--submenu--isOpen,
+.submenuWrapper--container__garden--submenu--isOpen{
+    height: 303px;
+    width: 235px;
+}
+.submenuWrapper--container__bathroom--submenu--isOpen,
+.submenuWrapper--container__desktop--submenu--isOpen,
+.submenuWrapper--container__laundry--submenu--isOpen{
+    height: 301px;
+    width: 235px;
+}
+

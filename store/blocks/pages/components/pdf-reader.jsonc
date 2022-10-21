@@ -1,12 +1,4 @@
 {
-  "store.custom#pdf-reader": {
-    "blocks": [
-      "pdf-reader"
-    ],
-    "props": {
-      "blockClass": "pdfReader__container"
-    }
-  },
   "pdf-reader": {
     "props": {
       "pdfUrl": "assets/documents/pdf-casaideas.pdf",
@@ -15,4 +7,5 @@
 
     }
   }
+
 }

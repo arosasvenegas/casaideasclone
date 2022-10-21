@@ -5,7 +5,8 @@
       "blockClass": "department__season-products",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "ACCESORIOS DE TEMPORADA",
         "text": "ACCESORIOS DE TEMPORADA"

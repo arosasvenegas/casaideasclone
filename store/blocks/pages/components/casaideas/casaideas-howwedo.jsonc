@@ -1,0 +1,72 @@
+{
+  //how we do
+  "flex-layout.row#casaideas__section--howWeDo": {
+    "children": [
+      "flex-layout.col#casaideas__section--howWeDo"
+    ]
+  },
+  "flex-layout.col#casaideas__section--howWeDo": {
+    "children": [
+      "flex-layout.row#selction__howWeDo--title",
+      "flex-layout.row#selction__howWeDo--subtitle",
+      "flex-layout.row#selction__howWeDo--content"
+    ]
+  },
+  "flex-layout.row#selction__howWeDo--title": {
+    "children": [
+      "rich-text#casaideas__howWeDo--title"
+    ]
+  },
+  "rich-text#casaideas__howWeDo--title": {
+    "props": {
+      "blockClass": "howWeDo__title",
+      "text": "¿CÓMO LO HACEMOS?:"
+    }
+  },
+  "flex-layout.row#selction__howWeDo--subtitle": {
+    "children": [
+      "rich-text#howWeDo__subtitle"
+    ]
+  },
+  "rich-text#howWeDo__subtitle": {
+    "props": {
+      "blockClass": "howWeDo__subtitle",
+      "text": "EXPERTOS\nEN TU CASA"
+    }
+  },
+  "flex-layout.row#selction__howWeDo--content": {
+    "children": [
+      "flex-layout.col#howWeDo__image",
+      "flex-layout.col#howWeDo__text"
+    ]
+  },
+  "flex-layout.col#howWeDo__image": {
+    "children": [
+      "image#howWeDo__image"
+    ]
+  },
+  "image#howWeDo__image": {
+    "props": {
+      "blockClass": "howWeDo__image",
+      "src": "assets/img/nosotros/quienessomos05mobile.webp"
+    }
+  },
+  "flex-layout.col#howWeDo__text": {
+    "children": [
+      "rich-text#howWeDo__text-1",
+      "rich-text#howWeDo__text-2"
+    ]
+  },
+  "rich-text#howWeDo__text-1": {
+    "props": {
+      "blockClass": "howWeDo__text-1",
+      "text": "SABEMOS QUE TIENES MUCHAS NECESIDADES Y TU CASA TAMBIÉN. POR ESO, TE ENTREGAMOS MÁS DE 3.000 DIFERENTES PRODUCTOS PARA QUE PUEDAS DISFRUTAR TU HOGAR."
+    }
+  },
+  "rich-text#howWeDo__text-2": {
+    "props": {
+      "blockClass": "howWeDo__text-2",
+      "text": "7 equipos de diseño se especializan por espacios de la casa; analizan al cliente y detectan nuevas necesidades, definen tendencias de diseño y seleccionan a los mejores proveedores, obteniendo como resultado las nuevas colecciones.\nNuestras tiendas también se ordenan por espacios de la casa y el recorrido está organizado de una forma lógica y fácilmente entendible.\nSon 2 colecciones al año las que te ayudan a renovar y facilitar tu día a día, las cuales van llegando en diferentes períodos.\nTenemos renovación de productos 5 veces al año.\nQueremos inspirar y proponer soluciones, con una propuesta muy variada, que puedes conocer y disfrutar en nuestras tiendas, sitio web y RRSS."
+    }
+  }
+}

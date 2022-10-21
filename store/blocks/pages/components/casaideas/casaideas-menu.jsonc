@@ -1,0 +1,74 @@
+{
+    //Menu
+  "flex-layout.row#casaideas__menu--options": {
+    "children": [
+      "flex-layout.col#casaideas__options--adn",
+      "flex-layout.col#casaideas__options--team",
+      "flex-layout.col#casaideas__options--whatWeDo",
+      "flex-layout.col#casaideas__options--howWeDo",
+      "flex-layout.col#casaideas__options--commitment"
+    ],
+    "props": {
+      "blockClass": "menu__container"
+    }
+  },
+  //texto opcion menu 1
+  "flex-layout.col#casaideas__options--adn": {
+    "children": [
+      "rich-text#casaideas__adn--text"
+    ]
+  },
+  "rich-text#casaideas__adn--text": {
+    "props": {
+      "text": "ADN"
+    }
+  },
+  //texto opcion menu 2
+  "flex-layout.col#casaideas__options--team": {
+    "children": [
+      "rich-text#casaideas__team--text"
+    ]
+  },
+  "rich-text#casaideas__team--text": {
+    "props": {
+      "blockClass": "menu__nuestro-equipo",
+      "text": "NUESTRO EQUIPO"
+    }
+  },
+  //texto opcion menu 3
+  "flex-layout.col#casaideas__options--whatWeDo": {
+    "children": [
+      "rich-text#casaideas__whatWeDo--text"
+    ]
+  },
+  "rich-text#casaideas__whatWeDo--text": {
+    "props": {
+      "blockClass": "menu__que-hacemos",
+      "text": "¿QUÉ HACEMOS?"
+    }
+  },
+  //texto opcion menu 4
+  "flex-layout.col#casaideas__options--howWeDo": {
+    "children": [
+      "rich-text#casaideas__howWeDo--text"
+    ]
+  },
+  "rich-text#casaideas__howWeDo--text": {
+    "props": {
+      "blockClass": "menu__como-hacemos",
+      "text": "¿CÓMO LO HACEMOS?"
+    }
+  },
+  //texto opcion menu 5
+  "flex-layout.col#casaideas__options--commitment": {
+    "children": [
+      "rich-text#casaideas__commitment--text"
+    ]
+  },
+  "rich-text#casaideas__commitment--text": {
+    "props": {
+      "blockClass": "menu__comprometidos",
+      "text": "COMPROMETIDOS"
+    }
+  }
+}

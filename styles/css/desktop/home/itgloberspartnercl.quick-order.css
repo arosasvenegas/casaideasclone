@@ -1,0 +1,25 @@
+.quickOrder__title{
+    margin-top: 40px;
+}
+.quickOrder__label{
+    margin-right: 15px;
+}
+.quickOrder__input{
+    border-radius: 0;
+    border: 2px solid #686868;
+    width: 100px;
+    height: 30px;
+}
+.quickOrder__button{
+    background-color: #E42437;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 0;
+    border-color: #E42437;
+    box-shadow: none;
+    position: relative;
+    left: 350px;
+    bottom: 35px;
+
+}

@@ -2,34 +2,9 @@
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
-      "header-row#header__top",
-      "header-row#header__content",
-      "header-row#header__middle"
-    ]
-  },
-  "header-row#header__middle": {
-    "title": "Header Medio",
-    "children": [
-      "drawer#header__mobile--menu",
-      "search-bar#header__search"
-    ],
-    "props": {
-      "blockClass": "header__middle"
-    }
-  },
-  "search-bar#header__search": {
-    "blocks": [
-      "autocomplete-result-list.v2"
-    ],
-    "props": {
-      "blockClass": "header__search--bar",
-      "openAutocompleteOnFocus": true,
-      "placeholder": "Escribe tu búsqueda"
-    }
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": [
-      "product-summary.shelf#result-list"
+      "header-row#header__top--mobile",
+      "header-row#header__content--mobile",
+      "header-row#header__middle--mobile"
     ]
   },
   "product-summary.shelf#result-list": {

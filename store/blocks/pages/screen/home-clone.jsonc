@@ -1,0 +1,8 @@
+{
+  "store.custom#home-clone": {
+    "blocks": [
+      "responsive-layout.desktop#home__desktop"
+    ]
+  }
+}
+

@@ -5,7 +5,8 @@
       "blockClass": "department__new-products",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
+        "href": "/newPage",
         "noFollow": true,
         "tagTitle": "NUEVOS",
         "text": "NUEVOS"

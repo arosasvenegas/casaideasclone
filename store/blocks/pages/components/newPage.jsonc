@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#newPage__container": {
+    "children": [
+      "flex-layout.col#newPage__container"
+    ]
+  },
+  "flex-layout.col#newPage__container": {
+    "children": [
+      "rich-text#newPage__text",
+      "image#newPage__image"
+    ]
+  },
+  "rich-text#newPage__text": {
+    "props": {
+      "text": "# Bienvenido! ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "newPage__text"
+    }
+  },
+  "image#newPage__image": {
+    "props": {
+      "src": "assets/img/homeSlider/home__slider-1.webp"
+    }
+  }
+}
