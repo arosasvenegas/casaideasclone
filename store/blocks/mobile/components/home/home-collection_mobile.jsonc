@@ -14,7 +14,7 @@
       "flex-layout.row#images__home--collection--mobile",
       "flex-layout.row#images__home--collection--second--mobile",
       "flex-layout.row#text__home--collection--mobile",
-      "flex-layout.row#title__shelf--desktop"
+      "flex-layout.row#title__shelf--mobile"
     ],
     "props": {
       "blockClass": "homeCollection--mobile"
@@ -224,55 +224,58 @@
   },
   "flex-layout.row#text__home--collection--mobile": {
     "children": [
-      "flex-layout.col#text__buy--collection"
+      "flex-layout.col#text__buy--collection--mobile"
     ],
     "props": {
-      "blockClass": "text__buy--collection"
+      "blockClass": "text__buy--collection--mobile"
     }
   },
-  "flex-layout.col#text__buy--collection": {
+  "flex-layout.col#text__buy--collection--mobile": {
     "children": [
-      "flex-layout.row#buy__online--title",
-      "flex-layout.row#buy__online--description"
+      "flex-layout.row#buy__online--title--mobile",
+      "flex-layout.row#buy__online--description--mobile"
     ]
   },
-  "flex-layout.row#buy__online--title": {
+  "flex-layout.row#buy__online--title--mobile": {
     "children": [
-      "rich-text#buy__online--title"
+      "rich-text#buy__online--title--mobile"
     ]
   },
-  "rich-text#buy__online--title": {
+  "rich-text#buy__online--title--mobile": {
     "props": {
       "text": "Artículos de hogar ¡Compra Online! | Casaideas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "titleBuyOnline"
+      "blockClass": "titleBuyOnline--mobile"
     }
   },
-  "flex-layout.row#buy__online--description": {
+  "flex-layout.row#buy__online--description--mobile": {
     "children": [
-      "rich-text#buy__online--description"
+      "rich-text#buy__online--description--mobile"
     ]
   },
-  "rich-text#buy__online--description": {
+  "rich-text#buy__online--description--mobile": {
     "props": {
       "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "descriptionBuyOnline"
+      "blockClass": "descriptionBuyOnline--mobile"
     }
   },
-  "flex-layout.row#title__shelf--desktop": {
+  "flex-layout.row#title__shelf--mobile": {
     "children": [
-      "rich-text#title__shelf--desktop"
-    ]
+      "rich-text#title__shelf--mobile"
+    ],
+    "props": {
+      "blockClass": "title__shelf--mobile"
+    }
   },
-  "rich-text#title__shelf--desktop": {
+  "rich-text#title__shelf--mobile": {
     "props": {
       "text": "¡NO TE LOS PUEDES PERDER!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "title__shelf"
+      "blockClass": "title__shelf--mobile"
     }
   }
 }
