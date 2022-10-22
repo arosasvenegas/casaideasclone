@@ -1,0 +1,10 @@
+{
+  "responsive-layout.phone#home__phone": {
+    "children": [
+      "flex-layout.row#home__container--mobile"
+    ],
+    "props": {
+      "blockClass": "home__container--mobile"
+    }
+  }
+}

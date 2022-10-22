@@ -1,4 +1,4 @@
-{
+{/*
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
@@ -17,5 +17,5 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
-  }
+  }*/
 }

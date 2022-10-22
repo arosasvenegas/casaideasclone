@@ -34,11 +34,11 @@
         "props": {
           "blockClass": "home__slider--products-desktop",
           "itemsPerPage": {
-            "desktop": 3,
+            "desktop": 5,
             "tablet": 4,
             "phone": 2
           },
-          "showNavigationArrows": "always",
+          "showNavigationArrows": "desktopOnly",
           "showPaginationDots": "never",
           "infinite": true
         }

@@ -35,16 +35,14 @@
 
 .sliderArrows--home__slider--products-desktop{
     color: #75787a;
-    margin: -2.70em;
+    margin: -1.70em;
+   
 }
 .slideChildrenContainer--home__slider--products-desktop{
-    width: 290px;
     height: 350px;
     margin: 20px;
     align-items: center;
-    position: relative;
-    left: 15px;
-    padding-left: 30px;
+    
 }
 .slideChildrenContainer--home__slider--products-desktop:hover{
     box-shadow: 2px 2px 5px 5px #75787a;
