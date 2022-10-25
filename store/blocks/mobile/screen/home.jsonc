@@ -1,6 +1,6 @@
 {
-  "responsive-layout.tablet#home__tablet": {
-    "title": " Responsive layout tablet",
+  "responsive-layout.mobile#home__mobile": {
+    "title": "Responsive Layout Desktop",
     "children": [
       "flex-layout.row#home__container--desktop"
     ],
