@@ -1,5 +1,6 @@
 {
   "search-result-layout.mobile": {
+    "title": "search result mobile",
     "children": [
       "flex-layout.row#desktop__department--breadcrumb",
       "flex-layout.row#desktop__department--title",
@@ -12,16 +13,19 @@
     }
   },
   "flex-layout.row#desktop__department--breadcrumb": {
+    "title": "Department breadcrumb container",
     "children": [
       "breadcrumb.search"
     ]
   },
   "breadcrumb.search": {
+    "title": "Breadcrumb search ",
     "props": {
       "showOnMobile": true
     }
   },
   "flex-layout.row#desktop__department--title": {
+    "title": "Search title",
     "children": [
       "search-title.v2"
     ]

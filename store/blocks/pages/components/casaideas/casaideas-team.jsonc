@@ -1,71 +1,81 @@
 {
   //Contenido seccion dos -TEAM
   "flex-layout.row#casaideas__section--team": {
+    "title": "CasaIdeas section team container",
     "children": [
       "flex-layout.col#casaideas__section--team"
     ]
   },
   "flex-layout.col#casaideas__section--team": {
+    "title": "CasaIdeas section team content",
     "children": [
       "flex-layout.row#selction__team--title",
-      
       "flex-layout.row#selction__team--subtitle",
       "flex-layout.row#selction__team--content"
     ]
   },
   "flex-layout.row#selction__team--title": {
+    "title": "CasaIdeas section team title container",
     "children": [
       "rich-text#casaideas__team--title"
     ]
   },
   "rich-text#casaideas__team--title": {
+    "title": "CasaIdeas section team title",
     "props": {
       "blockClass": "team--title",
       "text": "NUESTRO EQUIPO:"
     }
   },
   "flex-layout.row#selction__team--subtitle": {
+    "title": "CasaIdeas section team subtitle container",
     "children": [
       "rich-text#selction__team--subtitle"
     ]
   },
   "rich-text#selction__team--subtitle": {
+    "title": "CasaIdeas section team subtitle",
     "props": {
       "blockClass": "team--subtitle",
       "text": "PERSONAS CON\nPROPÓSITOS"
     }
   },
   "flex-layout.row#selction__team--content": {
+    "title": "CasaIdeas section team content",
     "children": [
       "flex-layout.col#team__text",
       "flex-layout.col#team__image"
-      
     ]
   },
   "flex-layout.col#team__image": {
+    "title": "CasaIdeas team image content",
     "children": [
       "image#team__image"
     ]
   },
   "image#team__image": {
+    "title": "CasaIdeas team image",
     "props": {
       "blockClass": "team--image",
       "src": "assets/img/nosotros/colaboradores-mobile.webp"
     }
   },
   "flex-layout.col#team__text": {
+    "title": "CasaIdeas team text content",
     "children": [
       "rich-text#team__text--content-1",
       "rich-text#team__text--content-2"
     ]
   },
   "rich-text#team__text--content-1": {
+    "title": "CasaIdeas section team text 1",
     "props": {
       "blockClass": "text--content-1",
       "text": "SOMOS MUCHOS Y MUY DIVERSOS LOS QUE COMPONEMOS CASAIDEAS."
     }
   },
   "rich-text#team__text--content-2": {
+    "title": "CasaIdeas section team text 2",
     "props": {
       "blockClass": "text--content-2",
       "text": "Un equipo que se caracteriza por su alegría y dedicación; que ama lo que hace y siempre hacerlo bien, y eso se nota en cada detalle.\nLa diversidad es un valor muy importante para nosotros, porque creemos que nos enriquece en todos los ámbitos en los que participamos.\nNos gusta hacer las cosas bien, trabajamos arduamente Esto y muchas cosas más nos caracterizan, nos unen, y nos hacen un equipo con espíritu, que realiza su trabajo con creatividad, sustentabilidad  responsabilidad.\nEn cada país, equipos de diferentes áreas hacen posible una gran cadena de trabajo.\nSomos más de 2.400 personas las que formamos parte de Casaideas.\nY algo muy importante que tienes que saber:\nEn Casaideas, ¡más del 70% de nuestros colaboradores son mujeres!"

@@ -1,11 +1,13 @@
 {
   "flex-layout.col#email": {
+    "title": "Container newsletter footer",
     "children": [
       "flex-layout.row#text__user-subscribe",
       "flex-layout.row#data__user-subscribe"
     ]
   },
   "flex-layout.row#text__user-subscribe": {
+    "title": "Image & text newsletter ",
     "children": [
       "image#image__gift",
       "rich-text#text__newsletter"
@@ -15,12 +17,14 @@
     }
   },
   "image#image__gift": {
+    "title": "Image description newsletter",
     "props": {
       "src": "assets/img/section_calendar/home__gift.jpg",
       "blockClass": "image__gift"
     }
   },
   "rich-text#text__newsletter": {
+    "title": "Text description newsletter",
     "props": {
       "text": "¡Suscríbete a nuestro newsletter y recibe un 15% de descuento, en el mes de tu cumpleaños!",
       "textAlignment": "RIGHT",
@@ -29,11 +33,13 @@
     }
   },
   "flex-layout.row#data__user-subscribe": {
+    "title": "Container newsletter form",
     "children": [
       "newsletter-form"
     ]
   },
   "newsletter-form": {
+    "title": "Newsletter Footer",
     "children": [
       "newsletter-input-name",
       "newsletter-input-email",
@@ -45,24 +51,28 @@
     }
   },
   "newsletter-input-name": {
+    "title": "newsletter input name",
     "props": {
       "placeholderText": "Andres Gonzalez",
       "blockClass": "input__name"
     }
   },
   "newsletter-input-email": {
+    "title": "newsletter input email",
     "props": {
       "placeholderText": "andres.gonzalez@gmail.com",
       "blockClass": "input__email"
     }
   },
   "newsletter-input-phone": {
+    "title": "newsletter input date",
     "props": {
       "placeholderText": "día/mes",
       "blockClass": "input__number"
     }
   },
   "newsletter-submit": {
+    "title": "newsletter input submit",
     "props": {
       "submitButtonLabel": "Suscribirme",
       "blockClass": "button__submit"

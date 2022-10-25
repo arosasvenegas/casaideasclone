@@ -1,5 +1,6 @@
 {
   "menu-item#department__about-casaideas": {
+    "title": "Props department about casaideas",
     "props": {
       "id": "department__about-casaideas",
       "blockClass": "department__about-casaideas",
@@ -16,6 +17,7 @@
     ]
   },
   "submenu#department__about-casaideas": {
+    "title": "Menu department about casaideas",
     "children": [
       "menu#department__about-casaideas"
     ],
@@ -24,6 +26,7 @@
     }
   },
   "menu#department__about-casaideas": {
+    "title": "Menu option about casaideas",
     "children": [
       "menu-item#category__about-us",
       "menu-item#category__sustainability"
@@ -34,6 +37,7 @@
     }
   },
   "menu-item#category__about-us": {
+    "title": "Props category about us",
     "props": {
       "id": "category__about-us",
       "type": "custom",
@@ -47,6 +51,7 @@
     }
   },
   "menu-item#category__sustainability": {
+    "title": "Props category about us",
     "props": {
       "id": "category__sustainability",
       "type": "custom",

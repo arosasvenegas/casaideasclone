@@ -1,5 +1,6 @@
 {
   "menu-item#department__season-products": {
+    "title": "Props department season product",
     "props": {
       "id": "department__season-products",
       "blockClass": "department__season-products",

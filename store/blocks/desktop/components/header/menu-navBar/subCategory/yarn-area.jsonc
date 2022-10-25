@@ -1,5 +1,6 @@
 {
     "submenu#department__yard--submenu": {
+      "title": "Menu department yard",
       "children": [
         "menu#department__yard--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__yard--submenu": {
+      "title": "Menu option yard",
       "children": [
         "menu-item#category__yard--title",
         "menu-item#category__yard--1",
@@ -23,6 +25,7 @@
       }
     },
     "menu-item#category__yard--title": {
+      "title": "Props category yard title",
       "props": {
         "id": "category__yard--title",
         "blockClass": "category__yard--title",
@@ -36,6 +39,7 @@
       }
     },
     "menu-item#category__yard--1": {
+      "title": "Props category yard 1",
       "props": {
         "id": "category__yard--1",
         "blockClass": "category__yard--1",
@@ -49,6 +53,7 @@
       }
     },
     "menu-item#category__yard--2": {
+      "title": "Props category yard 2",
       "props": {
         "id": "category__yard--2",
         "blockClass": "category__yard--2",
@@ -62,6 +67,7 @@
       }
     },
     "menu-item#category__yard--3": {
+      "title": "Props category yard 3",
       "props": {
         "id": "category__yard--3",
         "blockClass": "category__yard--3",
@@ -75,6 +81,7 @@
       }
     },
     "menu-item#category__yard--4": {
+      "title": "Props category yard 4",
       "props": {
         "id": "category__yard--4",
         "blockClass": "category__yard--4",
@@ -88,6 +95,7 @@
       }
     },
     "menu-item#category__yard--5": {
+      "title": "Props category yard 5",
       "props": {
         "id": "category__yard--5",
         "blockClass": "category__yard--5",
@@ -101,6 +109,7 @@
       }
     },
     "menu-item#category__yard--6": {
+      "title": "Props category yard 6",
       "props": {
         "id": "category__yard--6",
         "blockClass": "category__yard--6",

@@ -1,5 +1,6 @@
 {
     "submenu#department__pets--submenu": {
+      "title": "Menu department pets",
       "children": [
         "menu#department__pets--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__pets--submenu": {
+      "title": "Menu option pets",
       "children": [
         "menu-item#category__pets--title",
         "menu-item#category__pets--1",
@@ -19,6 +21,7 @@
       }
     },
     "menu-item#category__pets--title": {
+      "title": "Props category pets title",
       "props": {
         "id": "category__pets--title",
         "blockClass": "category__pets--title",
@@ -32,6 +35,7 @@
       }
     },
     "menu-item#category__pets--1": {
+      "title": "Props category pets 1",
       "props": {
         "id": "category__pets--1",
         "blockClass": "category__pets--1",
@@ -45,6 +49,7 @@
       }
     },
     "menu-item#category__pets--2": {
+      "title": "Props category pets 2",
       "props": {
         "id": "category__pets--2",
         "blockClass": "category__pets--2",

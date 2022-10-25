@@ -1,5 +1,6 @@
 {
   "menu-item#department__house-products": {
+    "title": "Props house products",
     "props": {
       "id": "department__house-products",
       "blockClass": "department__house-products",
@@ -16,6 +17,7 @@
     ]
   },
   "submenu#department__house-products": {
+    "title": "Menu department house products",
     "children": [
       "menu#department__house-products"
     ],
@@ -24,6 +26,7 @@
     }
   },
   "menu#department__house-products": {
+    "title": "Menu option house products",
     "children": [
       "menu-item#category__kitchen--area",
       "menu-item#category__living--area",
@@ -44,6 +47,7 @@
     }
   },
   "menu-item#category__kitchen--area": {
+    "title": "Props category kitchen are",
     "props": {
       "id": "category__kitchen--area",
       "blockClass": "category__kitchen--area",
@@ -60,6 +64,7 @@
     ]
   },
   "menu-item#category__living--area": {
+    "title": "Props category living area",
     "props": {
       "id": "category__living--area",
       "type": "custom",
@@ -75,6 +80,7 @@
     ]
   },
   "menu-item#category__bedroom--area": {
+    "title": "Props category bedroom area",
     "props": {
       "id": "category__bedroom--area",
       "type": "custom",
@@ -90,6 +96,7 @@
     ]
   },
   "menu-item#category__dinning--area": {
+    "title": "Props category dinning area",
     "props": {
       "id": "category__dinning--area",
       "blockClass": "category__dinning--area",
@@ -106,6 +113,7 @@
     ]
   },
   "menu-item#category__kids-and-babies": {
+    "title": "Props category kids area",
     "props": {
       "id": "category__kids-and-babies",
       "type": "custom",
@@ -121,6 +129,7 @@
     ]
   },
   "menu-item#category__bathroom--area": {
+    "title": "Props category bathroom area",
     "props": {
       "id": "category__bathroom--area",
       "type": "custom",
@@ -136,6 +145,7 @@
     ]
   },
   "menu-item#category__storage--area": {
+    "title": "Props category storage area",
     "props": {
       "id": "category__storage--area",
       "type": "custom",
@@ -151,6 +161,7 @@
     ]
   },
   "menu-item#category__garden--area": {
+    "title": "Props category garden area",
     "props": {
       "id": "category__garden--area",
       "type": "custom",
@@ -166,6 +177,7 @@
     ]
   },
   "menu-item#category__desktop-paperware": {
+    "title": "Props category desktop area",
     "props": {
       "id": "category__desktop-paperware",
       "type": "custom",
@@ -181,6 +193,7 @@
     ]
   },
   "menu-item#category__yard--area": {
+    "title": "Props category yard area",
     "props": {
       "id": "category__yard--area",
       "type": "custom",
@@ -196,6 +209,7 @@
     ]
   },
   "menu-item#category__pets": {
+    "title": "Props category pets area",
     "props": {
       "id": "category__pets",
       "type": "custom",
@@ -211,6 +225,7 @@
     ]
   },
   "menu-item#category__laundry--area": {
+    "title": "Props category laundry area",
     "props": {
       "id": "category__laundry--area",
       "type": "custom",
@@ -226,6 +241,7 @@
     ]
   },
   "menu-item#category__personal--area": {
+    "title": "Props category personal area",
     "props": {
       "id": "category__personal--area",
       "type": "custom",

@@ -1,5 +1,6 @@
 {
     "submenu#department__laundry--submenu": {
+      "title": "Menu department laundry",
       "children": [
         "menu#department__laundry--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__laundry--submenu": {
+      "title": "Menu option laundry",
       "children": [
         "menu-item#category__laundry--title",
         "menu-item#category__laundry--1",
@@ -21,6 +23,7 @@
       }
     },
     "menu-item#category__laundry--title": {
+      "title": "Props category laundry title",
       "props": {
         "id": "category__laundry--title",
         "blockClass": "category__laundry--title",
@@ -34,6 +37,7 @@
       }
     },
     "menu-item#category__laundry--1": {
+      "title": "Props category laundry 1",
       "props": {
         "id": "category__laundry--1",
         "blockClass": "category__laundry--1",
@@ -47,6 +51,7 @@
       }
     },
     "menu-item#category__laundry--2": {
+      "title": "Props category laundry 2",
       "props": {
         "id": "category__laundry--2",
         "blockClass": "category__laundry--2",
@@ -60,6 +65,7 @@
       }
     },
     "menu-item#category__laundry--3": {
+      "title": "Props category laundry 3",
       "props": {
         "id": "category__laundry--3",
         "blockClass": "category__laundry--3",

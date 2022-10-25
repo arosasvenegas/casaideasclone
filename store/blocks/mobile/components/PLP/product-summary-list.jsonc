@@ -1,5 +1,6 @@
 {
   "list-context.product-list#plp__result-mobile": {
+    "title": "PLP list context",
     "blocks": [
       "product-summary.shelf#plp__result-mobile"
     ],
@@ -8,6 +9,7 @@
     ]
   },
   "product-summary.shelf#plp__result-mobile": {
+    "title": "PLP product summary shelf",
     "children": [
       "add-to-list-btn",
       "product-summary-image",
@@ -18,6 +20,7 @@
     ]
   },
   "slider-layout#plp__result-mobile": {
+    "title": "PLP result silder",
     "props": {
       "blockClass": "plp__result-slider--mobile",
       "itemsPerPage": {

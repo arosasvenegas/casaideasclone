@@ -1,5 +1,6 @@
 {
   "submenu#department__kids--submenu": {
+    "title": "Menu department kids",
     "children": [
       "menu#department__kids--submenu"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "menu#department__kids--submenu": {
+    "title": "Menu option kids",
     "children": [
       "menu-item#category__kids--title",
       "menu-item#category__kids--1",
@@ -28,6 +30,7 @@
     }
   },
   "menu-item#category__kids--title": {
+    "title": "Props category kids title",
     "props": {
       "id": "category__kids--title",
       "blockClass": "category__kids--title",
@@ -41,6 +44,7 @@
     }
   },
   "menu-item#category__kids--1": {
+    "title": "Props category kids 1",
     "props": {
       "id": "category__kids--1",
       "blockClass": "category__kids--1",
@@ -54,6 +58,7 @@
     }
   },
   "menu-item#category__kids--2": {
+    "title": "Props category kids 2",
     "props": {
       "id": "category__kids--2",
       "blockClass": "category__kids--2",
@@ -67,6 +72,7 @@
     }
   },
   "menu-item#category__kids--3": {
+    "title": "Props category kids 3",
     "props": {
       "id": "category__kids--3",
       "blockClass": "category__kids--3",
@@ -80,6 +86,7 @@
     }
   },
   "menu-item#category__kids--4": {
+    "title": "Props category kids 4",
     "props": {
       "id": "category__kids--4",
       "blockClass": "category__kids--4",
@@ -93,6 +100,7 @@
     }
   },
   "menu-item#category__kids--5": {
+    "title": "Props category kids 5",
     "props": {
       "id": "category__kids--5",
       "blockClass": "category__kids--5",
@@ -106,6 +114,7 @@
     }
   },
   "menu-item#category__kids--6": {
+    "title": "Props category kids 6",
     "props": {
       "id": "category__kids--6",
       "blockClass": "category__kids--6",
@@ -119,6 +128,7 @@
     }
   },
   "menu-item#category__kids--7": {
+    "title": "Props category kids 7",
     "props": {
       "id": "category__kids--7",
       "blockClass": "category__kids--7",
@@ -132,6 +142,7 @@
     }
   },
   "menu-item#category__kids--8": {
+    "title": "Props category kids 8",
     "props": {
       "id": "category__kids--8",
       "blockClass": "category__kids--8",
@@ -145,6 +156,7 @@
     }
   },
   "menu-item#category__kids--9": {
+    "title": "Props category kids 9",
     "props": {
       "id": "category__kids--9",
       "blockClass": "category__kids--9",
@@ -158,6 +170,7 @@
     }
   },
   "menu-item#category__kids--10": {
+    "title": "Props category kids 10",
     "props": {
       "id": "category__kids--10",
       "blockClass": "category__kids--10",
@@ -171,6 +184,7 @@
     }
   },
   "menu-item#category__kids--11": {
+    "title": "Props category kids 11",
     "props": {
       "id": "category__kids--11",
       "blockClass": "category__kids--11",

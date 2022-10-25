@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__results--search": {
+    "title": "result search container",
     "children": [
       "list-context.product-list#desktop__results--search"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "list-context.product-list#desktop__results--search": {
+    "title": "Result search list context",
     "blocks": [
       "product-summary.shelf#listLayout"
     ],
@@ -19,6 +21,7 @@
     }
   },
   "product-summary.shelf#listLayout": {
+    "title": "Product summary shelf list Layout",
     "children": [
       "add-to-list-btn",
       "product-summary-image",
@@ -29,6 +32,7 @@
     ]
   },
   "slider-layout#listLayout": {
+    "title": "Slider list layout",
     "props": {
       "itemsPerPage": {
         "desktop": 5,

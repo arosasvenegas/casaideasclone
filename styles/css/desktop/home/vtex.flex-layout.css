@@ -80,3 +80,6 @@
 .flexRowContent--first__section--collection, .flexRowContent--second__section--collection{
     width: 100%;
 }
+.flexCol--search__content--results{
+    margin-top: 20px;
+}

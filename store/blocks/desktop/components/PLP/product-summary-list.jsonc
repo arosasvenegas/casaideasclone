@@ -1,55 +1,78 @@
 {
   "flex-layout.row#desktop__department--results": {
+    "title": "PLP container",
     "children": [
       "flex-layout.col#desktop__department--filters",
       "flex-layout.col#desktop__department--results"
     ]
   },
   "flex-layout.col#desktop__department--filters": {
+    "title": "PLP container filter row",
     "children": [
       "flex-layout.row#desktop__results-department--filters"
+      
     ]
   },
   "flex-layout.row#desktop__results-department--filters": {
+    "title": "PLP container filter col",
     "children": [
-      "flex-layout.col#desktop__results-department--filter",
+      "flex-layout.col#desktop__results-department--filter"
+    ]
+  },
+  "flex-layout.col#desktop__results-department--filter": {
+    "title": "PLP filter navigator",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "width": "35%"
+    }
+  },
+  "flex-layout.col#desktop__department--results": {
+    "title": "Search content filters",
+    "children": [
+      "flex-layout.row#desktop__department--product-order",
+      "flex-layout.row#search__content--results"
+      ],
+      "props": {
+        "width": "65%",
+        "blockClass": "search__content--results"
+      }
+  },
+  "flex-layout.row#desktop__department--product-order": {
+    "title": "PLP filters",
+    "children": [
       "flex-layout.col#desktop__results-department--products",
       "flex-layout.col#desktop__results-department--orderBy"
     ]
   },
-  "flex-layout.col#desktop__results-department--filter": {
+  "flex-layout.col#desktop__results-department--products": {
+    "title": "PLP total products filter",
     "children": [
-      "filter-navigator.v3"
+      "total-products.v2"
     ]
   },
-  "flex-layout.col#desktop__results-department--products": {
-    "children": ["total-products.v2"]
-  },
   "flex-layout.col#desktop__results-department--orderBy": {
-    "children":[
+    "title": "PLP order-by filter",
+    "children": [
       "order-by.v2"
     ]
   },
-  
-  "flex-layout.col#desktop__department--results": {
-    "children": [
-      "flex-layout.row#desktop__results--search"
-      ]
-   
+  "flex-layout.row#search__content--results": {
+    "title": "PLP search content container",
+    "children":[
+      "search-content"
+    ]
   },
-  "flex-layout.row#desktop__results--search": {
-    "children": [
-      
-      "search-content"]
-  },
-  
   "search-content": {
+    "title": "PLP search content",
     "blocks": [
       "gallery",
       "not-found"
     ]
   },
   "gallery": {
+    "title": "PLP gallery",
     "props": {
       "blockClass": "gallery__products",
       "layouts": [

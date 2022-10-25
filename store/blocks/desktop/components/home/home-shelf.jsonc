@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__shelf": {
+    "title": "conatiner home shelf",
     "children": [
       "list-context.product-list#home__shelf--desktop"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "list-context.product-list#home__shelf--desktop": {
+    "title": "List context home shelf",
     "blocks": [
       "product-summary.shelf#home__shelf--products-desktop"
     ],

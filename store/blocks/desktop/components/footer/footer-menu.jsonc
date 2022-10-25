@@ -1,5 +1,6 @@
 {
   "flex-layout.col#footer__container--section-one": {
+    "title": "Footer container",
     "children": [
       "flex-layout.row#footer__logo",
       "flex-layout.row#footer__paragraph"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.row#footer__logo": {
+    "title": "Footer logo row",
     "children": [
       "logo#footer__logo"
     ]
@@ -23,6 +25,7 @@
     }
   },
   "flex-layout.row#footer__paragraph": {
+    "title": "Footer paragraph row",
     "children": [
       "rich-text#footer__paragraph"
     ],
@@ -31,12 +34,14 @@
     }
   },
   "rich-text#footer__paragraph": {
+    "title": "Footer paragraph",
     "props": {
       "blockClass": "footer__paragraph",
       "text": "Un hogar es un lugar para vivir, donde nos sentimos seguros, queridos y donde también compartimos con otros. En Casaideas encontrarás artículos de diseño, para vivir día a día en un espacio que te haga feliz"
     }
   },
   "flex-layout.col#footer__container--section-two": {
+    "title": "Footer menu container",
     "children": [
       "flex-layout.row#footer__container--row"
     ],
@@ -45,6 +50,7 @@
     }
   },
   "flex-layout.row#footer__container--row": {
+    "title": "Footer menu sections",
     "children": [
       "flex-layout.col#footer__container--one",
       "flex-layout.col#footer__container--two",
@@ -54,12 +60,14 @@
     ]
   },
   "flex-layout.col#footer__container--one": {
+    "title": "Footer menu section one",
     "children": [
       "rich-text#customer-service",
       "menu#customer-service"
     ]
   },
   "rich-text#customer-service": {
+    "title":"Title customer service",
     "props": {
       "blockClass": "title__customer--service",
       "text": "SERVICIO AL CLIENTE",
@@ -68,6 +76,7 @@
     }
   },
   "menu#customer-service": {
+    "title": "Menu customar service options",
     "children": [
       "menu-item#customer-help",
       "menu-item#customer-delivery",
@@ -80,6 +89,7 @@
     }
   },
   "menu-item#customer-help": {
+    "title": "Customer help option",
     "props": {
       "blockClass": "customer_help",
       "id": "menu-customer-help",
@@ -93,6 +103,7 @@
     }
   },
   "menu-item#customer-delivery": {
+    "title": "Customer delivery option",
     "props": {
       "blockClass": "cutomer_delivery",
       "id": "menu-customer-delivery",
@@ -106,6 +117,7 @@
     }
   },
   "menu-item#how-to-buy": {
+    "title": "How to buy option",
     "props": {
       "blockClass": "how-to-buy",
       "id": "menu-how-to-buy",
@@ -119,6 +131,7 @@
     }
   },
   "menu-item#terms-and-conds-desktop": {
+    "title": "Terms and conds option",
     "props": {
       "blockClass": "terms-and-conds-desktop",
       "id": "menu-terms-and-conds-desktop",
@@ -132,12 +145,14 @@
     }
   },
   "flex-layout.col#footer__container--two": {
+    "title":"Footer menu section one",
     "children": [
       "rich-text#customer-session",
       "menu#customer-session"
     ]
   },
   "rich-text#customer-session": {
+    "title":"Title customer session",
     "props": {
       "blockClass": "title__customer--session",
       "text": "MI CUENTA",
@@ -146,6 +161,7 @@
     }
   },
   "menu#customer-session": {
+    "title":"Customer service option",
     "children": [
       "menu-item#customer-buys",
       "menu-item#customer-info"
@@ -156,6 +172,7 @@
     }
   },
   "menu-item#customer-buys": {
+    "title": "Customer buys option",
     "props": {
       "blockClass": "customer-buys",
       "id": "menu-how-to-buy",
@@ -169,6 +186,7 @@
     }
   },
   "menu-item#customer-info": {
+    "title": "Customer info option",
     "props": {
       "blockClass": "customer-info",
       "id": "menu-how-to-buy",
@@ -182,12 +200,14 @@
     }
   },
   "flex-layout.col#footer__container--three": {
+    "title": "Footer menu section three",
     "children": [
       "rich-text#work-with-us",
       "menu-item#work-with-us"
     ]
   },
   "rich-text#work-with-us": {
+    "title": "Title work with us",
     "props": {
       "blockClass": "title__work-with--us",
       "text": "RECURSOS HUMANOS",
@@ -196,6 +216,7 @@
     }
   },
   "menu-item#work-with-us": {
+    "title": "Work with us option",
     "props": {
       "blockClass": "work-with-us",
       "id": "menu-work-with-us",
@@ -209,12 +230,14 @@
     }
   },
   "flex-layout.col#footer__container--four": {
+    "title": "Footer menu section four",
     "children": [
       "rich-text#social-networks",
       "social-networks"
     ]
   },
   "rich-text#social-networks": {
+    "title": "Title social networks",
     "props": {
       "blockClass": "title__social-networks",
       "text": "SÍGUENOS",
@@ -223,6 +246,7 @@
     }
   },
   "social-networks": {
+    "title": "Social Network Footer",
     "props": {
       "blockClass": "social__networks--icons",
       "socialNetworks": [
@@ -242,12 +266,14 @@
     }
   },
   "flex-layout.col#footer__container--five": {
+    "title": "Footer menu section five",
     "children": [
       "rich-text#switch-country",
       "disclosure-layout#switch-country"
     ]
   },
   "rich-text#switch-country": {
+    "title": "Title social networks",
     "props": {
       "blockClass": "title__switch-country",
       "text": "País",
@@ -256,6 +282,7 @@
     }
   },
   "disclosure-layout#switch-country": {
+    "title": "Disclousure Country Container",
     "children": [
       "disclosure-trigger#switch-country",
       "disclosure-content#switch-country"
@@ -265,6 +292,7 @@
     }
   },
   "disclosure-trigger#switch-country": {
+    "title": "Disclousure Country",
     "children": [
       "icon#footer__country--icon",
       "rich-text#country",
@@ -275,6 +303,7 @@
     }
   },
   "icon#footer__country--icon": {
+    "title": "Footer country icon",
     "props": {
       "blockClass": "footer__country--icon",
       "id": "mask0_107_394",
@@ -282,6 +311,7 @@
     }
   },
   "rich-text#country": {
+    "title": "Option default disclosure",
     "props": {
       "blockClass": "chile",
       "text": "Chile",
@@ -290,6 +320,7 @@
     }
   },
   "icon#footer__select--icon": {
+    "title": "Icon nav down",
     "props": {
       "blockClass": "footer__select--icon",
       "id": "nav-caret--down",
@@ -297,11 +328,13 @@
     }
   },
   "disclosure-content#switch-country": {
+    "title": "Menu disclosure country",
     "children": [
       "menu#country"
     ]
   },
   "menu#country": {
+    "title": "Menu disclosure options",
     "children": [
       "menu-item#country_one",
       "menu-item#country_two",
@@ -314,6 +347,7 @@
     }
   },
   "menu-item#country_one": {
+    "title": "Menu options Chile",
     "props": {
       "blockClass": "country_one",
       "id": "menu-country_one",
@@ -327,6 +361,7 @@
     }
   },
   "menu-item#country_two": {
+    "title": "Menu options Perú",
     "props": {
       "blockClass": "country_two",
       "id": "menu-country_two",
@@ -340,6 +375,7 @@
     }
   },
   "menu-item#country_three": {
+    "title": "Menu options Colombia",
     "props": {
       "blockClass": "country_three",
       "id": "menu-country_three",
@@ -353,6 +389,7 @@
     }
   },
   "menu-item#country_four": {
+    "title": "Menu options Bolivia",
     "props": {
       "blockClass": "country_four",
       "id": "menu-country_four",

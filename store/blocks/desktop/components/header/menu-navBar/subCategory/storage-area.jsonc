@@ -1,5 +1,6 @@
 {
     "submenu#department__storage--submenu": {
+      "title": "Menu department storage",
       "children": [
         "menu#department__storage--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__storage--submenu": {
+      "title": "Menu option storage",
       "children": [
         "menu-item#category__storage--title",
         "menu-item#category__storage--1",
@@ -24,6 +26,7 @@
       }
     },
     "menu-item#category__storage--title": {
+      "title": "Props category storage title",
       "props": {
         "id": "category__storage--title",
         "blockClass": "category__storage--title",
@@ -37,6 +40,7 @@
       }
     },
     "menu-item#category__storage--1": {
+      "title": "Props category storage 1",
       "props": {
         "id": "category__storage--1",
         "blockClass": "category__storage--1",
@@ -50,6 +54,7 @@
       }
     },
     "menu-item#category__storage--2": {
+      "title": "Props category storage 2",
       "props": {
         "id": "category__storage--2",
         "blockClass": "category__storage--2",
@@ -63,6 +68,7 @@
       }
     },
     "menu-item#category__storage--3": {
+      "title": "Props category storage 3",
       "props": {
         "id": "category__storage--3",
         "blockClass": "category__storage--3",
@@ -76,6 +82,7 @@
       }
     },
     "menu-item#category__storage--4": {
+      "title": "Props category storage 4",
       "props": {
         "id": "category__storage--4",
         "blockClass": "category__storage--4",
@@ -89,6 +96,7 @@
       }
     },
     "menu-item#category__storage--5": {
+      "title": "Props category storage 5",
       "props": {
         "id": "category__storage--5",
         "blockClass": "category__storage--5",
@@ -102,6 +110,7 @@
       }
     },
     "menu-item#category__storage--6": {
+      "title": "Props category storage 6",
       "props": {
         "id": "category__storage--6",
         "blockClass": "category__storage--6",

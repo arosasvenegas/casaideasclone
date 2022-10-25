@@ -1,5 +1,6 @@
 {
     "submenu#department__dinning--submenu": {
+      "title": "Menu department dinning",
       "children": [
         "menu#department__dinning--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__dinning--submenu": {
+      "title": "Menu option dinning",
       "children": [
         "menu-item#category__dinning--title",
         "menu-item#category__dinning--1",
@@ -27,6 +29,7 @@
       }
     },
     "menu-item#category__dinning--title": {
+      "title": "Props category dinning title",
       "props": {
         "id": "category__dinning--title",
         "blockClass": "category__dinning--title",
@@ -40,6 +43,7 @@
       }
     },
     "menu-item#category__dinning--1": {
+      "title": "Props category dinning 1",
       "props": {
         "id": "category__dinning--1",
         "blockClass": "category__dinning--1",
@@ -53,6 +57,7 @@
       }
     },
     "menu-item#category__dinning--2": {
+      "title": "Props category dinning 2",
       "props": {
         "id": "category__dinning--2",
         "blockClass": "category__dinning--2",
@@ -66,6 +71,7 @@
       }
     },
     "menu-item#category__dinning--3": {
+      "title": "Props category dinning 3",
       "props": {
         "id": "category__dinning--3",
         "blockClass": "category__dinning--3",
@@ -79,6 +85,7 @@
       }
     },
     "menu-item#category__dinning--4": {
+      "title": "Props category dinning 4",
       "props": {
         "id": "category__dinning--4",
         "blockClass": "category__dinning--4",
@@ -92,6 +99,7 @@
       }
     },
     "menu-item#category__dinning--5": {
+      "title": "Props category dinning 5",
       "props": {
         "id": "category__dinning--5",
         "blockClass": "category__dinning--5",
@@ -105,6 +113,7 @@
       }
     },
     "menu-item#category__dinning--6": {
+      "title": "Props category dinning 6",
       "props": {
         "id": "category__dinning--6",
         "blockClass": "category__dinning--6",
@@ -118,6 +127,7 @@
       }
     },
     "menu-item#category__dinning--7": {
+      "title": "Props category dinning 7",
       "props": {
         "id": "category__dinning--7",
         "blockClass": "category__dinning--7",
@@ -131,6 +141,7 @@
       }
     },
     "menu-item#category__dinning--8": {
+      "title": "Props category dinning 8",
       "props": {
         "id": "category__dinning--8",
         "blockClass": "category__dinning--8",
@@ -144,6 +155,7 @@
       }
     },
     "menu-item#category__dinning--9": {
+      "title": "Props category dinning 9",
       "props": {
         "id": "category__dinning--9",
         "blockClass": "category__dinning--9",

@@ -1,5 +1,6 @@
 {
   "menu-item#department__new-products": {
+    "title": "Props department new products",
     "props": {
       "id": "department__new-products",
       "blockClass": "department__new-products",

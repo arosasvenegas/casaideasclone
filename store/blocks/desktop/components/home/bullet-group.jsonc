@@ -1,5 +1,6 @@
 {
   "flex-layout.row#bullet-group": {
+    "title": "context bullet list container",
     "children": [
       "list-context.bullet-group"
     ],
@@ -77,6 +78,7 @@
     }
   },
   "slider-layout#bullet-group": {
+    "title": "slider layout bullet",
     "props": {
       "blockClass": "bullet-group",
       "itemPerPage": {

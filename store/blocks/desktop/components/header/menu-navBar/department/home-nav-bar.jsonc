@@ -1,5 +1,6 @@
 {
   "header-row#header__menu": {
+    "title": "Header menu contaniner",
     "children": [
       "menu#header__menu--navBar"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "menu#header__menu--navBar": {
+    "title": "Header menu departments",
     "children": [
       "menu-item#department__new-products",
       "menu-item#department__house-products",

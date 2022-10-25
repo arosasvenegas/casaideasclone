@@ -1,5 +1,6 @@
 {
   "footer-layout.desktop": {
+    "title": "Footer Desktop",
     "children": [
       "flex-layout.row#user__subscribe-email",
       "flex-layout.row#footer__container"
@@ -9,12 +10,14 @@
     }
   },
     "flex-layout.row#user__subscribe-email": {
+      "title": "User subcribe email",
       "children": ["flex-layout.col#email"],
       "props": {
           "blockClass": "user__subscribe--container"
       }
   },
   "flex-layout.row#footer__container": {
+    "title": "Footer container",
     "children": [
       "flex-layout.col#footer__container--section-one",
       "flex-layout.col#footer__container--section-two"

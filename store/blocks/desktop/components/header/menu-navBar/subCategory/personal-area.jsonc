@@ -1,5 +1,6 @@
 {
     "submenu#department__personal--submenu": {
+      "title": "Menu department personal",
       "children": [
         "menu#department__personal--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__personal--submenu": {
+      "title": "Menu option personal",
       "children": [
         "menu-item#category__personal--title",
         "menu-item#category__personal--1",
@@ -21,6 +23,7 @@
       }
     },
     "menu-item#category__personal--title": {
+      "title": "Props category personal title",
       "props": {
         "id": "category__personal--title",
         "blockClass": "category__personal--title",
@@ -34,6 +37,7 @@
       }
     },
     "menu-item#category__personal--1": {
+      "title": "Props category personal 1",
       "props": {
         "id": "category__personal--1",
         "blockClass": "category__personal--1",
@@ -47,6 +51,7 @@
       }
     },
     "menu-item#category__personal--2": {
+      "title": "Props category personal 2",
       "props": {
         "id": "category__personal--2",
         "blockClass": "category__personal--2",
@@ -60,6 +65,7 @@
       }
     },
     "menu-item#category__personal--3": {
+      "title": "Props category personal 3",
       "props": {
         "id": "category__personal--3",
         "blockClass": "category__personal--3",
@@ -73,6 +79,7 @@
       }
     },
     "menu-item#category__personal--4": {
+      "title": "Props category personal 4",
       "props": {
         "id": "category__personal--4",
         "blockClass": "category__personal--4",

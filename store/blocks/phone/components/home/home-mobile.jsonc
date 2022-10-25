@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container--mobile": {
+    "title": "Home container mobile",
     "children": [
       "flex-layout.col#home__container--mobile"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "flex-layout.col#home__container--mobile": {
+    "title": "Home content mobile",
     "children": [
       "whatsapp-button",
       "flex-layout.row#home__slider--desktop",
