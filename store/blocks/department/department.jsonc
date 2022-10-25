@@ -49,7 +49,7 @@
           }
         }
       ],
-      "GeneralGrid": "product-summary.shelf#home__shelf--products-desktop"
+      "GeneralGrid": "product-summary.shelf"
     }
   }*/
 }

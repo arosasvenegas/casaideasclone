@@ -20,16 +20,5 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  },
-
-  "product-summary.shelf": {
-    "children": [
-      "add-to-list-btn",
-        "product-summary-image",
-        "product-summary-name",
-        "product-summary-space",
-        "product-summary-price",
-        "add-to-cart-button"
-    ]
   }
 }
