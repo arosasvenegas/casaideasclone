@@ -1,0 +1,117 @@
+{
+    "submenu.accordion#department__storage--submenu--mobile": {
+      "children": [
+        "menu#department__storage--submenu"
+      ],
+      "props": {
+        "blockClass": "container__storage--submenu"
+      }
+    },
+    "menu#department__storage--submenu": {
+      "children": [
+        "menu-item#category__storage--title",
+        "menu-item#category__storage--1",
+        "menu-item#category__storage--2",
+        "menu-item#category__storage--3",
+        "menu-item#category__storage--4",
+        "menu-item#category__storage--5",
+        "menu-item#category__storage--6"
+       
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_kids"
+      }
+    },
+    "menu-item#category__storage--title": {
+      "props": {
+        "id": "category__storage--title",
+        "blockClass": "category__storage--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Bodega y clóset",
+          "text": "Ver todo Bodega y clóset"
+        }
+      }
+    },
+    "menu-item#category__storage--1": {
+      "props": {
+        "id": "category__storage--1",
+        "blockClass": "category__storage--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Herramientas y accesorios",
+          "text": "Herramientas y accesorios"
+        }
+      }
+    },
+    "menu-item#category__storage--2": {
+      "props": {
+        "id": "category__storage--2",
+        "blockClass": "category__storage--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Organizadores para clóset",
+          "text": "Organizadores para clóset"
+        }
+      }
+    },
+    "menu-item#category__storage--3": {
+      "props": {
+        "id": "category__storage--3",
+        "blockClass": "category__storage--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cajas y canastos",
+          "text": "Cajas y canastos"
+        }
+      }
+    },
+    "menu-item#category__storage--4": {
+      "props": {
+        "id": "category__storage--4",
+        "blockClass": "category__storage--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Pisos y escaleras",
+          "text": "Pisos y escaleras"
+        }
+      }
+    },
+    "menu-item#category__storage--5": {
+      "props": {
+        "id": "category__storage--5",
+        "blockClass": "category__storage--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Perchas y repisas",
+          "text": "Perchas y repisas"
+        }
+      }
+    },
+    "menu-item#category__storage--6": {
+      "props": {
+        "id": "category__storage--6",
+        "blockClass": "category__storage--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Muebles para bodega y clóset",
+          "text": "Muebles para bodega y clóset"
+        }
+      }
+    }
+  }

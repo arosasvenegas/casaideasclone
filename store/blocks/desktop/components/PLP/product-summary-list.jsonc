@@ -33,16 +33,23 @@
   
   "flex-layout.col#desktop__department--results": {
     "children": [
-      "search-content#desktop__department--results"]
+      "flex-layout.row#desktop__results--search"
+      ]
    
   },
-  "search-content#desktop__department--results": {
+  "flex-layout.row#desktop__results--search": {
+    "children": [
+      
+      "search-content"]
+  },
+  
+  "search-content": {
     "blocks": [
-      "gallery#results__products",
+      "gallery",
       "not-found"
     ]
   },
-  "gallery#results__products": {
+  "gallery": {
     "props": {
       "blockClass": "gallery__products",
       "layouts": [
@@ -54,9 +61,14 @@
             "tablet":3,
             "phone": 2
           }
+        },
+        {
+          "name": "list",
+          "components": "ListSummary",
+          "itemsPerRow": 1
         }
       ],
-      
+      "ListSummary": "product-summary.shelf#listLayout",
       "GridSummary":  "product-summary.shelf"
     }
   }

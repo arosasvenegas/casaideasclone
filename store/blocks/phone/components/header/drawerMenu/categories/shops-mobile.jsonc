@@ -1,0 +1,15 @@
+{
+  "menu-item#department__shops--mobile": {
+    "props": {
+      "id": "department__shops--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NUESTRAS TIENDAS",
+        "text": "NUESTRAS TIENDAS"
+      }
+    }
+  }
+}

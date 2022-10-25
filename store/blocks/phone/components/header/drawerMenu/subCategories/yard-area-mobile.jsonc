@@ -1,0 +1,116 @@
+{
+    "submenu.accordion#department__yard--submenu--mobile": {
+      "children": [
+        "menu#department__yard--submenu"
+      ],
+      "props": {
+        "blockClass": "container__yard--submenu"
+      }
+    },
+    "menu#department__yard--submenu": {
+      "children": [
+        "menu-item#category__yard--title",
+        "menu-item#category__yard--1",
+        "menu-item#category__yard--2",
+        "menu-item#category__yard--3",
+        "menu-item#category__yard--4",
+        "menu-item#category__yard--5",
+        "menu-item#category__yard--6"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_yard"
+      }
+    },
+    "menu-item#category__yard--title": {
+      "props": {
+        "id": "category__yard--title",
+        "blockClass": "category__yard--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Terraza",
+          "text": "Ver todo Terraza"
+        }
+      }
+    },
+    "menu-item#category__yard--1": {
+      "props": {
+        "id": "category__yard--1",
+        "blockClass": "category__yard--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cojines y futones",
+          "text": "Cojines y futones"
+        }
+      }
+    },
+    "menu-item#category__yard--2": {
+      "props": {
+        "id": "category__yard--2",
+        "blockClass": "category__yard--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Picnic",
+          "text": "Picnic"
+        }
+      }
+    },
+    "menu-item#category__yard--3": {
+      "props": {
+        "id": "category__yard--3",
+        "blockClass": "category__yard--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Muebles",
+          "text": "Muebles"
+        }
+      }
+    },
+    "menu-item#category__yard--4": {
+      "props": {
+        "id": "category__yard--4",
+        "blockClass": "category__yard--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Hamacas y toldos",
+          "text": "Hamacas y toldos"
+        }
+      }
+    },
+    "menu-item#category__yard--5": {
+      "props": {
+        "id": "category__yard--5",
+        "blockClass": "category__yard--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Bar y mesa",
+          "text": "Bar y mesa"
+        }
+      }
+    },
+    "menu-item#category__yard--6": {
+      "props": {
+        "id": "category__yard--6",
+        "blockClass": "category__yard--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Decoración",
+          "text": "Decoración"
+        }
+      }
+    }
+  }

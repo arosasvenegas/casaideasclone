@@ -1,0 +1,15 @@
+{
+  "menu-item#department__your-shop--mobile": {
+    "props": {
+      "id": "department__your-shop--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "REVISA TU COMPRA AQUÍ",
+        "text": "REVISA TU COMPRA AQUÍ"
+      }
+    }
+  }
+}

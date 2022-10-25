@@ -1,0 +1,59 @@
+{
+  "menu-item#department__discount--mobile": {
+    "props": {
+      "id": "department__discount--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "DESCUENTOS",
+        "text": "DESCUENTOS"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__discount--mobile"
+    ]
+  },
+  "submenu.accordion#department__discount--mobile": {
+    "children": [
+      "menu#department__discount--mobile"
+    ]
+  },
+  "menu#department__discount--mobile": {
+    "children": [
+      "menu-item#category__offers--mobile",
+      "menu-item#category__combinable_products--mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department__discount--mobile"
+    }
+  },
+  "menu-item#category__offers--mobile": {
+    "props": {
+      "id": "category__offers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#category__combinable_products--mobile": {
+    "props": {
+      "id": "category__combinable_products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "PRODUCTOS COMBINABLES",
+        "text": "PRODUCTOS COMBINABLES"
+      }
+    }
+  }
+}

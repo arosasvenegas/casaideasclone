@@ -1,0 +1,172 @@
+{
+    "submenu.accordion#department__kitchen--submenu--mobile": {
+      "children": [
+        "menu#department__kitchen--submenu"
+      ],
+      "props": {
+        "blockClass": "container__kitchen--submenu"
+      }
+    },
+    "menu#department__kitchen--submenu": {
+      "children": [
+        "menu-item#category__kitchen--title",
+        "menu-item#category__kitchen--1",
+        "menu-item#category__kitchen--2",
+        "menu-item#category__kitchen--3",
+        "menu-item#category__kitchen--4",
+        "menu-item#category__kitchen--5",
+        "menu-item#category__kitchen--6",
+        "menu-item#category__kitchen--7",
+        "menu-item#category__kitchen--8",
+        "menu-item#category__kitchen--9",
+        "menu-item#category__kitchen--10"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_kitchen"
+      }
+    },
+    "menu-item#category__kitchen--title": {
+      "props": {
+        "id": "category__kitchen--title",
+        "blockClass": "category__kitchen--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo cocina",
+          "text": "Ver todo cocina"
+        }
+      }
+    },
+    "menu-item#category__kitchen--1": {
+      "props": {
+        "id": "category__kitchen--1",
+        "blockClass": "category__kitchen--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Textiles para cocina",
+          "text": "Textiles para cocina"
+        }
+      }
+    },
+    "menu-item#category__kitchen--2": {
+      "props": {
+        "id": "category__kitchen--2",
+        "blockClass": "category__kitchen--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Organizadores para cocina",
+          "text": "Organizadores para cocina"
+        }
+      }
+    },
+    "menu-item#category__kitchen--3": {
+      "props": {
+        "id": "category__kitchen--3",
+        "blockClass": "category__kitchen--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Contenedores de alimentos",
+          "text": "Contenedores de alimentos"
+        }
+      }
+    },
+    "menu-item#category__kitchen--4": {
+      "props": {
+        "id": "category__kitchen--4",
+        "blockClass": "category__kitchen--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Secaplatos y accesorios",
+          "text": "Secaplatos y accesorios"
+        }
+      }
+    },
+    "menu-item#category__kitchen--5": {
+      "props": {
+        "id": "category__kitchen--5",
+        "blockClass": "category__kitchen--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Productos de aseo y basureros",
+          "text": "Productos de aseo y basureros"
+        }
+      }
+    },
+    "menu-item#category__kitchen--6": {
+      "props": {
+        "id": "category__kitchen--6",
+        "blockClass": "category__kitchen--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Repostería",
+          "text": "Repostería"
+        }
+      }
+    },
+    "menu-item#category__kitchen--7": {
+      "props": {
+        "id": "category__kitchen--7",
+        "blockClass": "category__kitchen--7",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios para cocinar",
+          "text": "Accesorios para cocinar"
+        }
+      }
+    },
+    "menu-item#category__kitchen--8": {
+      "props": {
+        "id": "category__kitchen--8",
+        "blockClass": "category__kitchen--8",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Decoración",
+          "text": "Decoración"
+        }
+      }
+    },
+    "menu-item#category__kitchen--9": {
+      "props": {
+        "id": "category__kitchen--9",
+        "blockClass": "category__kitchen--9",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Baterías y accesorios",
+          "text": "Baterías y accesorios"
+        }
+      }
+    },
+    "menu-item#category__kitchen--10": {
+      "props": {
+        "id": "category__kitchen--10",
+        "blockClass": "category__kitchen--10",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Fuentes de horno",
+          "text": "Fuentes de horno"
+        }
+      }
+    }
+  }
