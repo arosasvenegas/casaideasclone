@@ -1,5 +1,6 @@
 {
     "submenu#department__garden--submenu": {
+      "title": "Menu department garden",
       "children": [
         "menu#department__garden--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__garden--submenu": {
+      "title": "Menu option garden",
       "children": [
         "menu-item#category__garden--title",
         "menu-item#category__garden--1",
@@ -23,6 +25,7 @@
       }
     },
     "menu-item#category__garden--title": {
+      "title": "Props category garden title",
       "props": {
         "id": "category__garden--title",
         "blockClass": "category__garden--title",
@@ -36,6 +39,7 @@
       }
     },
     "menu-item#category__garden--1": {
+      "title": "Props category garden 1",
       "props": {
         "id": "category__garden--1",
         "blockClass": "category__garden--1",
@@ -49,6 +53,7 @@
       }
     },
     "menu-item#category__garden--2": {
+      "title": "Props category garden 2",
       "props": {
         "id": "category__garden--2",
         "blockClass": "category__garden--2",
@@ -62,6 +67,7 @@
       }
     },
     "menu-item#category__garden--3": {
+      "title": "Props category garden 3",
       "props": {
         "id": "category__garden--3",
         "blockClass": "category__garden--3",
@@ -75,6 +81,7 @@
       }
     },
     "menu-item#category__garden--4": {
+      "title": "Props category garden 4",
       "props": {
         "id": "category__garden--4",
         "blockClass": "category__garden--4",
@@ -88,6 +95,7 @@
       }
     },
     "menu-item#category__garden--5": {
+      "title": "Props category garden 5",
       "props": {
         "id": "category__garden--5",
         "blockClass": "category__garden--5",

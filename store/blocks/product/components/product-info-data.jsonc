@@ -27,12 +27,13 @@
     ]
   },
   "rich-text#product__promo-info": {
-    "title": "Texto adicional de producto",
+    "title": "Product adicional info",
     "props": {
       
     }
   },
   "modal-trigger#add-to-cart-info": {
+    "title": "Modal add to cart info",
     "children": [
       "modal-layout#add-to-cart-info"
     ],

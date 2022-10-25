@@ -1,5 +1,6 @@
 {
   "minicart.v2": {
+    "title": "minicart",
     "props": {
       "MinicartIcon": "icon-cart",
       "variation": "popup",
@@ -12,6 +13,7 @@
     ]
   },
   "minicart-base-content": {
+    "title": "minicart base content",
     "blocks": [
       "minicart-empty-state"
     ],
@@ -21,36 +23,43 @@
     ]
   },
   "minicart-empty-state": {
+    "title": "minicart empty state",
     "children": [
       "flex-layout.row#minicart__empty"
     ]
   },
   "flex-layout.row#minicart__empty": {
+    "title": "minicart empty container",
     "children": [
       "flex-layout.col#minicart__empty"
     ]
   },
   "flex-layout.col#minicart__empty": {
+    "title": "minicart base content",
     "children": [
       "rich-text#minicart__empty--text"
     ]
   },
   "minicart-product-list": {
+    "title": "minicart product list",
     "blocks": [
       "product-list#minicart"
     ]
   },
   "product-list#minicart": {
+    "title": "product list minicart",
     "blocks": [
       "product-list-content-mobile"
     ]
   },
   "product-list-content-mobile": {
+    "title": "Product list content mobile",
     "children": [
       "flex-layout.row#minicart__row--mobile"
     ]
   },
   "flex-layout.row#minicart__row--mobile": {
+    "title": "minicart content",
     "children": [
       "flex-layout.col#minicart__col--image",
       "flex-layout.col#minicart__col--info",
@@ -58,11 +67,13 @@
     ]
   },
   "flex-layout.col#minicart__col--image": {
+    "title": "minicart base image",
     "children": [
       "product-list-image"
     ]
   },
   "flex-layout.col#minicart__col--info": {
+    "title": "minicart base info",
     "children": [
       "vtex.product-list:product-name",
       "quantity-selector#minicart",
@@ -70,27 +81,32 @@
     ]
   },
   "flex-layout.col#minicart__col--remove": {
+    "title": "minicart remove button",
     "children": [
       "remove-button"
     ]
   },
   "quantity-selector#minicart": {
+    "title": "minicart quantity selector",
     "props": {
       "mode": "stepper"
     }
   },
   "flex-layout.row#minicart__footer": {
+    "title": "minicart footer",
     "children": [
       "flex-layout.col#minicart__footer"
     ]
   },
   "flex-layout.col#minicart__footer": {
+    "title": "minicart content footer",
     "children": [
       "minicart-summary",
       "minicart-checkout-button"
     ]
   },
   "rich-text#minicart__empty--text": {
+    "title": "minicart empty text",
     "props": {
       "text": "¡Llena tu carrito con las mejores ideas para tu casa! No tienes ningún producto agregado",
       "textAligment": "CENTER",

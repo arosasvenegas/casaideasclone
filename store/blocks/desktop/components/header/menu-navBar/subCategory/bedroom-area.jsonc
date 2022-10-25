@@ -1,5 +1,6 @@
 {
   "submenu#department__bedroom--submenu": {
+    "title": "Menu department bedroom",
     "children": [
       "menu#department__bedroom--submenu"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "menu#department__bedroom--submenu": {
+    "title": "Menu option bedroom",
     "children": [
       "menu-item#category__bedroom--title",
       "menu-item#category__bedroom--1",
@@ -25,6 +27,7 @@
     }
   },
   "menu-item#category__bedroom--title": {
+    "title": "Props category bedroom title",
     "props": {
       "id": "category__bedroom--title",
       "blockClass": "category__bedroom--title",
@@ -38,6 +41,7 @@
     }
   },
   "menu-item#category__bedroom--1": {
+    "title": "Props category bedroom 1",
     "props": {
       "id": "category__bedroom--1",
       "blockClass": "category__bedroom--1",
@@ -51,6 +55,7 @@
     }
   },
   "menu-item#category__bedroom--2": {
+    "title": "Props category bedroom 2",
     "props": {
       "id": "category__bedroom--2",
       "blockClass": "category__bedroom--2",
@@ -64,6 +69,7 @@
     }
   },
   "menu-item#category__bedroom--3": {
+    "title": "Props category bedroom 3",
     "props": {
       "id": "category__bedroom--3",
       "blockClass": "category__bedroom--3",
@@ -77,6 +83,7 @@
     }
   },
   "menu-item#category__bedroom--4": {
+    "title": "Props category bedroom 4",
     "props": {
       "id": "category__bedroom--4",
       "blockClass": "category__bedroom--4",
@@ -90,6 +97,7 @@
     }
   },
   "menu-item#category__bedroom--5": {
+    "title": "Props category bedroom 5",
     "props": {
       "id": "category__bedroom--5",
       "blockClass": "category__bedroom--5",
@@ -103,6 +111,7 @@
     }
   },
   "menu-item#category__bedroom--6": {
+    "title": "Props category bedroom 6",
     "props": {
       "id": "category__bedroom--6",
       "blockClass": "category__bedroom--6",
@@ -116,6 +125,7 @@
     }
   },
   "menu-item#category__bedroom--7": {
+    "title": "Props category bedroom 7",
     "props": {
       "id": "category__bedroom--7",
       "blockClass": "category__bedroom--7",
@@ -129,6 +139,7 @@
     }
   },
   "menu-item#category__bedroom--8": {
+    "title": "Props category bedroom ",
     "props": {
       "id": "category__bedroom--8",
       "blockClass": "category__bedroom--8",

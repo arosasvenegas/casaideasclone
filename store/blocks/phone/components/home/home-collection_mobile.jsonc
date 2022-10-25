@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__collection--mobile": {
+    "title": "Home collection container mobile",
     "children": [
       "flex-layout.col#text__home--collection--mobile"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "flex-layout.col#text__home--collection--mobile": {
+    "title": "Home collection content mobile",
     "children": [
       "flex-layout.row#title__home--collection--mobile",
       "flex-layout.row#description__home--collection--mobile",

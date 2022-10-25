@@ -1,6 +1,6 @@
 {
   "flex-layout.row#product__breadcrumb": {
-    "title": "Miga de pan de producto",
+    "title": "Breadcrumb product",
     "children": [
       "flex-layout.col#product__breadcrumb"
     ]

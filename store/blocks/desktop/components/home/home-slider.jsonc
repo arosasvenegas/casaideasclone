@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__slider--desktop": {
+      "title": "Home slider container",
         "children": [
             "slider-layout#section__one"
         ],
@@ -7,7 +8,6 @@
             "blockClass": "home__slider"
         }
     },
-
     "slider-layout#section__one": {
         "title": "Slider home principal",
         "props": {
@@ -31,16 +31,19 @@
         ]
       },
       "image#home__slider--one": {
+        "title": "Home slider one",
         "props": {
           "src": "assets/img/homeSlider/home__slider-1.webp"
         }
       },
       "image#home__slider--two": {
+        "title": "Home slider two",
         "props": {
           "src": "assets/img/homeSlider/home__slider-2.webp"
         }
       },
       "image#home__slider--three": {
+        "title": "Home slider three",
         "props": {
           "src": "assets/img/homeSlider/home__slider-3.webp"
         }

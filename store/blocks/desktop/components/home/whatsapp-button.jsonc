@@ -1,5 +1,6 @@
 {
     "whatsapp-button": {
+      "title": "Whatsapp Button",
         "props": {
           "blockClass": "whatsapp-button",
           "logo": "assets/img/logo/whatsapp.png",

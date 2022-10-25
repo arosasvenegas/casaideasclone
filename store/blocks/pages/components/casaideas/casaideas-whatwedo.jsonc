@@ -1,11 +1,13 @@
 {
   // seccion tres - WHAT WE DO
   "flex-layout.row#casaideas__section--whatWeDo": {
+    "title": "CasaIdeas section whatWeDo container",
     "children": [
       "flex-layout.col#casaideas__section--whatWeDo"
     ]
   },
   "flex-layout.col#casaideas__section--whatWeDo": {
+    "title": "CasaIdeas section whatWeDo content",
     "children": [
       "flex-layout.row#selction__whatWeDo--title",
       "flex-layout.row#selction__whatWeDo--subtitle",
@@ -13,28 +15,33 @@
     ]
   },
   "flex-layout.row#selction__whatWeDo--title": {
+    "title": "CasaIdeas whatWeDo title container",
     "children": [
       "rich-text#casaideas__whatwedo--title"
     ]
   },
   "rich-text#casaideas__whatwedo--title": {
+    "title": "CasaIdeas whatWeDo title",
     "props": {
       "blockClass": "whatWeDo--title",
       "text": "¿QUÉ HACEMOS?:"
     }
   },
   "flex-layout.row#selction__whatWeDo--subtitle": {
+    "title": "CasaIdeas whatWeDo subtitle container",
     "children": [
       "rich-text#selction__whatWeDo--subtitle"
     ]
   },
   "rich-text#selction__whatWeDo--subtitle": {
+    "title": "CasaIdeas whatWeDo subtitle",
     "props": {
       "blockClass": "whatWeDo--subtitle",
       "text": "CREATIVIDAD\nCON SENTIDO"
     }
   },
   "flex-layout.row#selction__whatWeDo--content": {
+    "title": "CasaIdeas whatWeDo content",
     "children": [
       "flex-layout.col#whatWeDo__image--one",
       "flex-layout.col#whatWeDo__text",
@@ -42,40 +49,47 @@
     ]
   },
   "flex-layout.col#whatWeDo__image--one": {
+    "title": "CasaIdeas whatWeDo image one container",
     "children": [
       "image#whatWeDo__image--one"
     ]
   },
   "image#whatWeDo__image--one": {
+    "title": "CasaIdeas whatWeDo image one",
     "props": {
       "blockClass": "whatwedo--image--one",
       "src": "assets/img/nosotros/quienessomos04leftmobile.webp"
     }
   },
   "flex-layout.col#whatWeDo__text": {
+    "title": "CasaIdeas whatWeDo text content",
     "children": [
       "rich-text#whatWeDo__text-1",
       "rich-text#whatWeDo__text-2"
     ]
   },
   "rich-text#whatWeDo__text-1": {
+    "title": "CasaIdeas whatWeDo text 1",
     "props": {
       "blockClass": "whatWeDo__text-1",
       "text": "SOMOS UN EQUIPO MULTIDISCIPLINARIO QUE TRABAJA PARA ENTREGARTE PRODUCTOS ÚNICOS, QUE TIENEN UN DISEÑO QUE EMBELLECEN TUS ESPACIOS Y FACILITAN TUS TAREAS COTIDIANAS."
     }
   },
   "rich-text#whatWeDo__text-2": {
+    "title": "CasaIdeas whatWeDo text 2",
     "props": {
       "blockClass": "whatWeDo__text-2",
       "text": "Diseñamos en Chile, producimos en Asia y comercializamos nuestros productos en 4 países de Sudamérica, en un proceso que incluye muchas etapas y donde participan profesionales de diversas áreas. Siempre con el cliente al centro, tratando de anticiparnos a sus necesidades, pensando en cómo facilitar y alegrar sus vidas.\nEquipos de diseño, calidad, áreas comerciales, logística, visual y marketing, cuidan de miles de detalles, desde la creación de productos hasta el lugar que deben ocupar en nuestras tiendas físicas y online, haciendo posible que nuestros clientes disfruten de la mejor experiencia.\nEs parte de nuestra tarea preocuparnos de ser sustentables, y también, tener estrechas relaciones con nuestros proveedores, de manera de controlar y desarrollar planes de trabajo, que se traduce en tener mejores precios, así entregar a nuestros clientes, un producto que satisfaga y dé respuesta a todas sus necesidades."
     }
   },
   "flex-layout.col#whatWeDo__image--two": {
+    "title": "CasaIdeas whatWeDo image two container",
     "children": [
       "image#whatWeDo__image--two"
     ]
   },
   "image#whatWeDo__image--two": {
+    "title": "CasaIdeas whatWeDo image two",
     "props": {
       "blockClass": "whatwedo--image--two",
       "src": "assets/img/nosotros/america_mobile.webp"

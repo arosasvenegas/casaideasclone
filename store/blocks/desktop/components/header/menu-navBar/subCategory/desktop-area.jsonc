@@ -1,5 +1,6 @@
 {
     "submenu#department__desktop--submenu": {
+      "title": "Menu department desktop",
       "children": [
         "menu#department__desktop--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__desktop--submenu": {
+      "title": "Menu option about casaideas",
       "children": [
         "menu-item#category__desktop--title",
         "menu-item#category__desktop--1",
@@ -25,6 +27,7 @@
       }
     },
     "menu-item#category__desktop--title": {
+      "title": "Props category desktop title",
       "props": {
         "id": "category__desktop--title",
         "blockClass": "category__desktop--title",
@@ -38,6 +41,7 @@
       }
     },
     "menu-item#category__desktop--1": {
+      "title": "Props category desktop 1",
       "props": {
         "id": "category__desktop--1",
         "blockClass": "category__desktop--1",
@@ -51,6 +55,7 @@
       }
     },
     "menu-item#category__desktop--2": {
+      "title": "Props category desktop 2",
       "props": {
         "id": "category__desktop--2",
         "blockClass": "category__desktop--2",
@@ -64,6 +69,7 @@
       }
     },
     "menu-item#category__desktop--3": {
+      "title": "Props category desktop 3",
       "props": {
         "id": "category__desktop--3",
         "blockClass": "category__desktop--3",
@@ -77,6 +83,7 @@
       }
     },
     "menu-item#category__desktop--4": {
+      "title": "Props category desktop 4",
       "props": {
         "id": "category__desktop--4",
         "blockClass": "category__desktop--4",
@@ -90,6 +97,7 @@
       }
     },
     "menu-item#category__desktop--5": {
+      "title": "Props category desktop 5",
       "props": {
         "id": "category__desktop--5",
         "blockClass": "category__desktop--5",
@@ -103,6 +111,7 @@
       }
     },
     "menu-item#category__desktop--6": {
+      "title": "Props category desktop 6",
       "props": {
         "id": "category__desktop--6",
         "blockClass": "category__desktop--6",
@@ -116,6 +125,7 @@
       }
     },
     "menu-item#category__desktop--7": {
+      "title": "Props category desktop 7",
       "props": {
         "id": "category__desktop--7",
         "blockClass": "category__desktop--7",

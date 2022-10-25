@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__collection--desktop": {
+    "title": "home collection container",
     "children": [
       "flex-layout.col#text__home--collection"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "flex-layout.col#text__home--collection": {
+    "title": "home collection",
     "children": [
       "flex-layout.row#title__home--collection",
       "flex-layout.row#description__home--collection",
@@ -21,16 +23,19 @@
     }
   },
   "flex-layout.row#title__home--collection": {
+    "title": "Title home collection container",
     "children": [
       "rich-text#title__home--collection"
     ]
   },
   "flex-layout.row#description__home--collection": {
+    "title": "Description home collection container",
     "children": [
       "rich-text#description__home--collection"
     ]
   },
   "rich-text#title__home--collection": {
+    "title": "Title home collection",
     "props": {
       "text": "NUEVAS COLECCIONES",
       "textAlignment": "CENTER",
@@ -39,6 +44,7 @@
     }
   },
   "rich-text#description__home--collection": {
+    "title": "Description home collection container",
     "props": {
       "text": "Para que la belleza y funcionalidad sea parte de tu hogar",
       "textAlignment": "CENTER",
@@ -47,6 +53,7 @@
     }
   },
   "flex-layout.row#images__home--collection": {
+    "title": "Images home collection containers",
     "children": [
       "flex-layout.col#image__collection--one",
       "flex-layout.col#image__collection--two",
@@ -57,6 +64,7 @@
     }
   },
   "flex-layout.col#image__collection--one": {
+    "title": "Info card collection one ",
     "children": [
       /*"link#image__collection--one",*/
       "info-card#image__collection--one"
@@ -74,6 +82,7 @@
     }
   },*/
   "info-card#image__collection--one": {
+    "title": "Props info card collection one ",
     "props": {
       "id": "info-card-image-one",
       "isFullModeStyle": true,
@@ -88,6 +97,7 @@
     }
   },
   "flex-layout.col#image__collection--two": {
+    "title": "Info card collection two",
     "children": [
       /*"link#image__collection--two",*/
       "info-card#image__collection--two"
@@ -105,6 +115,7 @@
     }
   },*/
   "info-card#image__collection--two": {
+    "title": "Props info card collection two",
     "props": {
       "id": "info-card-image-two",
       "isFullModeStyle": true,
@@ -119,6 +130,7 @@
     }
   },
   "flex-layout.col#image__collection--three": {
+    "title": "Info card collection three",
     "children": [
       /*"link#image__collection--three",*/
       "info-card#image__collection--three"
@@ -136,6 +148,7 @@
     } 
   },*/
   "info-card#image__collection--three": {
+    "title": "Props info card collection three",
     "props": {
       "id": "info-card-image-three",
       "isFullModeStyle": true,
@@ -150,6 +163,7 @@
     }
   },
   "flex-layout.row#images__home--collection--second": {
+    "title": "Images container home collection second",
     "children": [
       "flex-layout.col#image__collection--four",
       "flex-layout.col#image__collection--five"
@@ -161,6 +175,7 @@
     }
   },
   "flex-layout.col#image__collection--four": {
+    "title": "Info card collection four",
     "children": [
       /*"link#image__collection--four",*/
       "info-card#image__collection--four"
@@ -175,6 +190,7 @@
     } 
   },*/
   "info-card#image__collection--four":{
+    "title": "Props info card collection four",
     "props": {
       "id": "info-card-image-four",
       "isFullModeStyle": true,
@@ -189,6 +205,7 @@
     }
   },
   "flex-layout.col#image__collection--five": {
+    "title": "Info card collection five",
     "children": [
       /*"link#image__collection--five",*/
       "info-card#image__collection--five"
@@ -203,6 +220,7 @@
     }
   },*/
   "info-card#image__collection--five": {
+    "title": "Props info card collection five",
     "props": {
       "id": "info-card-image-five",
       "isFullModeStyle": true,
@@ -217,6 +235,7 @@
     }
   },
   "flex-layout.row#text__home--collection": {
+    "title": "Text home collection container",
     "children": [
       "flex-layout.col#text__buy--collection"
     ],
@@ -225,17 +244,20 @@
     }
   },
   "flex-layout.col#text__buy--collection": {
+    "title": "Text home collection container",
     "children": [
       "flex-layout.row#buy__online--title",
       "flex-layout.row#buy__online--description"
     ]
   },
   "flex-layout.row#buy__online--title": {
+    "title": "Title buy online",
     "children": [
       "rich-text#buy__online--title"
     ]
   },
   "rich-text#buy__online--title": {
+    "title": "Props title buy online",
     "props": {
       "text": "Artículos de hogar ¡Compra Online! | Casaideas",
       "textAlignment": "CENTER",
@@ -244,11 +266,13 @@
     }
   },
   "flex-layout.row#buy__online--description": {
+    "title": "Description buy online",
     "children": [
       "rich-text#buy__online--description"
     ]
   },
   "rich-text#buy__online--description": {
+    "title": "Props description buy online",
     "props": {
       "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
       "textAlignment": "CENTER",
@@ -257,11 +281,13 @@
     }
   },
   "flex-layout.row#title__shelf--desktop": {
+    "title": "Title shelf desktop",
     "children": [
       "rich-text#title__shelf--desktop"
     ]
   },
   "rich-text#title__shelf--desktop": {
+    "title": "Props title shelf",
     "props": {
       "text": "¡NO TE LOS PUEDES PERDER!",
       "textAlignment": "CENTER",

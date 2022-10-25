@@ -1,5 +1,6 @@
 {
     "submenu#department__bathroom--submenu": {
+      "title": "Menu department bathroom",
       "children": [
         "menu#department__bathroom--submenu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "menu#department__bathroom--submenu": {
+      "title": "Menu option department bathroom",
       "children": [
         "menu-item#category__bathroom--title",
         "menu-item#category__bathroom--1",
@@ -25,6 +27,7 @@
       }
     },
     "menu-item#category__bathroom--title": {
+      "title": "Props category bathroom title",
       "props": {
         "id": "category__bathroom--title",
         "blockClass": "category__bathroom--title",
@@ -38,6 +41,7 @@
       }
     },
     "menu-item#category__bathroom--1": {
+      "title": "Props category bathroom 1",
       "props": {
         "id": "category__bathroom--1",
         "blockClass": "category__bathroom--1",
@@ -51,6 +55,7 @@
       }
     },
     "menu-item#category__bathroom--2": {
+      "title": "Props category bathroom 2",
       "props": {
         "id": "category__bathroom--2",
         "blockClass": "category__bathroom--2",
@@ -64,6 +69,7 @@
       }
     },
     "menu-item#category__bathroom--3": {
+      "title": "Props category bathroom 3",
       "props": {
         "id": "category__bathroom--3",
         "blockClass": "category__bathroom--3",
@@ -77,6 +83,7 @@
       }
     },
     "menu-item#category__bathroom--4": {
+      "title": "Props category bathroom 4",
       "props": {
         "id": "category__bathroom--4",
         "blockClass": "category__bathroom--4",
@@ -90,6 +97,7 @@
       }
     },
     "menu-item#category__bathroom--5": {
+      "title": "Props category bathroom 5",
       "props": {
         "id": "category__bathroom--5",
         "blockClass": "category__bathroom--5",
@@ -103,6 +111,7 @@
       }
     },
     "menu-item#category__bathroom--6": {
+      "title": "Props category bathroom 6",
       "props": {
         "id": "category__bathroom--6",
         "blockClass": "category__bathroom--6",
@@ -116,6 +125,7 @@
       }
     },
     "menu-item#category__bathroom--7": {
+      "title": "Props category bathroom 7",
       "props": {
         "id": "category__bathroom--7",
         "blockClass": "category__bathroom--7",

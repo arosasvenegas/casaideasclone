@@ -1,5 +1,6 @@
 {
   "menu-item#department__discount": {
+    "title": "Props department discount",
     "props": {
       "id": "department__discount",
       "blockClass": "department__discount",
@@ -16,6 +17,7 @@
     ]
   },
   "submenu#department__discount": {
+    "title": "Menu department discount",
     "children": [
       "menu#department__discount"
     ],
@@ -24,6 +26,7 @@
     }
   },
   "menu#department__discount": {
+    "title": "Menu options department discount",
     "children": [
       "menu-item#category__offers",
       "menu-item#category__combinable_products"
@@ -34,6 +37,7 @@
     }
   },
   "menu-item#category__offers": {
+    "title": "Props category offers",
     "props": {
       "id": "category__offers",
       "type": "custom",
@@ -47,6 +51,7 @@
     }
   },
   "menu-item#category__combinable_products": {
+    "title": "Props category combinable products",
     "props": {
       "id": "category__combinable_products",
       "type": "custom",

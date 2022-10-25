@@ -1,5 +1,6 @@
 {
   "menu-item#department__all-products": {
+    "title": "Props department all products",
     "props": {
       "id": "department__all-products",
       "type": "custom",
@@ -16,6 +17,7 @@
     ]
   },
   "submenu#department__all-products": {
+    "title": "Menu department all products",
     "children": [
       "menu#department__all-products"
     ],
@@ -24,6 +26,7 @@
     }
   },
   "menu#department__all-products": {
+    "title": "Menu options all products",
     "children": [
       "menu-item#category__season--accessories",
       "menu-item#category__sport--accessories",
@@ -62,6 +65,7 @@
     }
   },
   "menu-item#category__season--accessories": {
+    "title": "Props category season accessories",
     "props": {
       "id": "category__season--accessories",
       "type": "custom",
@@ -75,6 +79,7 @@
     }
   },
   "menu-item#category__sport--accessories": {
+    "title": "Props category sport accessories",
     "props": {
       "id": "category__sport--accessories",
       "type": "custom",
@@ -87,6 +92,7 @@
     }
   },
   "menu-item#category__bathroom--accessories": {
+    "title": "Props category bathroom accessories", 
     "props": {
       "id": "category__bathroom--accessories",
       "type": "custom",
@@ -99,6 +105,7 @@
     }
   },
   "menu-item#category__spa-beuty--accessories": {
+    "title": "Props category spa accessories",
     "props": {
       "id": "category__spa-beuty--accessories",
       "type": "custom",
@@ -111,6 +118,7 @@
     }
   },
   "menu-item#category__personal--accessories": {
+    "title": "Props category personal accessories",
     "props": {
       "id": "category__personal--accessories",
       "type": "custom",
@@ -123,6 +131,7 @@
     }
   },
   "menu-item#category__rugs--products": {
+    "title": "Props category rugs products",
     "props": {
       "id": "category__rugs--products",
       "type": "custom",
@@ -135,6 +144,7 @@
     }
   },
   "menu-item#category__pillows--products": {
+    "title": "Props category pillows products",
     "props": {
       "id": "category__pillows--products",
       "type": "custom",
@@ -147,6 +157,7 @@
     }
   },
   "menu-item#category__aromatic--products": {
+    "title": "Props category aromatic products",
     "props": {
       "id": "category__aromatic--products",
       "type": "custom",
@@ -159,6 +170,7 @@
     }
   },
   "menu-item#category__desktop--products": {
+    "title": "Props category desktop products",
     "props": {
       "id": "category__desktop--products",
       "type": "custom",
@@ -171,6 +183,7 @@
     }
   },
   "menu-item#category__barbecue-products": {
+    "title": "Props category barbecue products",
     "props": {
       "id": "category__barbecue-products",
       "type": "custom",
@@ -183,6 +196,7 @@
     }
   },
   "menu-item#category__baby--products": {
+    "title": "Props category baby products",
     "props": {
       "id": "category__baby--products",
       "type": "custom",
@@ -195,6 +209,7 @@
     }
   },
   "menu-item#category__cushions--products": {
+    "title": "Props category cushions products",
     "props": {
       "id": "category__cushions--products",
       "type": "custom",
@@ -207,6 +222,7 @@
     }
   },
   "menu-item#category__curtains--products": {
+    "title": "Props category curtains products",
     "props": {
       "id": "category__curtains--products",
       "type": "custom",
@@ -219,6 +235,7 @@
     }
   },
   "menu-item#category__deco--products": {
+    "title": "Props category deco products",
     "props": {
       "id": "category__deco--products",
       "type": "custom",
@@ -231,6 +248,7 @@
     }
   },
   "menu-item#category__tools--accessories": {
+    "title": "Props category tools accessories",
     "props": {
       "id": "category__tools--accessories",
       "type": "custom",
@@ -243,6 +261,7 @@
     }
   },
   "menu-item#category__light--products": {
+    "title": "Props category light products",
     "props": {
       "id": "category__light--products",
       "type": "custom",
@@ -255,6 +274,7 @@
     }
   },
   "menu-item#category__garden--products": {
+    "title": "Props category garden products",
     "props": {
       "id": "category__garden--products",
       "type": "custom",
@@ -267,6 +287,7 @@
     }
   },
   "menu-item#category__toys--products": {
+    "title": "Props category toys products",
     "props": {
       "id": "category__toys--products",
       "type": "custom",
@@ -279,6 +300,7 @@
     }
   },
   "menu-item#category__laundry--products": {
+    "title": "Props category laundry products",
     "props": {
       "id": "category__laundry--products",
       "type": "custom",
@@ -291,6 +313,7 @@
     }
   },
   "menu-item#category__pets--products": {
+    "title": "Props category pets products",
     "props": {
       "id": "category__pets--products",
       "type": "custom",
@@ -303,6 +326,7 @@
     }
   },
   "menu-item#category__kitchen--accessories": {
+    "title": "Props category kitchen accessories",
     "props": {
       "id": "category__kitchen--accessories",
       "type": "custom",
@@ -315,6 +339,7 @@
     }
   },
   "menu-item#category__table--accessories": {
+    "title": "Props category table accessories",
     "props": {
       "id": "category__table--accessories",
       "type": "custom",
@@ -327,6 +352,7 @@
     }
   },
   "menu-item#category__furniture--products": {
+    "title": "Props category furniture products",
     "props": {
       "id": "category__furniture--products",
       "type": "custom",
@@ -339,6 +365,7 @@
     }
   },
   "menu-item#category__kids--products": {
+    "title": "Props category kids products",
     "props": {
       "id": "category__kids--products",
       "type": "custom",
@@ -351,6 +378,7 @@
     }
   },
   "menu-item#category__organizers--products": {
+    "title": "Props category organizers products",
     "props": {
       "id": "category__organizers--products",
       "type": "custom",
@@ -363,6 +391,7 @@
     }
   },
   "menu-item#category__chair--products": {
+    "title": "Props category chair products",
     "props": {
       "id": "category__chair--products",
       "type": "custom",
@@ -375,6 +404,7 @@
     }
   },
   "menu-item#category__yarn--products": {
+    "title": "Props category yarn products",
     "props": {
       "id": "category__yarn--products",
       "type": "custom",
@@ -387,6 +417,7 @@
     }
   },
   "menu-item#category__textiles--products": {
+    "title": "Props category textiles products",
     "props": {
       "id": "category__textiles--products",
       "type": "custom",
@@ -399,6 +430,7 @@
     }
   },
   "menu-item#category__urban--products": {
+    "title": "Props category urban products",
     "props": {
       "id": "category__urban--products",
       "type": "custom",
@@ -411,6 +443,7 @@
     }
   },
   "menu-item#category__candles--products": {
+    "title": "Props category candles products",
     "props": {
       "id": "category__candles--products",
       "type": "custom",

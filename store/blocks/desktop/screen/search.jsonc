@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop": {
+    "title": "Search Result Desktop",
     "children": [
       "flex-layout.row#desktop__department--breadcrumb",
       "flex-layout.row#desktop__department--title",
@@ -12,11 +13,13 @@
     }
   },
   "flex-layout.row#desktop__department--breadcrumb": {
+    "tile": "Container desktop department breadcrumb",
     "children": [
       "breadcrumb.search"
     ]
   },
   "flex-layout.row#desktop__department--title": {
+    "tile": "Container desktop department search title",
     "children": [
       "search-title.v2"
     ]

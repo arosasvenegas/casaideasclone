@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "Store search",
     "blocks": [
       "search-result-layout"
     ],
@@ -11,6 +12,7 @@
     }
   },
   "store.search#department": {
+    "title": "Store search department",
     "blocks": [
       "search-result-layout"
     ],
@@ -22,6 +24,7 @@
     }
   },
   "store.search#category": {
+    "title": "Store search category",
     "blocks": [
       "search-result-layout"
     ],
@@ -33,6 +36,7 @@
     }
   },
   "store.search#subcategory": {
+    "title": "Store search subcategory",
     "blocks": [
       "search-result-layout"
     ],
@@ -44,6 +48,7 @@
     }
   },
   "store.search#brand": {
+    "title": "Store search brand",
     "blocks": [
       "search-result-layout"
     ],
@@ -55,7 +60,7 @@
     }
   },
   "search-result-layout": {
-    "title": "",
+    "title": "Search result layout",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile"
@@ -63,11 +68,13 @@
     ]
   },
   "gallery": {
+    "title": "Gallery",
     "blocks": [
       "product-summary.shelf"
     ]
   },
   "product-summary.shelf": {
+    "title": "Product summary shelf",
     "props": {
       "blockClass": "image-product"
     },
@@ -84,6 +91,7 @@
     ]
   },
   "product-summary-sku-selector": {
+    "title": "Product summary sku selector",
     "props": {
       "hidenImpossibleCombinations": false
     }

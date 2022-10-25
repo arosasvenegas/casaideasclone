@@ -1,5 +1,6 @@
 {
  "store.custom#newPage": {
+    "title": "Store custom new page",
   "blocks": [
    "flex-layout.row#newPage__container"
   ],
