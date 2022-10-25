@@ -1,9 +1,10 @@
 {
   "pdf-reader": {
+    "title": "Pdf reader",
     "props": {
       "pdfUrl": "assets/documents/pdf-casaideas.pdf",
-      "width": 1000,
-      "height": 800
+      "width": "100%",
+      "height": "600"
 
     }
   }

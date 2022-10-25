@@ -1,9 +1,10 @@
 {
   "search-result-layout.mobile": {
+    "title": "search result mobile",
     "children": [
-      "flex-layout.row#mobile__department--breadcrumb",
-      "flex-layout.row#mobile__department--title",
-      "flex-layout.row#mobile__department--results"
+      "flex-layout.row#desktop__department--breadcrumb",
+      "flex-layout.row#desktop__department--title",
+      "flex-layout.row#desktop__department--results"
     ],
     "props": {
       "pagination": "show-more",
@@ -11,71 +12,22 @@
       "defaultGalleryLayout": "grid"
     }
   },
-  "flex-layout.row#mobile__department--breadcrumb": {
+  "flex-layout.row#desktop__department--breadcrumb": {
+    "title": "Department breadcrumb container",
     "children": [
       "breadcrumb.search"
     ]
   },
   "breadcrumb.search": {
+    "title": "Breadcrumb search ",
     "props": {
       "showOnMobile": true
     }
   },
-  "flex-layout.row#mobile__department--title": {
+  "flex-layout.row#desktop__department--title": {
+    "title": "Search title",
     "children": [
       "search-title.v2"
     ]
-  },
-  "flex-layout.row#mobile__department--results": {
-    "children": [
-      "flex-layout.col#mobile__department--filters",
-      "flex-layout.col#mobile__department--results"
-    ]
-  },
-  "flex-layout.col#mobile__department--filters": {
-    "children": [
-      "flex-layout.row#mobile__results-department--filters",
-      "flex-layout.row#mobile__results-department--orderBy"
-    ]
-  },
-  "flex-layout.row#mobile__results-department--filters": {
-    "children": [
-      "flex-layout.col#mobile__results-department--filters"
-      
-    ],
-    "props": {
-      "width": "25%"
-    }
-  },
-  "flex-layout.col#mobile__results-department--filters": {
-    "children": [
-      "filter-navigator.v3"
-    ]
-  },
-  "flex-layout.row#mobile__results-department--orderBy": {
-    "children":[
-      "flex-layout.col#mobile__results-department--orderBy"
-    ]
-  },
-  "flex-layout.col#mobile__results-department--orderBy": {
-    "children": [
-      "order-by.v2"
-    ]
-  },
-  "flex-layout.col#mobile__department--results": {
-    "children": [
-      "flex-layout.row#mobile__results-department--products",
-      "flex-layout.row#mobile__results-department--searchContent"
-    ]
-  },
-  "flex-layout.row#mobile__results-department--products":{
-
-    "children": ["total-products.v2"]
-  },
-  "flex-layout.row#mobile__results-department--searchContent": {
-    "children": ["list-context.product-list#plp__result-mobile"],
-    "props": {
-      "blockClass": "plp__result--mobile"
-    }
   }
 }

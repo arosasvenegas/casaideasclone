@@ -1,0 +1,62 @@
+{
+  "menu-item#department__all-products--mobile": {
+    "props": {
+      "id": "department__all-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "PRODUCTOS",
+        "text": "PRODUCTOS"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__all-products--mobile"
+    ]
+  },
+  "submenu.accordion#department__all-products--mobile": {
+    "children": [
+      "menu#department__all-products--mobile"
+    ]
+  },
+  "menu#department__all-products--mobile": {
+    "children": [
+      "menu-item#category__season--accessories",
+      "menu-item#category__sport--accessories",
+      "menu-item#category__bathroom--accessories",
+      "menu-item#category__spa-beuty--accessories",
+      "menu-item#category__personal--accessories",
+      "menu-item#category__rugs--products",
+      "menu-item#category__pillows--products",
+      "menu-item#category__aromatic--products",
+      "menu-item#category__desktop--products",
+      "menu-item#category__barbecue-products",
+      "menu-item#category__baby--products",
+      "menu-item#category__cushions--products",
+      "menu-item#category__curtains--products",
+      "menu-item#category__deco--products",
+      "menu-item#category__tools--accessories",
+      "menu-item#category__light--products",
+      "menu-item#category__garden--products",
+      "menu-item#category__toys--products",
+      "menu-item#category__laundry--products",
+      "menu-item#category__pets--products",
+      "menu-item#category__kitchen--accessories",
+      "menu-item#category__table--accessories",
+      "menu-item#category__furniture--products",
+      "menu-item#category__kids--products",
+      "menu-item#category__organizers--products",
+      "menu-item#category__chair--products",
+      "menu-item#category__yarn--products",
+      "menu-item#category__textiles--products",
+      "menu-item#category__urban--products",
+      "menu-item#category__candles--products"
+    ],
+    "props": {
+      "blockClass": "categories__all-products--mobile",
+      "orientation": "vertical"
+    }
+  }
+
+}

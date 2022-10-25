@@ -1,14 +1,18 @@
 {
   "store.custom#casaideas": {
+    "title": "Store custom CasaIdeas",
     "path": "/casaideas"
   },
   "store.custom#pdf-reader": {
+    "title": "Store custom PDf reader",
     "path": "/Terminos-y-Condiciones"
   },
   "store.custom#home-clone": {
+    "title": "Store custom home Clone",
     "path": "/home"
   },
   "store.custom#newPage": {
+    "title": "Store custom New Page",
     "path": "/newPage"
   }
 }

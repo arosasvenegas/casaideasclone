@@ -1,6 +1,7 @@
 {
     //Menu
   "flex-layout.row#casaideas__menu--options": {
+    "title": "CasaIdeas menu options",
     "children": [
       "flex-layout.col#casaideas__options--adn",
       "flex-layout.col#casaideas__options--team",
@@ -14,22 +15,26 @@
   },
   //texto opcion menu 1
   "flex-layout.col#casaideas__options--adn": {
+    "title": "CasaIdeas options adn",
     "children": [
       "rich-text#casaideas__adn--text"
     ]
   },
   "rich-text#casaideas__adn--text": {
+    "title": "CasaIdeas options adn text",
     "props": {
       "text": "ADN"
     }
   },
   //texto opcion menu 2
   "flex-layout.col#casaideas__options--team": {
+    "title": "CasaIdeas options team",
     "children": [
       "rich-text#casaideas__team--text"
     ]
   },
   "rich-text#casaideas__team--text": {
+    "title": "CasaIdeas options team text",
     "props": {
       "blockClass": "menu__nuestro-equipo",
       "text": "NUESTRO EQUIPO"
@@ -37,11 +42,13 @@
   },
   //texto opcion menu 3
   "flex-layout.col#casaideas__options--whatWeDo": {
+    "title": "CasaIdeas options whatWeDo",
     "children": [
       "rich-text#casaideas__whatWeDo--text"
     ]
   },
   "rich-text#casaideas__whatWeDo--text": {
+    "title": "CasaIdeas options whatWeDo text",
     "props": {
       "blockClass": "menu__que-hacemos",
       "text": "¿QUÉ HACEMOS?"
@@ -49,11 +56,13 @@
   },
   //texto opcion menu 4
   "flex-layout.col#casaideas__options--howWeDo": {
+    "title": "CasaIdeas options howWeDo",
     "children": [
       "rich-text#casaideas__howWeDo--text"
     ]
   },
   "rich-text#casaideas__howWeDo--text": {
+    "title": "CasaIdeas options howWeDo text",
     "props": {
       "blockClass": "menu__como-hacemos",
       "text": "¿CÓMO LO HACEMOS?"
@@ -61,11 +70,13 @@
   },
   //texto opcion menu 5
   "flex-layout.col#casaideas__options--commitment": {
+    "title": "CasaIdeas options commitment",
     "children": [
       "rich-text#casaideas__commitment--text"
     ]
   },
   "rich-text#casaideas__commitment--text": {
+    "title": "CasaIdeas options commitment text",
     "props": {
       "blockClass": "menu__comprometidos",
       "text": "COMPROMETIDOS"

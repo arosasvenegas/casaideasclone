@@ -1,0 +1,59 @@
+{
+  "menu-item#department__about-casaideas--mobile": {
+    "props": {
+      "id": "department__about-casaideas--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NOSOTROS",
+        "text": "NOSOTROS"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__about-casaideas--mobile"
+    ]
+  },
+  "submenu.accordion#department__about-casaideas--mobile": {
+    "children": [
+      "menu#department__about--casaideas-mobile"
+    ]
+  },
+  "menu#department__about--casaideas-mobile": {
+    "children": [
+      "menu-item#category__about-us--mobile",
+      "menu-item#category__sustainability--mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department__about-casaideas--mobile"
+    }
+  },
+  "menu-item#category__about-us--mobile": {
+    "props": {
+      "id": "category__about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "custom",
+        "href": "/casaideas",
+        "noFollow": true,
+        "tagTitle": "Quiénes somos",
+        "text": "Quiénes somos"
+      }
+    }
+  },
+  "menu-item#category__sustainability--mobile": {
+    "props": {
+      "id": "category__sustainability",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "Sostenibilidad",
+        "text": "Sostenibilidad"
+      }
+    }
+  }
+}

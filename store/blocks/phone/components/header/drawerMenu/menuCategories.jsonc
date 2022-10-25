@@ -1,0 +1,98 @@
+{
+  "submenu.accordion#department__house-products--mobile": {
+    "children": [
+      "menu#department__house-products--mobile"
+    ]
+  },
+  "menu#department__house-products--mobile": {
+    "children": [
+      "menu-item#category__kitchen--area--mobile",
+      "menu-item#category__living--area--mobile",
+      "menu-item#category__bedroom--area--mobile",
+      "menu-item#category__dinning--area--mobile",
+      "menu-item#category__kids-and-babies--mobile",
+      "menu-item#category__bathroom--area--mobile",
+      "menu-item#category__storage--area--mobile",
+      "menu-item#category__garden--area--mobile",
+      "menu-item#category__desktop-paperware--mobile",
+      "menu-item#category__yard--area--mobile",
+      "menu-item#category__pets--mobile",
+      "menu-item#category__laundry--area--mobile",
+      "menu-item#category__personal--area--mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  
+  "submenu.accordion#department__all-products--mobile": {
+    "children": [
+      "menu#department__all-products--mobile"
+    ]
+  },
+  "menu#department__all-products--mobile": {
+    "children": [
+      "menu-item#category__season--accessories",
+      "menu-item#category__sport--accessories",
+      "menu-item#category__bathroom--accessories",
+      "menu-item#category__spa-beuty--accessories",
+      "menu-item#category__personal--accessories",
+      "menu-item#category__rugs--products",
+      "menu-item#category__pillows--products",
+      "menu-item#category__aromatic--products",
+      "menu-item#category__desktop--products",
+      "menu-item#category__barbecue-products",
+      "menu-item#category__baby--products",
+      "menu-item#category__cushions--products",
+      "menu-item#category__curtains--products",
+      "menu-item#category__deco--products",
+      "menu-item#category__tools--accessories",
+      "menu-item#category__light--products",
+      "menu-item#category__garden--products",
+      "menu-item#category__toys--products",
+      "menu-item#category__laundry--products",
+      "menu-item#category__pets--products",
+      "menu-item#category__kitchen--accessories",
+      "menu-item#category__table--accessories",
+      "menu-item#category__furniture--products",
+      "menu-item#category__kids--products",
+      "menu-item#category__organizers--products",
+      "menu-item#category__chair--products",
+      "menu-item#category__yarn--products",
+      "menu-item#category__textiles--products",
+      "menu-item#category__urban--products",
+      "menu-item#category__candles--products"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "submenu.accordion#department__discount--mobile":{
+    "children": [
+      "menu#department__discount--mobile"
+    ]
+  },
+  "menu#department__discount--mobile": {
+    "children": [
+      "menu-item#category__offers--mobile",
+      "menu-item#category__combinable_products--mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "submenu.accordion#department__about-casaideas--mobile":{
+    "children": [
+      "menu#department__about-casaideas--mobile"
+    ]
+  },
+  "menu#department__about-casaideas--mobile": {
+    "children": [
+      "menu-item#category__about-us--mobile",
+      "menu-item#category__sustainability--mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,16 +1,19 @@
 {
   "flex-layout.row#newPage__container": {
+    "title": "New page container",
     "children": [
       "flex-layout.col#newPage__container"
     ]
   },
   "flex-layout.col#newPage__container": {
+    "title": "New page content",
     "children": [
       "rich-text#newPage__text",
       "image#newPage__image"
     ]
   },
   "rich-text#newPage__text": {
+    "title": "New page text",
     "props": {
       "text": "# Bienvenido! ",
       "textAlignment": "CENTER",
@@ -19,6 +22,7 @@
     }
   },
   "image#newPage__image": {
+    "title": "New page image",
     "props": {
       "src": "assets/img/homeSlider/home__slider-1.webp"
     }

@@ -1,11 +1,13 @@
 {
   //Contenido seccion uno - ADN
   "flex-layout.row#casaideas__selction--adn": {
+    "title": "CasaIdeas Seccion ADN container",
     "children": [
       "flex-layout.col#casaideas__selction--adn"
     ]
   },
   "flex-layout.col#casaideas__selction--adn": {
+    "title": "CasaIdeas Seccion ADN content",
     "children": [
       "flex-layout.row#selction__adn--title",
       "flex-layout.row#selction__adn--subtitle",
@@ -13,6 +15,7 @@
     ]
   },
   "flex-layout.row#selction__adn--title": {
+    "title": "CasaIdeas Seccion ADN title",
     "children": [
       "rich-text#casaideas__adn--title"
     ],
@@ -21,40 +24,47 @@
     }
   },  
     "rich-text#casaideas__adn--title": {
+      "title": "CasaIdeas ADN title",
       "props": {
         "blockClass": "adn--title",
         "text": "ADN:"
       }
     },
   "flex-layout.row#selction__adn--subtitle": {
+    "title": "CasaIdeas ADN container subtitle",
     "children": [
       "rich-text#selction__adn--subtitle"
     ]
   },
   "rich-text#selction__adn--subtitle": {
+    "title": "CasaIdeas ADN subtitle",
     "props": {
       "blockClass": "adn--subtitle",
       "text": "LO QUE NOS HACE\nDIFERENTES"
     }
   },
   "flex-layout.row#selction__adn--content": {
+    "title": "CasaIdeas ADN content",
     "children": [
       "flex-layout.col#adn__image",
       "flex-layout.col#adn__text"
     ]
   },
   "flex-layout.col#adn__image": {
+    "title": "CasaIdeas ADN image container",
     "children": [
       "image#adn__image"
     ]
   },
   "image#adn__image": {
+    "title": "CasaIdeas ADN image",
     "props": {
       "blockClass": "adn__image",
       "src": "assets/img/nosotros/quienessomos02mobil.webp"
     }
   },
   "flex-layout.col#adn__text": {
+    "title": "CasaIdeas ADN text content",
     "children": [
       "rich-text#adn__text--content-1",
       "rich-text#adn__text--content-2"
@@ -65,12 +75,14 @@
     
   },
   "rich-text#adn__text--content-1": {
+    "title": "CasaIdeas ADN content 1",
     "props": {
       "blockClass": "text--content-1",
       "text": "QUEREMOS APORTAR A HACER UNA VIDA MÁS SIMPLE Y PRÁCTICA, Y QUE TU CASA SEA MÁS LINDA Y FUNCIONAL A TRAVÉS DEL DISEÑO." 
     }
   },
   "rich-text#adn__text--content-2":{
+    "title": "CasaIdeas ADN content 2",
     "props": {
       "blockClass": "text--content-2",
       "text": 

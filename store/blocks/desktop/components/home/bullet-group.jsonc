@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#bullet-group": {
+    "title": "context bullet list container",
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullet-group"
+    }
+    
+  },
+  "list-context.bullet-group": {
+    "title": "context bullet list",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullet-group",
+      "bullets": [
+        {
+          "image": "assets/img/bullet/mueble.webp",
+          "titleBullet": "Muebles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/jardinera.webp",
+          "titleBullet": "Jadinera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/colgador.webp",
+          "titleBullet": "Colgadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/cortina.webp",
+          "titleBullet": "Cortinas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/mateles.webp",
+          "titleBullet": "Manteles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/mesita.webp",
+          "titleBullet": "Mesita",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/puf.webp",
+          "titleBullet": "Pufs",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/silla-rosa.webp",
+          "titleBullet": "Sillas",
+          "link": {
+            "url": "/"
+          }
+        }
+    
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "title": "slider layout bullet",
+    "props": {
+      "blockClass": "bullet-group",
+      "itemPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "mobile": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  }
+}

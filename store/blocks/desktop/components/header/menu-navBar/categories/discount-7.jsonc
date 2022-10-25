@@ -1,0 +1,67 @@
+{
+  "menu-item#department__discount": {
+    "title": "Props department discount",
+    "props": {
+      "id": "department__discount",
+      "blockClass": "department__discount",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "DESCUENTOS",
+        "text": "DESCUENTOS"
+      }
+    },
+    "blocks": [
+      "submenu#department__discount"
+    ]
+  },
+  "submenu#department__discount": {
+    "title": "Menu department discount",
+    "children": [
+      "menu#department__discount"
+    ],
+    "props": {
+      "blockClass": "department__discount"
+    }
+  },
+  "menu#department__discount": {
+    "title": "Menu options department discount",
+    "children": [
+      "menu-item#category__offers",
+      "menu-item#category__combinable_products"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department__discount"
+    }
+  },
+  "menu-item#category__offers": {
+    "title": "Props category offers",
+    "props": {
+      "id": "category__offers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#category__combinable_products": {
+    "title": "Props category combinable products",
+    "props": {
+      "id": "category__combinable_products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "PRODUCTOS COMBINABLES",
+        "text": "PRODUCTOS COMBINABLES"
+      }
+    }
+  }
+}

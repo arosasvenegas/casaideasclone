@@ -1,5 +1,6 @@
 {
   "store.custom#pdf-reader": {
+    "title": "Store custom pdf reader",
     "blocks": [
       "pdf-reader",
       "custom-grid"

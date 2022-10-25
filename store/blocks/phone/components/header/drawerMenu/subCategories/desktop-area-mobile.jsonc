@@ -1,0 +1,131 @@
+{
+    "submenu.accordion#department__desktop--submenu--mobile": {
+      "children": [
+        "menu#department__desktop--submenu"
+      ],
+      "props": {
+        "blockClass": "container__desktop--submenu"
+      }
+    },
+    "menu#department__desktop--submenu": {
+      "children": [
+        "menu-item#category__desktop--title",
+        "menu-item#category__desktop--1",
+        "menu-item#category__desktop--2",
+        "menu-item#category__desktop--3",
+        "menu-item#category__desktop--4",
+        "menu-item#category__desktop--5",
+        "menu-item#category__desktop--6",
+        "menu-item#category__desktop--7"
+       
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_desktop"
+      }
+    },
+    "menu-item#category__desktop--title": {
+      "props": {
+        "id": "category__desktop--title",
+        "blockClass": "category__desktop--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Escritorio y papelería",
+          "text": "Ver todo Escritorio y papelería"
+        }
+      }
+    },
+    "menu-item#category__desktop--1": {
+      "props": {
+        "id": "category__desktop--1",
+        "blockClass": "category__desktop--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Accesorios de escritorio",
+          "text": "Accesorios de escritorio"
+        }
+      }
+    },
+    "menu-item#category__desktop--2": {
+      "props": {
+        "id": "category__desktop--2",
+        "blockClass": "category__desktop--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Cuadernos y libretas",
+          "text": "Cuadernos y libretas"
+        }
+      }
+    },
+    "menu-item#category__desktop--3": {
+      "props": {
+        "id": "category__desktop--3",
+        "blockClass": "category__desktop--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Agendas, calendarios, planner y álbumes",
+          "text": "Agendas, calendarios, planner y álbumes"
+        }
+      }
+    },
+    "menu-item#category__desktop--4": {
+      "props": {
+        "id": "category__desktop--4",
+        "blockClass": "category__desktop--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Bolsos y estuches",
+          "text": "Bolsos y estuches"
+        }
+      }
+    },
+    "menu-item#category__desktop--5": {
+      "props": {
+        "id": "category__desktop--5",
+        "blockClass": "category__desktop--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Muebles y sillas de escritorio",
+          "text": "Muebles y sillas de escritorio"
+        }
+      }
+    },
+    "menu-item#category__desktop--6": {
+      "props": {
+        "id": "category__desktop--6",
+        "blockClass": "category__desktop--6",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Organizadores para escritorio",
+          "text": "Organizadores para escritorio"
+        }
+      }
+    },
+    "menu-item#category__desktop--7": {
+      "props": {
+        "id": "category__desktop--7",
+        "blockClass": "category__desktop--7",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Manualidades",
+          "text": "Manualidades"
+        }
+      }
+    }
+  }

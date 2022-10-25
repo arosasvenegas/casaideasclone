@@ -1,0 +1,67 @@
+{
+  "menu-item#department__about-casaideas": {
+    "title": "Props department about casaideas",
+    "props": {
+      "id": "department__about-casaideas",
+      "blockClass": "department__about-casaideas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "NOSOTROS",
+        "text": "NOSOTROS"
+      }
+    },
+    "blocks": [
+      "submenu#department__about-casaideas"
+    ]
+  },
+  "submenu#department__about-casaideas": {
+    "title": "Menu department about casaideas",
+    "children": [
+      "menu#department__about-casaideas"
+    ],
+    "props": {
+      "blockClass": "department__about-casaideas"
+    }
+  },
+  "menu#department__about-casaideas": {
+    "title": "Menu option about casaideas",
+    "children": [
+      "menu-item#category__about-us",
+      "menu-item#category__sustainability"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department__about-casaideas"
+    }
+  },
+  "menu-item#category__about-us": {
+    "title": "Props category about us",
+    "props": {
+      "id": "category__about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "custom",
+        "href": "/casaideas",
+        "noFollow": true,
+        "tagTitle": "Quiénes somos",
+        "text": "Quiénes somos"
+      }
+    }
+  },
+  "menu-item#category__sustainability": {
+    "title": "Props category about us",
+    "props": {
+      "id": "category__sustainability",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "Sostenibilidad",
+        "text": "Sostenibilidad"
+      }
+    }
+  }
+}

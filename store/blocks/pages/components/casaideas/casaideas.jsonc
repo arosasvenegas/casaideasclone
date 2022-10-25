@@ -1,11 +1,13 @@
 {
   "flex-layout.row#casaideas__container--row": {
+    "title": "CasaIdeas container",
     "children": [
       "flex-layout.col#casaideas__container--col"
     ]
   },
   //containers
   "flex-layout.col#casaideas__container--col": {
+    "title": "CasaIdeas content",
     "children": [
       "flex-layout.row#casaideas__image--welcome", //LISTO
       "flex-layout.row#casaideas__text--welcome", //LISTO

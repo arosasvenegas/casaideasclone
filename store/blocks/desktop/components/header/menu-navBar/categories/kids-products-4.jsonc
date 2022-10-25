@@ -1,0 +1,17 @@
+{
+  "menu-item#department__kids-products": {
+    "title": "Props department kids",
+    "props": {
+      "id": "department__kids-products",
+      "blockClass": "department__kids-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NIÑOS Y BEBÉ",
+        "text": "NIÑOS Y BEBÉ"
+      }
+    }
+  }
+}

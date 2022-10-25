@@ -1,9 +1,11 @@
 {
   "store.home": {
+    "title": "Home Responsive layout",
     "blocks": [
       "responsive-layout.desktop#home__desktop",
-      "responsive-layout.mobile#home__mobile"
-      
+      /*"responsive-layout.mobile#home__mobile",*/
+      "responsive-layout.phone#home__phone",
+      "responsive-layout.tablet#home__tablet"
       
     ]
   }

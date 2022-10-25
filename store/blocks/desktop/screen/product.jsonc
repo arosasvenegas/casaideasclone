@@ -1,5 +1,6 @@
 {
     "product-summary.shelf#home__shelf--products-desktop": {
+      "title": "Product Summary Shelf Home",
         "children": [
           "add-to-list-btn",
           "product-summary-image",
@@ -16,52 +17,60 @@
         }
       },
       "product-summary-image": {
+        "title": "Product summary image",
         "props": {
           "blockClass": "product-summary-image"
         }
       },
       "product-summary-name": {
+        "title": "Product summary name",
         "props": {
           "tag": "h3"
         }
       },
       "product-summary-sku-selector": {
+        "title": "Product summary sku selector",
         "props": {
           "hideImpossibleCombinations": false
         }
       },
       "slider-layout#home__slider--products-desktop": {
+        "title": "Slider layout home product",
         "props": {
           "blockClass": "home__slider--products-desktop",
           "itemsPerPage": {
-            "desktop": 3,
+            "desktop": 5,
             "tablet": 4,
-            "phone": 2
+            "phone": 1
           },
-          "showNavigationArrows": "always",
+          "showNavigationArrows": "desktopOnly",
           "showPaginationDots": "never",
           "infinite": true
         }
       },
       "modal-trigger#global__quick-view": {
+        "title": "Modal trigger quick view",
         "children": [
           "rich-text#global__quick-view--trigger",
           "modal-layout#global__quick-view--modal"
         ]
       },
       "rich-text#global__quick-view--trigger": {
+        "title": "Text trigger quick view",
         "props": {
           "text": "vista rápida",
           "blockClass": "quick-view__trigger"
         }
       },
       "modal-layout#global__quick-view--modal": {
+        "title": "Modal quick view",
         "children": [
           "modal-header#quick-view__header",
           "flex-layout.row#quick-view__modal"
         ]
       },
       "modal-header#quick-view__header": {
+        "title": "Modal quick view header",
         "children": [],
         "props": {
           "showCloseButton": true,
@@ -69,17 +78,20 @@
         }
       },
       "flex-layout.row#quick-view__modal": {
+        "title": "Modal quick view container",
         "children": [
           "flex-layout.col#quick-view__modal--image",
           "flex-layout.col#quick-view__modal--info"
         ]
       },
       "flex-layout.col#quick-view__modal--image": {
+        "title": "Modal quick view image",
         "children": [
           "product-summary-image"
         ]
       },
       "flex-layout.col#quick-view__modal--info": {
+        "title": "Modal quick view info",
         "children": [
           "add-to-list-btn",
           "product-summary-name",

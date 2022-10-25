@@ -1,0 +1,15 @@
+{
+  "menu-item#department__kids-products--mobile": {
+    "props": {
+      "id": "department__kids-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NIÑOS Y BEBÉ",
+        "text": "NIÑOS Y BEBÉ"
+      }
+    }
+  }
+}

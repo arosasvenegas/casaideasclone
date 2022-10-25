@@ -1,0 +1,15 @@
+{
+  "menu-item#department__new-products--mobile": {
+    "props": {
+      "id": "department__new-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NUEVOS",
+        "text": "NUEVOS"
+      }
+    }
+  }
+}

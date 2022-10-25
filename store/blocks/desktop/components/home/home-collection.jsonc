@@ -1,0 +1,298 @@
+{
+  "flex-layout.row#home__collection--desktop": {
+    "title": "home collection container",
+    "children": [
+      "flex-layout.col#text__home--collection"
+    ],
+    "props": {
+      "blockClass": "homeCollection"
+    }
+  },
+  "flex-layout.col#text__home--collection": {
+    "title": "home collection",
+    "children": [
+      "flex-layout.row#title__home--collection",
+      "flex-layout.row#description__home--collection",
+      "flex-layout.row#images__home--collection",
+      "flex-layout.row#images__home--collection--second",
+      "flex-layout.row#text__home--collection",
+      "flex-layout.row#title__shelf--desktop"
+    ],
+    "props": {
+      "blockClass": "homeCollection"
+    }
+  },
+  "flex-layout.row#title__home--collection": {
+    "title": "Title home collection container",
+    "children": [
+      "rich-text#title__home--collection"
+    ]
+  },
+  "flex-layout.row#description__home--collection": {
+    "title": "Description home collection container",
+    "children": [
+      "rich-text#description__home--collection"
+    ]
+  },
+  "rich-text#title__home--collection": {
+    "title": "Title home collection",
+    "props": {
+      "text": "NUEVAS COLECCIONES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleCollection"
+    }
+  },
+  "rich-text#description__home--collection": {
+    "title": "Description home collection container",
+    "props": {
+      "text": "Para que la belleza y funcionalidad sea parte de tu hogar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "paragraphCollection"
+    }
+  },
+  "flex-layout.row#images__home--collection": {
+    "title": "Images home collection containers",
+    "children": [
+      "flex-layout.col#image__collection--one",
+      "flex-layout.col#image__collection--two",
+      "flex-layout.col#image__collection--three"
+    ],
+    "props": {
+      "blockClass": "first__section--collection"
+    }
+  },
+  "flex-layout.col#image__collection--one": {
+    "title": "Info card collection one ",
+    "children": [
+      /*"link#image__collection--one",*/
+      "info-card#image__collection--one"
+    ],
+    "props": {
+      "blockClass": "img_Box"
+    }
+  },
+  /*"link#image__collection--one": {
+    "children": [
+      "info-card#image__collection--one"
+    ],
+    "props": {
+      "href": "/"
+    }
+  },*/
+  "info-card#image__collection--one": {
+    "title": "Props info card collection one ",
+    "props": {
+      "id": "info-card-image-one",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/newCollection/home__collection-1.webp",
+      "headline": null,
+      "subhead": "¡ANÍMATE A CULTIVAR!",
+      "callToActionText": ">",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-image-one",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#image__collection--two": {
+    "title": "Info card collection two",
+    "children": [
+      /*"link#image__collection--two",*/
+      "info-card#image__collection--two"
+    ],
+    "props": {
+      "blockClass": "img_Box"
+    }
+  },
+  /*"link#image__collection--two": {
+    "children": [
+      "info-card#image__collection--two"
+    ],
+    "props": {
+      "href": "/"
+    }
+  },*/
+  "info-card#image__collection--two": {
+    "title": "Props info card collection two",
+    "props": {
+      "id": "info-card-image-two",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/newCollection/home__collection-2.webp",
+      "headline": null,
+      "subhead": "ORGANÍZATE A MANO",
+      "callToActionText": ">",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-image-two",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#image__collection--three": {
+    "title": "Info card collection three",
+    "children": [
+      /*"link#image__collection--three",*/
+      "info-card#image__collection--three"
+    ],
+    "props": {
+      "blockClass": "img_Box"
+    }
+  },
+  /*"link#image__collection--three": {
+    "children": [
+      "info-card#image__collection--three"
+    ],
+    "props": {
+      "href": "/"
+    } 
+  },*/
+  "info-card#image__collection--three": {
+    "title": "Props info card collection three",
+    "props": {
+      "id": "info-card-image-three",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/img/newCollection/home__collection-3.webp",
+      "headline": null,
+      "subhead": "DESCANSO PARA TU PERRO",
+      "callToActionText": ">",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-image-three",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#images__home--collection--second": {
+    "title": "Images container home collection second",
+    "children": [
+      "flex-layout.col#image__collection--four",
+      "flex-layout.col#image__collection--five"
+    ],
+    "props": {
+      "blockClass": "second__section--collection",
+      "colGap": 6,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#image__collection--four": {
+    "title": "Info card collection four",
+    "children": [
+      /*"link#image__collection--four",*/
+      "info-card#image__collection--four"
+    ]
+  },
+  /*"link#image__collection--four": {
+    "children": [
+      "info-card#image__collection--four"
+    ],
+    "props": {
+      "href": "/"
+    } 
+  },*/
+  "info-card#image__collection--four":{
+    "title": "Props info card collection four",
+    "props": {
+      "id": "info-card-image-four",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/newCollection/home__collection-4.webp",
+      "headline": null,
+      "subhead": "Muebles con estilo",
+      "callToActionText": "REVISA AQUÍ",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-image-four",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#image__collection--five": {
+    "title": "Info card collection five",
+    "children": [
+      /*"link#image__collection--five",*/
+      "info-card#image__collection--five"
+    ]
+  },
+  /*"link#image__collection--five": {
+    "children": [
+      "info-card#image__collection--five"
+    ],
+    "props": {
+      "href": "/"
+    }
+  },*/
+  "info-card#image__collection--five": {
+    "title": "Props info card collection five",
+    "props": {
+      "id": "info-card-image-five",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/img/newCollection/home__collection-5.webp",
+      "headline": null,
+      "subhead": "Dormitorio infantil",
+      "callToActionText": "REVISA AQUÍ",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-image-five",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#text__home--collection": {
+    "title": "Text home collection container",
+    "children": [
+      "flex-layout.col#text__buy--collection"
+    ],
+    "props": {
+      "blockClass": "text__buy--collection"
+    }
+  },
+  "flex-layout.col#text__buy--collection": {
+    "title": "Text home collection container",
+    "children": [
+      "flex-layout.row#buy__online--title",
+      "flex-layout.row#buy__online--description"
+    ]
+  },
+  "flex-layout.row#buy__online--title": {
+    "title": "Title buy online",
+    "children": [
+      "rich-text#buy__online--title"
+    ]
+  },
+  "rich-text#buy__online--title": {
+    "title": "Props title buy online",
+    "props": {
+      "text": "Artículos de hogar ¡Compra Online! | Casaideas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleBuyOnline"
+    }
+  },
+  "flex-layout.row#buy__online--description": {
+    "title": "Description buy online",
+    "children": [
+      "rich-text#buy__online--description"
+    ]
+  },
+  "rich-text#buy__online--description": {
+    "title": "Props description buy online",
+    "props": {
+      "text": "En Casaideas encontrarás variedad en productos que ayudarán a facilitar tu vida. Compra online con despacho a domicilio para el mismo día o prográmalo.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "descriptionBuyOnline"
+    }
+  },
+  "flex-layout.row#title__shelf--desktop": {
+    "title": "Title shelf desktop",
+    "children": [
+      "rich-text#title__shelf--desktop"
+    ]
+  },
+  "rich-text#title__shelf--desktop": {
+    "title": "Props title shelf",
+    "props": {
+      "text": "¡NO TE LOS PUEDES PERDER!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title__shelf"
+    }
+  }
+}

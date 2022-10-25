@@ -1,0 +1,17 @@
+{
+  "menu-item#department__new-products": {
+    "title": "Props department new products",
+    "props": {
+      "id": "department__new-products",
+      "blockClass": "department__new-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "NUEVOS",
+        "text": "NUEVOS"
+      }
+    }
+  }
+}

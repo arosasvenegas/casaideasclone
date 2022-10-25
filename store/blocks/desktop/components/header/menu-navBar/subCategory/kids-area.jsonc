@@ -1,0 +1,200 @@
+{
+  "submenu#department__kids--submenu": {
+    "title": "Menu department kids",
+    "children": [
+      "menu#department__kids--submenu"
+    ],
+    "props": {
+      "blockClass": "container__kids--submenu"
+    }
+  },
+  "menu#department__kids--submenu": {
+    "title": "Menu option kids",
+    "children": [
+      "menu-item#category__kids--title",
+      "menu-item#category__kids--1",
+      "menu-item#category__kids--2",
+      "menu-item#category__kids--3",
+      "menu-item#category__kids--4",
+      "menu-item#category__kids--5",
+      "menu-item#category__kids--6",
+      "menu-item#category__kids--7",
+      "menu-item#category__kids--8",
+      "menu-item#category__kids--9",
+      "menu-item#category__kids--10",
+      "menu-item#category__kids--11"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu_kids"
+    }
+  },
+  "menu-item#category__kids--title": {
+    "title": "Props category kids title",
+    "props": {
+      "id": "category__kids--title",
+      "blockClass": "category__kids--title",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Ver todo niños y bebés",
+        "text": "Ver todo niños y bebés"
+      }
+    }
+  },
+  "menu-item#category__kids--1": {
+    "title": "Props category kids 1",
+    "props": {
+      "id": "category__kids--1",
+      "blockClass": "category__kids--1",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Ropa de cama infantil",
+        "text": "Ropa de cama infaltil"
+      }
+    }
+  },
+  "menu-item#category__kids--2": {
+    "title": "Props category kids 2",
+    "props": {
+      "id": "category__kids--2",
+      "blockClass": "category__kids--2",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Dormitorio decoración infantil",
+        "text": "Dormitorio decoración infantil"
+      }
+    }
+  },
+  "menu-item#category__kids--3": {
+    "title": "Props category kids 3",
+    "props": {
+      "id": "category__kids--3",
+      "blockClass": "category__kids--3",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Organizadores y repisas",
+        "text": "Organizadores y repisas"
+      }
+    }
+  },
+  "menu-item#category__kids--4": {
+    "title": "Props category kids 4",
+    "props": {
+      "id": "category__kids--4",
+      "blockClass": "category__kids--4",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Cojines de peluche y divertidos",
+        "text": "Cojines de peluche y divertidos"
+      }
+    }
+  },
+  "menu-item#category__kids--5": {
+    "title": "Props category kids 5",
+    "props": {
+      "id": "category__kids--5",
+      "blockClass": "category__kids--5",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Accesorios de descanso infantil",
+        "text": "Accesorios de descanso infantil"
+      }
+    }
+  },
+  "menu-item#category__kids--6": {
+    "title": "Props category kids 6",
+    "props": {
+      "id": "category__kids--6",
+      "blockClass": "category__kids--6",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Accesorios de baño infantil",
+        "text": "Accesorios de baño infantil"
+      }
+    }
+  },
+  "menu-item#category__kids--7": {
+    "title": "Props category kids 7",
+    "props": {
+      "id": "category__kids--7",
+      "blockClass": "category__kids--7",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Juguetería",
+        "text": "Juguetería"
+      }
+    }
+  },
+  "menu-item#category__kids--8": {
+    "title": "Props category kids 8",
+    "props": {
+      "id": "category__kids--8",
+      "blockClass": "category__kids--8",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Libros infantiles",
+        "text": "Libros infantiles"
+      }
+    }
+  },
+  "menu-item#category__kids--9": {
+    "title": "Props category kids 9",
+    "props": {
+      "id": "category__kids--9",
+      "blockClass": "category__kids--9",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Escritorio y papelería infantil",
+        "text": "Escritorio y papelería infantil"
+      }
+    }
+  },
+  "menu-item#category__kids--10": {
+    "title": "Props category kids 10",
+    "props": {
+      "id": "category__kids--10",
+      "blockClass": "category__kids--10",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Bebé",
+        "text": "Bebé"
+      }
+    }
+  },
+  "menu-item#category__kids--11": {
+    "title": "Props category kids 11",
+    "props": {
+      "id": "category__kids--11",
+      "blockClass": "category__kids--11",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "noFollow": true,
+        "tagTitle": "Muebles infantiles",
+        "text": "Muebles infantiles"
+      }
+    }
+  }
+}

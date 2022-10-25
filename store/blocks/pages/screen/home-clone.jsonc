@@ -1,5 +1,6 @@
 {
   "store.custom#home-clone": {
+    "title": "Store Custom home clone",
     "blocks": [
       "responsive-layout.desktop#home__desktop"
     ]

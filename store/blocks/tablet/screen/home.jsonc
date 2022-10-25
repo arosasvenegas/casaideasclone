@@ -1,0 +1,10 @@
+{
+  "responsive-layout.tablet#home__tablet": {
+    "children": [
+      "flex-layout.row#home__container--desktop"
+    ],
+    "props": {
+      "blockClass": "home__container--desktop"
+    }
+  }
+}

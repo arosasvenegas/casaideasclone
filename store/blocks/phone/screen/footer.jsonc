@@ -1,0 +1,21 @@
+{
+  "footer-layout.mobile": {
+    "title": "Footer mobile",
+    "children": [
+      "flex-layout.row#user__subscribe-email--mobile",
+      "flex-layout.row#footer__container--mobile"
+    ],
+    "props": {
+      "blockClass": "footer__container--mobile"
+    }
+  },
+  "flex-layout.row#user__subscribe-email--mobile": {
+    "title": "user subscribe email mobile",
+    "children": [
+      "flex-layout.col#email--mobile"
+    ],
+    "props": {
+      "blockClass": "user__subscribe--container--mobile"
+    }
+  }
+}

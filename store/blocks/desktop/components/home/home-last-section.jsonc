@@ -1,0 +1,130 @@
+{
+  "flex-layout.row#home__lastSection--desktop": {
+    "title": "Home last section container",
+    "children": [
+      "flex-layout.col#last__section-desktop"
+    ],
+    "props": {
+      "blockClass": "home__lastSection--container"
+    }
+  },
+  "flex-layout.col#last__section-desktop": {
+    "title": "Home last sections",
+    "children": [
+      "flex-layout.row#download__free-calendar",
+      "flex-layout.row#user__help"
+    ],
+    "props": {
+      "blockClass": "home__lastSection--div"
+    }
+  },
+  "flex-layout.row#download__free-calendar": {
+    "title": "Free calendar container",
+    "children": [
+      "image#download__calendar-desktop"
+    ], 
+    "props": {
+      "blockClass": "image__calendar--div"
+    }
+  },
+  "image#download__calendar-desktop": {
+    "title": "Free calendar image",
+    "props": {
+      "src": "assets/img/section_calendar/home__calendar-new.webp",
+      "blockClass": "image__calendar"
+    }
+  },
+  "flex-layout.row#user__help": {
+    "title": "User help containers",
+    "children": [
+      "flex-layout.col#user__questions-desktop",
+      "flex-layout.col#user__delivery-desktop",
+      "flex-layout.col#user__help-desktop"
+    ],
+    "props": {
+      "blockClass": "text__lastSection"
+    }
+  },
+  "flex-layout.col#user__questions-desktop": {
+    "title": "User questions section",
+    "children": [
+      "flex-layout.row#questions"
+    ]
+  },
+  "flex-layout.row#questions": {
+    "title": "Questions section",
+    "children": [
+      "rich-text#user__questions"
+    ],
+    "props": {
+      "blockClass": "text__user--question"
+    }
+  },
+  "rich-text#user__questions": {
+    "title": "User questions text",
+    "props": {
+      "text": "¿DUDAS SOBRE TU COMPRA?",
+      "blockClass": "user_questions"
+    }
+  },
+  "flex-layout.col#user__delivery-desktop": {
+    "title": "Delivery section",
+    "children": [
+      "flex-layout.row#delivery"
+    ]
+  },
+  "flex-layout.row#delivery": {
+    "title": "Delivery container",
+    "children": [
+      "image#delivery__image-desktop",
+      "rich-text#search__user-buy"
+    ],
+    "props": {
+      "blockClass": "text__user--delivery"
+    }
+  },
+  "image#delivery__image-desktop": {
+    "title": "Delivery image",
+    "props": {
+      "src": "assets/img/section_calendar/home__delivery.jpg",
+      "blockClass": "image__delivery"
+    }
+  },
+  "rich-text#search__user-buy": {
+    "title": "Text search user buy",
+    "props": {
+      "text": "Rastrea tu pedido",
+      "blockClass": "search_buy"
+    }
+  },
+  "flex-layout.col#user__help-desktop": {
+    "title": "User help section",
+    "children": [
+      "flex-layout.row#help"
+    ]
+  },
+  "flex-layout.row#help": {
+    "title": "Help container",
+    "children": [
+      "image#help__image-desktop",
+      "rich-text#user__need-help"
+    ],
+    "props": {
+      "blockClass": "text__user--help"
+    }
+  },
+  "image#help__image-desktop": {
+    "title": "Help image",
+    "props": {
+      "src": "assets/img/section_calendar/home__help.jpg",
+      "blockClass": "image__help"
+    }
+  },
+  "rich-text#user__need-help": {
+    "title": "Text need help",
+    "props": {
+      "text": "¿NECESITAS AYUDA?",
+      "blockClass": "need_help"
+    }
+  }
+}
