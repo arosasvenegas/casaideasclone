@@ -84,7 +84,7 @@
       "itemPerPage": {
         "desktop": 5,
         "tablet": 4,
-        "mobile": 2
+        "mobile": 1
       },
       "infinite": true,
       "showPaginationDots": "never"
