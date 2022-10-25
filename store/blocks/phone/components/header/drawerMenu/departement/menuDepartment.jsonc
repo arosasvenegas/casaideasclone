@@ -1,0 +1,29 @@
+{
+  "drawer#header__mobile--menu": {
+    "title": "drawer menu phone",
+    "children": [
+      "menu#header__menu--mobile"
+    ],
+    "props": {
+      "blockClass": "drawer__menu"
+    }
+  },
+  "menu#header__menu--mobile": {
+    "children": [
+      "menu-item#department__your-shop--mobile",
+      "menu-item#department__season-products--mobile",
+      "menu-item#department__shops--mobile",
+      "menu-item#department__new-products--mobile",
+      "menu-item#department__house-products--mobile",
+      "menu-item#department__all-products--mobile",
+      "menu-item#department__kids-products--mobile",
+      "menu-item#department__summer-products--mobile",
+      "menu-item#department__discount--mobile",
+      "menu-item#department__about-casaideas--mobile"
+    ],
+    "props": {
+      "blockClass":"header__menu--mobile",
+      "orientation": "vertical"
+    }
+  }
+}

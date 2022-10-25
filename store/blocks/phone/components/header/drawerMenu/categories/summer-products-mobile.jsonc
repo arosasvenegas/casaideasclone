@@ -1,0 +1,15 @@
+{
+  "menu-item#department__summer-products--mobile": {
+    "props": {
+      "id": "department__summer-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "SALIÓ EL SOL",
+        "text": "SALIÓ EL SOL"
+      }
+    }
+  }
+}

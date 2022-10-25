@@ -1,0 +1,71 @@
+{
+  "flex-layout.col#email": {
+    "children": [
+      "flex-layout.row#text__user-subscribe",
+      "flex-layout.row#data__user-subscribe"
+    ]
+  },
+  "flex-layout.row#text__user-subscribe": {
+    "children": [
+      "image#image__gift",
+      "rich-text#text__newsletter"
+    ],
+    "props": {
+      "blockClass": "text__subscribe--div"
+    }
+  },
+  "image#image__gift": {
+    "props": {
+      "src": "assets/img/section_calendar/home__gift.jpg",
+      "blockClass": "image__gift"
+    }
+  },
+  "rich-text#text__newsletter": {
+    "props": {
+      "text": "¡Suscríbete a nuestro newsletter y recibe un 15% de descuento, en el mes de tu cumpleaños!",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "birthday__discount"
+    }
+  },
+  "flex-layout.row#data__user-subscribe": {
+    "children": [
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-input-phone",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass": "newsletter__inputs--div"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Andres Gonzalez",
+      "blockClass": "input__name"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "andres.gonzalez@gmail.com",
+      "blockClass": "input__email"
+    }
+  },
+  "newsletter-input-phone": {
+    "props": {
+      "placeholderText": "día/mes",
+      "blockClass": "input__number"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscribirme",
+      "blockClass": "button__submit"
+    }
+  }
+}

@@ -9,12 +9,12 @@
   },
   "product-summary.shelf#plp__result-mobile": {
     "children": [
-      "product-summary-name",
-      "product-summary-description",
+      "add-to-list-btn",
       "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
       "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
   },
   "slider-layout#plp__result-mobile": {

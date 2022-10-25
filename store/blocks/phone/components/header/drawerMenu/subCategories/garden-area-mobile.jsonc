@@ -1,0 +1,103 @@
+{
+    "submenu.accordion#department__garden--submenu--mobile": {
+      "children": [
+        "menu#department__garden--submenu"
+      ],
+      "props": {
+        "blockClass": "container__garden--submenu"
+      }
+    },
+    "menu#department__garden--submenu": {
+      "children": [
+        "menu-item#category__garden--title",
+        "menu-item#category__garden--1",
+        "menu-item#category__garden--2",
+        "menu-item#category__garden--3",
+        "menu-item#category__garden--4",
+        "menu-item#category__garden--5"
+        
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu_garden"
+      }
+    },
+    "menu-item#category__garden--title": {
+      "props": {
+        "id": "category__garden--title",
+        "blockClass": "category__garden--title",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Ver todo Jardín",
+          "text": "Ver todo Jardín"
+        }
+      }
+    },
+    "menu-item#category__garden--1": {
+      "props": {
+        "id": "category__garden--1",
+        "blockClass": "category__garden--1",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Plantas decorativas",
+          "text": "Plantas decorativas"
+        }
+      }
+    },
+    "menu-item#category__garden--2": {
+      "props": {
+        "id": "category__garden--2",
+        "blockClass": "category__garden--2",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Maceteros, soportes y decoración",
+          "text": "Maceteros, soportes y decoración"
+        }
+      }
+    },
+    "menu-item#category__garden--3": {
+      "props": {
+        "id": "category__garden--3",
+        "blockClass": "category__garden--3",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Herramientas y acceosrios",
+          "text": "Herramientas y acceosrios"
+        }
+      }
+    },
+    "menu-item#category__garden--4": {
+      "props": {
+        "id": "category__garden--4",
+        "blockClass": "category__garden--4",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Huerto en casa",
+          "text": "Huerto en casa"
+        }
+      }
+    },
+    "menu-item#category__garden--5": {
+      "props": {
+        "id": "category__garden--5",
+        "blockClass": "category__garden--5",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Muebles para Jardín",
+          "text": "Muebles para Jardín"
+        }
+      }
+    }
+  }

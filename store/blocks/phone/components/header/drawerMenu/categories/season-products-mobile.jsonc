@@ -1,0 +1,15 @@
+{
+  "menu-item#department__season-products--mobile": {
+    "props": {
+      "id": "department__season-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "ACCESORIOS DE TEMPORADA",
+        "text": "ACCESORIOS DE TEMPORADA"
+      }
+    }
+  }
+}

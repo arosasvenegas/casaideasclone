@@ -1,30 +1,20 @@
 {
-  "submenu.accordion#department__house-products--mobile": {
-    "children": [
-      "menu#department__house-products--mobile"
+  "menu-item#department__all-products--mobile": {
+    "props": {
+      "id": "department__all-products--mobile",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/newPage",
+        "noFollow": true,
+        "tagTitle": "PRODUCTOS",
+        "text": "PRODUCTOS"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__all-products--mobile"
     ]
   },
-  "menu#department__house-products--mobile": {
-    "children": [
-      "menu-item#category__kitchen--area--mobile",
-      "menu-item#category__living--area--mobile",
-      "menu-item#category__bedroom--area--mobile",
-      "menu-item#category__dinning--area--mobile",
-      "menu-item#category__kids-and-babies--mobile",
-      "menu-item#category__bathroom--area--mobile",
-      "menu-item#category__storage--area--mobile",
-      "menu-item#category__garden--area--mobile",
-      "menu-item#category__desktop-paperware--mobile",
-      "menu-item#category__yard--area--mobile",
-      "menu-item#category__pets--mobile",
-      "menu-item#category__laundry--area--mobile",
-      "menu-item#category__personal--area--mobile"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  
   "submenu.accordion#department__all-products--mobile": {
     "children": [
       "menu#department__all-products--mobile"
@@ -64,35 +54,9 @@
       "menu-item#category__candles--products"
     ],
     "props": {
-      "orientation": "vertical"
-    }
-  },
-  "submenu.accordion#department__discount--mobile":{
-    "children": [
-      "menu#department__discount--mobile"
-    ]
-  },
-  "menu#department__discount--mobile": {
-    "children": [
-      "menu-item#category__offers--mobile",
-      "menu-item#category__combinable_products--mobile"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "submenu.accordion#department__about-casaideas--mobile":{
-    "children": [
-      "menu#department__about-casaideas--mobile"
-    ]
-  },
-  "menu#department__about-casaideas--mobile": {
-    "children": [
-      "menu-item#category__about-us--mobile",
-      "menu-item#category__sustainability--mobile"
-    ],
-    "props": {
+      "blockClass": "categories__all-products--mobile",
       "orientation": "vertical"
     }
   }
+
 }
