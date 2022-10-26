@@ -1,4 +1,4 @@
-{/*
+{
     "responsive-layout.phone#home__phone": {
     "title": "Responsive Layout Phone",
     "children": [
@@ -7,5 +7,5 @@
     "props": {
       "blockClass": "home__container--phone"
     } 
-    }*/
+    }
 }

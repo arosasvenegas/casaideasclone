@@ -1,11 +1,11 @@
-{
+{/*
   "responsive-layout.mobile#home__mobile": {
-    "title": "Responsive Layout Desktop",
+    "title": "Responsive Layout Mobile",
     "children": [
       "flex-layout.row#home__container--desktop"
     ],
     "props": {
-      "blockClass": "home__container--desktop"
+      "blockClass": "home__container--Mobile"
     }
-  }
+  }*/
 }

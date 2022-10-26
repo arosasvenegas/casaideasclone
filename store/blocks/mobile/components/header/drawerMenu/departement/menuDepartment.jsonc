@@ -9,6 +9,7 @@
     }
   },
   "menu#header__menu--mobile": {
+    "title": "Header menu mobile",
     "children": [
       "menu-item#department__your-shop--mobile",
       "menu-item#department__season-products--mobile",
