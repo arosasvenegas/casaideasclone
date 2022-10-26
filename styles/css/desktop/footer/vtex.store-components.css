@@ -1,0 +1,16 @@
+.imageElement--image__gift{
+    width: 120px;
+    height: 80px;
+    margin-right: 170px;
+
+}
+@media screen and (max-width: 768px) {
+    .imageElement--image__gift{
+        position: relative;
+        right: 226px;
+        top: 50px;
+    } 
+    .logoImage--footer__logo{
+        visibility: hidden;
+    }
+}

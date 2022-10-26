@@ -1,20 +1,5 @@
 {
-  "header-row#header__top--mobile": {
-    "children": [
-      "rich-text#header__top--text--mobile"
-    ],
-    "props":{
-      "blockClass": "header__top--mobile"
-    }
-  },
-  "rich-text#header__top--text--mobile": {
-    "props": {
-      "blockClass": "header__top--text--mobile",
-      "text": "**¡Aprovecha la liquidación!** descuentos de hasta 50% en productos seleccionados. Compra AQUÍ",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
+
   "header-row#header__content--mobile": {
     "children": [
       "drawer#header__mobile--menu",
