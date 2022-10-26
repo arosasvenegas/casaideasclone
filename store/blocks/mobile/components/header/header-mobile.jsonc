@@ -9,7 +9,7 @@
       "login"
     ],
     "props": {
-      "blockClass": "header__middle"
+      "blockClass": "header__middle--mobile"
     }
   },
   "logo#header__top--logo--mobile": {

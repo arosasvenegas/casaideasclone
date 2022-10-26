@@ -22,25 +22,25 @@
   },
   "menu#department__house-products--mobile": {
     "children": [
-      "menu-item#category__kitchen--area",
-      "menu-item#category__living--area",
-      "menu-item#category__bedroom--area",
-      "menu-item#category__dinning--area",
-      "menu-item#category__kids-and-babies",
-      "menu-item#category__bathroom--area",
-      "menu-item#category__storage--area",
-      "menu-item#category__garden--area",
-      "menu-item#category__desktop-paperware",
-      "menu-item#category__yard--area",
-      "menu-item#category__pets",
-      "menu-item#category__laundry--area",
-      "menu-item#category__personal--area"
+      "menu-item#category__kitchen--area--mobile",
+      "menu-item#category__living--area--mobile",
+      "menu-item#category__bedroom--area--mobile",
+      "menu-item#category__dinning--area--mobile",
+      "menu-item#category__kids-and-babies--mobile",
+      "menu-item#category__bathroom--area--mobile",
+      "menu-item#category__storage--area--mobile",
+      "menu-item#category__garden--area--mobile",
+      "menu-item#category__desktop-paperware--mobile",
+      "menu-item#category__yard--area--mobile",
+      "menu-item#category__pets--mobile",
+      "menu-item#category__laundry--area--mobile",
+      "menu-item#category__personal--area--mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-  "menu-item#category__kitchen--area": {
+  "menu-item#category__kitchen--area--mobile": {
     "props": {
       "id": "category__kitchen--area",
       "blockClass": "category__kitchen--area",
@@ -56,7 +56,7 @@
       "submenu.accordion#department__kitchen--submenu--mobile"
     ]
   },
-  "menu-item#category__living--area": {
+  "menu-item#category__living--area--mobile": {
     "props": {
       "id": "category__living--area",
       "type": "custom",
@@ -71,7 +71,7 @@
       "submenu.accordion#department__living--submenu--mobile"
     ]
   },
-  "menu-item#category__bedroom--area": {
+  "menu-item#category__bedroom--area--mobile": {
     "props": {
       "id": "category__bedroom--area",
       "type": "custom",
@@ -86,7 +86,7 @@
       "submenu.accordion#department__bedroom--submenu--mobile"
     ]
   },
-  "menu-item#category__dinning--area": {
+  "menu-item#category__dinning--area--mobile": {
     "props": {
       "id": "category__dinning--area",
       "blockClass": "category__dinning--area",
@@ -102,7 +102,7 @@
       "submenu.accordion#department__dinning--submenu--mobile"
     ]
   },
-  "menu-item#category__kids-and-babies": {
+  "menu-item#category__kids-and-babies--mobile": {
     "props": {
       "id": "category__kids-and-babies",
       "type": "custom",
@@ -117,7 +117,7 @@
       "submenu.accordion#department__kids--submenu--mobile"
     ]
   },
-  "menu-item#category__bathroom--area": {
+  "menu-item#category__bathroom--area--mobile": {
     "props": {
       "id": "category__bathroom--area",
       "type": "custom",
@@ -132,7 +132,7 @@
       "submenu.accordion#department__bathroom--submenu--mobile"
     ]
   },
-  "menu-item#category__storage--area": {
+  "menu-item#category__storage--area--mobile": {
     "props": {
       "id": "category__storage--area",
       "type": "custom",
@@ -147,7 +147,7 @@
       "submenu.accordion#department__storage--submenu--mobile"
     ]
   },
-  "menu-item#category__garden--area": {
+  "menu-item#category__garden--area--mobile": {
     "props": {
       "id": "category__garden--area",
       "type": "custom",
@@ -162,7 +162,7 @@
       "submenu.accordion#department__garden--submenu--mobile"
     ]
   },
-  "menu-item#category__desktop-paperware": {
+  "menu-item#category__desktop-paperware--mobile": {
     "props": {
       "id": "category__desktop-paperware",
       "type": "custom",
@@ -177,7 +177,7 @@
       "submenu.accordion#department__desktop--submenu--mobile"
     ]
   },
-  "menu-item#category__yard--area": {
+  "menu-item#category__yard--area--mobile": {
     "props": {
       "id": "category__yard--area",
       "type": "custom",
@@ -192,7 +192,7 @@
       "submenu.accordion#department__yard--submenu--mobile"
     ]
   },
-  "menu-item#category__pets": {
+  "menu-item#category__pets--mobile": {
     "props": {
       "id": "category__pets",
       "type": "custom",
@@ -207,7 +207,7 @@
       "submenu.accordion#department__pets--submenu--mobile"
     ]
   },
-  "menu-item#category__laundry--area": {
+  "menu-item#category__laundry--area--mobile": {
     "props": {
       "id": "category__laundry--area",
       "type": "custom",
@@ -222,7 +222,7 @@
       "submenu.accordion#department__laundry--submenu--mobile"
     ]
   },
-  "menu-item#category__personal--area": {
+  "menu-item#category__personal--area--mobile": {
     "props": {
       "id": "category__personal--area",
       "type": "custom",
