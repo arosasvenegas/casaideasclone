@@ -11,3 +11,15 @@
     bottom: 87px;
     width: 350px;
 }
+@media screen and (max-width: 768px) {
+    .departmentGroup__item {
+        position: relative;
+        left: 88px;
+        bottom: 178px;
+    }
+    .searchBarInnerContainer {
+        position: relative;
+        left: -170px;
+        bottom: 87px;
+    }
+}

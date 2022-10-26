@@ -23,3 +23,28 @@
     bottom: 35px;
 
 }
+@media screen and (max-width: 768px){
+    .quickOrder__title{
+        position: relative;
+        bottom: 250px;
+        left: 30px;
+    }
+    .quickOrder__label{
+        position: relative;
+        bottom: 250px;
+        left: 65px;
+    }
+    .quickOrder__input{
+        width: 200px;
+        margin-top: 10px;
+        position: relative;
+        left: 80px;
+        bottom: 250px;
+    }
+    .quickOrder__button{
+    position: relative;
+    left: 80px;
+    bottom: 240px;
+    width: 200px;
+    }
+}

@@ -23,3 +23,15 @@
     margin: 15px;
     
 }
+@media screen and (max-width: 768px){
+    .logoImage--logo__mobile{
+        position: relative;
+        right: 25px;
+    }
+    .headerRowContainer--header__search--mobile{
+        position: relative;
+        left: 40px;
+        bottom: 20px;
+        
+    }
+}

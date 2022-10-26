@@ -19,12 +19,7 @@
     margin-left: auto;
     display: block;
 }
-.imageElement--image__gift{
-    width: 120px;
-    height: 80px;
-    margin-right: 170px;
 
-}
 .infoCardContainer--info-card-image-one, .infoCardContainer--info-card-image-two, .infoCardContainer--info-card-image-three{
     height: 403px;
 }
@@ -123,4 +118,137 @@
 }
 .skuSelectorcontainer{
     visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+    .infoCardContainer--info-card-image-one,
+    .infoCardContainer--info-card-image-two,
+    .infoCardContainer--info-card-image-three{
+        height: 180px;
+        max-width: 100%;
+    }
+    .infoCardTextContainer--info-card-image-one,
+    .infoCardTextContainer--info-card-image-two,
+    .infoCardTextContainer--info-card-image-three {
+        width: 320px;
+        height: 53px;
+        margin: 0 auto;
+        position: relative;
+       top: -55px;
+    }
+    .infoCardSubhead--info-card-image-one,
+    .infoCardSubhead--info-card-image-two,
+    .infoCardSubhead--info-card-image-three {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #686159;
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+    .infoCardCallActionContainer--info-card-image-one :global(.vtex-button){
+        border-radius: 0px;
+        position: relative;
+        left: 123px;
+        bottom: 20px;
+        height: 45px;
+        width: 25px;
+    }
+    .infoCardCallActionContainer--info-card-image-two :global(.vtex-button) {
+        border-radius: 0px;
+        position: relative;
+        left: 131px;
+        bottom: 20px;
+        height: 45px;
+        width: 25px;
+    }
+    .infoCardCallActionContainer--info-card-image-three :global(.vtex-button){
+        border-radius: 0px;
+        position: relative;
+        left: 86px;
+        bottom: 20px;
+        height: 45px;
+        width: 25px;
+    }
+    .infoCardCallActionContainer--info-card-image-one :global(.vtex-button__label),
+    .infoCardCallActionContainer--info-card-image-two :global(.vtex-button__label),
+    .infoCardCallActionContainer--info-card-image-three :global(.vtex-button__label) {
+        font-size: 30px;
+        position: relative;
+        right: 12px;
+        bottom: 2px;
+    }
+    .infoCardContainer--info-card-image-four,
+    .infoCardContainer--info-card-image-five{
+        height: 238px;
+        width: 162px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .infoCardContainer--info-card-image-five{
+        position: relative;
+        left: 140px;
+        bottom: 280px;
+    }
+    .infoCardContainer--info-card-image-four{
+        position: relative;
+        right: 32px;
+        bottom: 21px;
+    }
+    .infoCardTextContainer--info-card-image-four,
+    .infoCardTextContainer--info-card-image-five{
+        background-color: white;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        width: 142px;
+        height: 110px;
+        margin: 0 auto;
+        position: relative;
+        top: 55px;
+        padding: 11px;
+        
+    }
+    .infoCardSubhead--info-card-image-four,
+    .infoCardSubhead--info-card-image-five  {
+        font-size: 16px;
+        font-weight: 400;
+        position: relative;
+        left: 2px;
+        text-align: left;
+        color: #686159;
+    }
+    .infoCardCallActionContainer--info-card-image-four :global(.vtex-button),
+    .infoCardCallActionContainer--info-card-image-five :global(.vtex-button){
+        border-radius: 0px;
+        height: 36px;
+        width: 102px;
+        background-color: #696057;
+        border-color: #696057;
+        position: relative;
+        bottom: 36px;
+        right: 10px;
+        opacity: 1 #696057;
+    
+    }
+    .infoCardCallActionContainer--info-card-image-four :global(.vtex-button__label),
+    .infoCardCallActionContainer--info-card-image-five :global(.vtex-button__label){
+        height: 30px;
+        width: 90px;
+    }
+    .imageElement--image__calendar{
+        visibility: hidden;
+    }
+    .imageElement--image__delivery{
+        position: relative;
+        top: 5px;
+        right: 220px;
+    }
+    .imageElement--image__help{
+        position: relative;
+        bottom: 12px;
+        right: 214px;
+    }
+       
 }

@@ -29,3 +29,15 @@
     position: absolute;
     
 }
+@media screen and (max-width: 768px) {
+    .trigger--switch-country--hidden{
+    position: relative;
+    left: 195px;
+    bottom:293px ;
+    }
+    .trigger--switch-country--visible{
+    position: relative;
+    left: 195px;
+    bottom:293px ;
+    }
+}

@@ -56,3 +56,11 @@
 .slideChildrenContainer--home__slider--products-desktop:hover :global(.vtex-button){
     visibility: visible;
 }
+@media screen and (max-width: 768px) {
+    .slideChildrenContainer--home__slider--products-desktop :global(.vtex-button){
+        font-size: 10px;
+        width: 180px;
+        border-radius: 0;
+        visibility: visible;
+    }
+}
