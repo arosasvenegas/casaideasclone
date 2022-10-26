@@ -23,6 +23,7 @@
   "rich-text#casaideas__adn--text": {
     "title": "CasaIdeas options adn text",
     "props": {
+      "blockClass": "menu__option--adn",
       "text": "ADN"
     }
   },
@@ -30,13 +31,14 @@
   "flex-layout.col#casaideas__options--team": {
     "title": "CasaIdeas options team",
     "children": [
+      
       "rich-text#casaideas__team--text"
     ]
   },
   "rich-text#casaideas__team--text": {
     "title": "CasaIdeas options team text",
     "props": {
-      "blockClass": "menu__nuestro-equipo",
+      "blockClass": "menu__option--team",
       "text": "NUESTRO EQUIPO"
     }
   },
@@ -50,7 +52,7 @@
   "rich-text#casaideas__whatWeDo--text": {
     "title": "CasaIdeas options whatWeDo text",
     "props": {
-      "blockClass": "menu__que-hacemos",
+      "blockClass": "menu__option--whatwedo",
       "text": "¿QUÉ HACEMOS?"
     }
   },
@@ -64,7 +66,7 @@
   "rich-text#casaideas__howWeDo--text": {
     "title": "CasaIdeas options howWeDo text",
     "props": {
-      "blockClass": "menu__como-hacemos",
+      "blockClass": "menu__option--howwedo",
       "text": "¿CÓMO LO HACEMOS?"
     }
   },
@@ -78,7 +80,7 @@
   "rich-text#casaideas__commitment--text": {
     "title": "CasaIdeas options commitment text",
     "props": {
-      "blockClass": "menu__comprometidos",
+      "blockClass": "menu__option--commitment",
       "text": "COMPROMETIDOS"
     }
   }

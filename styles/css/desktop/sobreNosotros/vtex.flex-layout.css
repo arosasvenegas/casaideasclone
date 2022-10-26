@@ -4,9 +4,24 @@
     margin-bottom: 20px;
     color: #333;
     cursor: pointer;
-    width: 1000px ;
+    width: 1000px;
     position: relative;
     left: 180px;
     font-weight: thin;
     
+}
+@media screen and (max-width: 768px) {
+    .flexRow--casaideas__content{
+        height: 7450px;
+    }
+    .flexRow--menu__container{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        padding: 0px 20px ;
+    }
+    .flexRowContent--menu__container{
+        display: flex;
+        justify-content: flex-start;
+    }
 }

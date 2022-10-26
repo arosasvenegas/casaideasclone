@@ -3,7 +3,10 @@
     "title": "CasaIdeas container",
     "children": [
       "flex-layout.col#casaideas__container--col"
-    ]
+    ],
+    "props": {
+      "blockClass": "casaideas__content"
+    }
   },
   //containers
   "flex-layout.col#casaideas__container--col": {
@@ -17,6 +20,9 @@
       "flex-layout.row#casaideas__section--whatWeDo", //listo
       "flex-layout.row#casaideas__section--howWeDo", //listo
       "flex-layout.row#casaideas__section--commitment" //listo
-    ]
+    ],
+    "props": {
+      "blockClass": "casaideas__content"
+    }
   }
 }

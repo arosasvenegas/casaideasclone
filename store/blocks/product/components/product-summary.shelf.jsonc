@@ -53,7 +53,10 @@
         "children": [
           "rich-text#global__quick-view--trigger",
           "modal-layout#global__quick-view--modal"
-        ]
+        ],
+        "props": {
+          "blockClass": "quick-view__trigger"
+        }
       },
       "rich-text#global__quick-view--trigger": {
         "title": "Text trigger quick view",
@@ -67,7 +70,10 @@
         "children": [
           "modal-header#quick-view__header",
           "flex-layout.row#quick-view__modal"
-        ]
+        ],
+        "props": {
+          "blockClass": "quick__view--modal"
+        }
       },
       "modal-header#quick-view__header": {
         "title": "Modal quick view header",
