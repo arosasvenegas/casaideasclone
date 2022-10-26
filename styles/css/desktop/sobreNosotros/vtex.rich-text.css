@@ -1,3 +1,7 @@
+.container--first--text{
+    display: flex;
+    justify-content: center;
+}
 .paragraph--first--text{
     text-align: center;
     font-size: 49px;
@@ -5,8 +9,10 @@
     line-height: 55px;
     margin: 0 auto;
     padding: 0;
-    position: relative;
-    left: 390px;
+}
+.container--second--text{
+    display: flex;
+    justify-content: center;
 }
 .paragraph--second--text{
     margin-top: 30px;
@@ -17,13 +23,23 @@
     line-height: 38px;
     padding: 0;
     color: #545c5c;
-    position: relative;
-    left: 200px;
+    
+}
+.container--adn--title,
+.container--team--title,
+.container--whatWeDo--title,
+.container--howWeDo__title,
+.container--commitment--title,
+.container--adn--subtitle,
+.container--team--subtitle,
+.container--whatWeDo--subtitle,
+.container--howWeDo__subtitle,
+.container--commitment--subtitle{
+    display: flex;
+    justify-content: center;
 }
 .paragraph--adn--title{
-    position: relative;
     text-align: center;
-    left: 600px;
     font-size: 25px;
     width: 162px;
     border-bottom: 2px solid #ff8e92;
@@ -32,29 +48,32 @@
 .paragraph--team--subtitle,
 .paragraph--whatWeDo--subtitle
 {
-    position: relative;
     text-align: center;
-    left: 395px;
     font-size: 48px;
     width: 550px;
     bottom: 70px;
 }
 .paragraph--howWeDo__subtitle{
-    position: relative;
     text-align: center;
-    left: 370px;
     font-size: 48px;
     width: 550px;
     bottom: 70px;
 }
-.paragraph--text--content-1{
+.paragraph--adn-text--content-1{
     color: #fd0035;
     font-size: 24px;
     width: 550px;
     position: relative;
     left: 80px;
 }
-.paragraph--text--content-2{
+.paragraph--team-text--content-1{
+    color: #fd0035;
+    font-size: 24px;
+    width: 550px;
+    position: relative;
+    right: 620px;
+}
+.paragraph--adn-text--content-2{
     color: #545c5c;
     font-size: 24px;
     padding: 15px;
@@ -63,18 +82,22 @@
     left: 80px;
    
 }
-.paragraph--team--title{
+.paragraph--team-text--content-2{
+    color: #545c5c;
+    font-size: 24px;
+    padding: 15px;
+    width: 550px;
     position: relative;
+    right: 635px;
+}
+.paragraph--team--title{
     text-align: center;
-    left: 550px;
     font-size: 25px;
     width: 250px;
     border-bottom: 2px solid #ff8e92;
 }
 .paragraph--whatWeDo--title{
-    position: relative;
     text-align: center;
-    left: 550px;
     font-size: 25px;
     width: 250px;
     border-bottom: 2px solid #ff8e92;
@@ -87,7 +110,8 @@
     left: 30px;
     bottom: 25px;
 }
-.paragraph--whatWeDo__text-2{
+.paragraph--whatWeDo__text-2,
+.paragraph--whatWeDo__text-3{
     color: #545c5c;
     font-size: 24px;
     padding: 15px;
@@ -97,9 +121,7 @@
     bottom: 55px;
 }
 .paragraph--howWeDo__title{
-    position: relative;
     text-align: center;
-    left: 500px;
     font-size: 25px;
     width: 280px;
     border-bottom: 2px solid #ff8e92;
@@ -122,17 +144,13 @@
     bottom: 315px;
 }
 .paragraph--commitment--title{
-    position: relative;
     text-align: center;
-    left: 500px;
     font-size: 25px;
     width: 260px;
     border-bottom: 2px solid #ff8e92;
 }
 .paragraph--commitment--subtitle{
-    position: relative;
     text-align: center;
-    left: 350px;
     font-size: 48px;
     width: 550px;
     bottom: 70px;
@@ -176,4 +194,126 @@
     position: relative;
     right: 145px;
     top: 1120px;
+}
+@media screen and (max-width: 768px) {
+    .paragraph--first--text{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .paragraph--second--text{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .paragraph--menu__option--adn,
+    .paragraph--menu__option--team,
+    .paragraph--menu__option--whatwedo,
+    .paragraph--menu__option--howwedo,
+    .paragraph--menu__option--commitment{
+        font-size: 11px; 
+    }
+    .paragraph--adn--title,
+    .paragraph--team--title,
+    .paragraph--whatWeDo--title,
+    .paragraph--howWeDo__title{
+        font-size: 17px;
+    }
+    .paragraph--adn--subtitle,
+    .paragraph--team--subtitle,
+    .paragraph--whatWeDo--subtitle{
+        font-size: 20px;
+        position: relative;
+        bottom: 30px;
+    }
+    .paragraph--howWeDo__subtitle{
+        font-size: 20px;
+        position: relative;
+        bottom: 490px;
+    }
+    .container--text--content-1{
+        width: 100%;
+    }
+    .paragraph--adn-text--content-1,
+    .paragraph--team-text--content-1,
+    .paragraph--whatWeDo__text-1{
+        width: 100%;
+        left: 5px;
+        font-size: 16px;
+        position: relative;
+        bottom: 20px;
+    }
+    .paragraph--howWeDo__text-1{
+        width: 228px;
+        left: 36px;
+        font-size: 16px;
+        position: relative;
+        bottom: 1012px;
+    }
+    .paragraph--adn-text--content-2,
+    .paragraph--team-text--content-2{
+        width: 100%;
+        left: 0px;
+        font-size: 16px;
+        
+    }
+    .paragraph--howWeDo__text-2{
+        width: 100%;
+        left: 0px;
+        font-size: 16px;
+        position: relative;
+        bottom: 1038px;
+    }
+    .paragraph--whatWeDo__text-2{
+        width: 207px;
+        left: 0px;
+        font-size: 16px;
+        
+    }
+    .paragraph--whatWeDo__text-3 {
+        width: 100%;
+        left: 5px;
+        font-size: 16px;
+        position: relative;
+        bottom: 98px;
+    }
+    .container--howWeDo__title{
+        position: relative;
+        bottom: 460px;
+    }
+    .paragraph--commitment--title{
+        font-size: 17px;
+        position: relative;
+        bottom: 1012px;
+    }
+    .paragraph--commitment--subtitle{
+        font-size: 20px;
+        position: relative;
+        bottom: 1038px;
+    }
+    .paragraph--commitment__text--one-1{
+        width: 178px;
+        left: 190px;
+        font-size: 16px;
+        position: relative;
+        bottom: 992px;
+    }
+    .paragraph--commitment__text--one-2{
+        width: 100%;
+        font-size: 16px;
+        position: relative;
+        bottom: 1050px;
+        right: 0px;
+        top: -1016px;
+    }
+    .paragraph--commitment__text--two{
+        right: 0px;
+        width: 245px;
+        font-size: 16px;
+        bottom: 2088px;
+    }
+    .paragraph--commitment__text--three{
+        width: 100%;
+        font-size: 16px;
+        top: -2130px;
+        right: 0px;
+    }
 }
