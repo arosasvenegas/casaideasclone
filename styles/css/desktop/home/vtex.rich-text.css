@@ -52,11 +52,24 @@
     align-items: center;
     margin: 0 auto;
 }
-.paragraph--birthday__discount{
-    width: 550px;
-    height: 44px;
-    font-size: 19px;
-    color: #686058;
-    font-weight: 400;
-}
 
+@media screen and (max-width: 768px) {
+    .container--title__shelf{
+        position: relative;
+        bottom: 195px;
+    }
+    .paragraph--user_questions{
+        font-size: 14px;
+    }
+    .paragraph--search_buy{
+        position: relative;
+        left: 42px;
+        bottom: 30px;
+    }
+    .paragraph--need_help{
+        position: relative;
+        left: 45px;
+        bottom: 50px;
+        font-size: 14px;
+    }
+}

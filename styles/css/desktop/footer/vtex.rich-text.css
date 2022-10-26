@@ -42,3 +42,51 @@
     position: relative;
     bottom: 20px;
 }
+.paragraph--birthday__discount{
+    width: 550px;
+    height: 44px;
+    font-size: 19px;
+    color: #686058;
+    font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+     .paragraph--birthday__discount{
+        width: 184px;
+        position: relative;
+        bottom: 73px;
+        text-align: left;
+        right: 420px;
+        font-size: 17px;
+    }
+    .paragraph--footer__paragraph,
+    .wrapper--footer__paragraph,
+    .container--footer__paragraph{
+        visibility: hidden;
+    }
+    .container--title__customer--service{
+        position: relative;
+        width: 75px;
+        right: 8px;
+        bottom: 60px;
+    }
+    .container--title__customer--session{
+        position: relative;
+        left: 59px;
+        bottom: 208px;
+    }
+    .container--title__work-with--us{
+        position: relative;
+        left: 200px;
+        bottom: 295px;
+    }
+    .container--title__social-networks{
+        position: relative;
+        bottom: 190px;
+        left: -100px;
+    }
+    .container--title__switch-country{
+        position: relative;
+        bottom: 293px;
+        left: 140px;
+    }    
+}

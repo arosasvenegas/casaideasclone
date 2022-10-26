@@ -9,3 +9,9 @@
     margin-left: 350px;
     
 }
+@media screen and (max-width: 768px) {
+    .paragraph--header__top--text{
+        font-size: 10px;
+        margin: 0;
+    }
+}

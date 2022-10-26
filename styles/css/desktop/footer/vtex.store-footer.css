@@ -11,3 +11,16 @@
     bottom: 25px;
     
 }
+@media screen and (max-width: 768px) {
+    .footerLayout--footer__container{
+        max-width: 100%;
+        margin-bottom: 0;
+        height: auto;
+    }
+    .socialNetworkWrapper--social__networks--icons{
+        position: relative;
+        left: 5px;
+        bottom: 185px;
+        
+    }
+}    

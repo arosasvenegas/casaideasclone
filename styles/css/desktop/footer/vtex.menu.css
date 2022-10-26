@@ -25,3 +25,28 @@
     bottom: 17px;
     left: 78px;
 }
+@media screen and (max-width: 768px) {
+    .menuContainerNav--customer__service--options{
+        position: relative;
+        right: 43px;
+        bottom: 58px;
+        
+    }
+    .menuContainerNav--customer__session--options{
+        position: relative;
+        left: 78px;
+        bottom: 188px;
+    }
+    .styledLinkContent--work-with-us{
+        
+        position: relative;
+        left: 190px;
+        bottom: 271px;
+    }
+    .menuContainerNav--country_options{
+        position: relative;
+        bottom: 293px;
+        left: 195px;
+    }
+    
+}

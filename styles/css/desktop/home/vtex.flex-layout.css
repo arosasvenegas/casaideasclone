@@ -39,14 +39,7 @@
     margin-right: auto;
     padding: 20px 0;
 }
-.flexRow--user__subscribe--container{
-    background: #F6F4F2;
-    margin-top: 35px;
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 35px;
-}
+
 .flexRow--text__subscribe--div{
     width: 724px;
     margin-left: auto;
@@ -82,4 +75,36 @@
 }
 .flexCol--search__content--results{
     margin-top: 20px;
+}
+@media screen and (max-width: 768px){
+    .paragraph--titleCollection--mobile{
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+    .flexRow--text__buy--collection,
+    .flexRow--home__shelf--container{
+        position: relative;
+        bottom: 270px;
+    }
+    .flexRow--bullet-group{
+        position: relative;
+        bottom: 300px;
+    }
+    .flexRow--bullet-group{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .flexRow--home__lastSection--container{
+        position: relative;
+        bottom: 300px;
+    }
+    .flexRow--text__lastSection{
+        width: 100%;
+    }
+    .flexRowContent--text__lastSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
