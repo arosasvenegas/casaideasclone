@@ -8,8 +8,14 @@
     left: 20px;
     bottom: 50px;
 }
+.imageElement--team--image{
+    position: relative;
+    left: 600px;
+}
 .imageElement--whatwedo--image--two{
     margin: 20px;
+    position: relative;
+    left: 80px;
    
 }
 .imageElement--howWeDo__image{
@@ -27,4 +33,47 @@
 .imageElement--commitment__image--two{
     position: relative;
     top: 1110px;
+}
+@media screen and (max-width: 768px) {
+    .imageElement--image__welcome{
+        width: 60px;
+        margin-bottom: 30px;
+    }
+    .imageElement--adn__image,
+    .imageElement--team--image,
+    .imageElement--whatwedo--image--one{
+        position: relative;
+        left: 0px;
+        margin: 0px;
+        
+    }
+    .imageElement--whatwedo--image--two{
+        position: relative;
+        bottom: 877px;
+        width: 175px;
+        height:330px;
+         left: 169px;
+    }
+    .imageElement--howWeDo__image{
+        margin: 0px;
+        position: relative;
+        left: 0px;
+        bottom: 620px;
+    }   
+    .imageElement--commitment__image--one{
+        margin: 0px;
+        position: relative;
+        left: -65px;
+        bottom: 2058px;
+        width: 270px;
+        height:275px;
+    }
+    .imageElement--commitment__image--two{
+        position: relative;
+        top: -1330px;
+        width:156px;
+        height:744px;
+        left: 106px;
+    }
+    
 }

@@ -77,14 +77,14 @@
   "rich-text#adn__text--content-1": {
     "title": "CasaIdeas ADN content 1",
     "props": {
-      "blockClass": "text--content-1",
+      "blockClass": "adn-text--content-1",
       "text": "QUEREMOS APORTAR A HACER UNA VIDA MÁS SIMPLE Y PRÁCTICA, Y QUE TU CASA SEA MÁS LINDA Y FUNCIONAL A TRAVÉS DEL DISEÑO." 
     }
   },
   "rich-text#adn__text--content-2":{
     "title": "CasaIdeas ADN content 2",
     "props": {
-      "blockClass": "text--content-2",
+      "blockClass": "adn-text--content-2",
       "text": 
       "Invitamos a vivir con más alegría, a disfrutar nuestro hogar todos los días, con propuestas para cada rincón de la casa, a través de un diseño inteligente que aporta valor desde la funcionalidad y la estética.\nNos gusta hacer las cosas bien, trabajamos arduamente en todo lo que hacemos y nos preocupamos siempre por mejorar el impacto que tienen nuestras operaciones en el medio ambiente.\nQueremos acompañar e inspirar con creatividad y diseño en el día a día, co-creando un círculo de positivismo y alegría."
     }
