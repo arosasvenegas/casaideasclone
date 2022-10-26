@@ -1,6 +1,6 @@
 {
-  "footer-layout.desktop": {
-    "title": "Footer Desktop",
+  "footer-layout.mobile": {
+    "title": "Footer mobile",
     "children": [
       "flex-layout.row#user__subscribe-email",
       "flex-layout.row#footer__container"
@@ -9,5 +9,4 @@
       "blockClass": "footer__container"
     }
   }
-    
 }

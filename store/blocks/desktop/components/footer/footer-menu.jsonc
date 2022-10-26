@@ -1,4 +1,23 @@
 {
+  "flex-layout.row#user__subscribe-email": {
+    "title": "User subcribe email",
+    "children": [
+      "flex-layout.col#email"
+    ],
+    "props": {
+      "blockClass": "user__subscribe--container"
+    }
+  },
+  "flex-layout.row#footer__container": {
+    "title": "Footer container",
+    "children": [
+      "flex-layout.col#footer__container--section-one",
+      "flex-layout.col#footer__container--section-two"
+    ],
+    "props": {
+      "blockClass": "container__section--footer"
+    }
+  },
   "flex-layout.col#footer__container--section-one": {
     "title": "Footer container",
     "children": [
@@ -67,7 +86,7 @@
     ]
   },
   "rich-text#customer-service": {
-    "title":"Title customer service",
+    "title": "Title customer service",
     "props": {
       "blockClass": "title__customer--service",
       "text": "SERVICIO AL CLIENTE",
@@ -145,14 +164,14 @@
     }
   },
   "flex-layout.col#footer__container--two": {
-    "title":"Footer menu section one",
+    "title": "Footer menu section one",
     "children": [
       "rich-text#customer-session",
       "menu#customer-session"
     ]
   },
   "rich-text#customer-session": {
-    "title":"Title customer session",
+    "title": "Title customer session",
     "props": {
       "blockClass": "title__customer--session",
       "text": "MI CUENTA",
@@ -161,7 +180,7 @@
     }
   },
   "menu#customer-session": {
-    "title":"Customer service option",
+    "title": "Customer service option",
     "children": [
       "menu-item#customer-buys",
       "menu-item#customer-info"
