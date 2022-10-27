@@ -7,8 +7,8 @@
 @media screen and (max-width: 768px) {
     .imageElement--image__gift{
         position: relative;
-        right: 226px;
-        top: 50px;
+        right: 10px;
+        top: 77px;
     } 
     .logoImage--footer__logo{
         visibility: hidden;
