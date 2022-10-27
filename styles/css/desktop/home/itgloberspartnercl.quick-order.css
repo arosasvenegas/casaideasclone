@@ -28,6 +28,7 @@
         position: relative;
         bottom: 250px;
         left: 30px;
+        font-size: 20px;
     }
     .quickOrder__label{
         position: relative;

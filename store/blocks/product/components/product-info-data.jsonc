@@ -38,6 +38,7 @@
       "modal-layout#add-to-cart-info"
     ],
     "props": {
+      "blockClass": "add__to-cart--modal",
       "customPixelEventName": "addToCart"
     }
   },
@@ -45,10 +46,14 @@
     "children": [
       "modal-header#add-to-cart-info",
       "add-to-cart-info"
-    ]
+    ],
+     "props": {
+      "blockClass": "add__to-cart--modal"
+    }
   },
   "modal-header#add-to-cart-info": {
     "props": {
+      
       "showCloseButton": true,
       "iconCloseSize": 24
      }

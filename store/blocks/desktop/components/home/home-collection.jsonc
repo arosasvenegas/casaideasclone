@@ -209,7 +209,10 @@
     "children": [
       /*"link#image__collection--five",*/
       "info-card#image__collection--five"
-    ]
+    ],
+    "props": {
+      "blockClass": "collection__five--content"
+    }
   },
   /*"link#image__collection--five": {
     "children": [

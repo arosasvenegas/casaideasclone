@@ -20,7 +20,11 @@
     height: 480px;
     
 }
+
 .SKUSelectorContainer{
     visibility: hidden;
     height: 0px;
+}
+@media screen and (max-width: 768px){
+
 }
